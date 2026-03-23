@@ -49,7 +49,23 @@ export default function Globe({ repos, onSelect }: any) {
     );
     scene.add(globe);
 
-    const nodeInst = new THREE.InstancedMesh(new THREE.SphereGeometry(1, 10, 10), new THREE.MeshBasicMaterial(), repos.length);
+    // Nodes as individual meshes for interaction
+    const nodes: THREE.Mesh[] = []
+    repos.forEach((repo: Repo) => {
+      const society = getSociety(repo);
+      const pos = new THREE.Vector3().setFromSphericalCoords(GLOBE_R + 0.01, (90 - repo.lat) * (Math.PI / 180), (repo.lng + 180) * (Math.PI / 180));
+      const radius = 0.008 + Math.log10(Math.max(repo.stars, 1)) * 0.0045;
+      const node = new THREE.Mesh(
+        new THREE.SphereGeometry(radius, 10, 10),
+        new THREE.MeshBasicMaterial({ color: society.color })
+      );
+      node.position.copy(pos);
+      node.userData = repo;
+      scene.add(node);
+      nodes.push(node);
+    });
+
+    // Rings as instanced for performance
     const ringInst = new THREE.InstancedMesh(new THREE.SphereGeometry(1, 10, 10), new THREE.MeshBasicMaterial({ transparent: true, opacity: 0.3, depthWrite: false }), repos.length);
 
     const _mat = new THREE.Matrix4();
@@ -62,31 +78,50 @@ export default function Globe({ repos, onSelect }: any) {
       const pos = new THREE.Vector3().setFromSphericalCoords(GLOBE_R + 0.01, (90 - repo.lat) * (Math.PI / 180), (repo.lng + 180) * (Math.PI / 180));
       const radius = 0.008 + Math.log10(Math.max(repo.stars, 1)) * 0.0045;
 
-      _scale.setScalar(radius);
-      _mat.compose(pos, _quat, _scale);
-      nodeInst.setMatrixAt(i, _mat);
-      _color.set(society.color);
-      nodeInst.setColorAt(i, _color);
-
       _scale.setScalar(radius * 2.5);
       _mat.compose(pos, _quat, _scale);
       ringInst.setMatrixAt(i, _mat);
+      _color.set(society.color);
       ringInst.setColorAt(i, _color);
     });
 
-    scene.add(nodeInst); scene.add(ringInst);
+    scene.add(ringInst);
     scene.add(new THREE.AmbientLight(0xffffff, 0.8));
     const sun = new THREE.DirectionalLight(0x4488ff, 1.5); sun.position.set(5,3,5); scene.add(sun);
 
-    const state = { renderer, scene, camera, globe, nodeInst, ringInst, tick: 0, animId: 0 };
+    const state = { renderer, scene, camera, globe, nodes, ringInst, tick: 0, animId: 0 };
     stateRef.current = state;
 
-    const onMouseClick = () => {
-      if (onSelect && repos.length > 0) {
-        onSelect(repos[0]);
+    // Raycaster for interaction
+    const raycaster = new THREE.Raycaster();
+    const mouse = new THREE.Vector2();
+
+    function onMouseMove(e: MouseEvent) {
+      if (!el) return;
+      const rect = el.getBoundingClientRect();
+      mouse.x = ((e.clientX - rect.left) / rect.width) * 2 - 1;
+      mouse.y = -((e.clientY - rect.top) / rect.height) * 2 + 1;
+      raycaster.setFromCamera(mouse, camera);
+      const hits = raycaster.intersectObjects(nodes);
+      if (hits.length > 0) {
+        document.body.style.cursor = 'pointer';
+      } else {
+        document.body.style.cursor = 'default';
       }
     }
-    renderer.domElement.addEventListener('click', onMouseClick)
+
+    function onClick() {
+      raycaster.setFromCamera(mouse, camera);
+      const hits = raycaster.intersectObjects(nodes);
+      if (hits.length > 0) {
+        onSelect(hits[0].object.userData);
+      } else {
+        onSelect(null);
+      }
+    }
+
+    window.addEventListener('mousemove', onMouseMove);
+    window.addEventListener('click', onClick);
 
     function onResize() {
       if (!el) return;
@@ -109,7 +144,8 @@ export default function Globe({ repos, onSelect }: any) {
 
     return () => { 
       window.removeEventListener('resize', onResize);
-      renderer.domElement.removeEventListener('click', onMouseClick)
+      window.removeEventListener('mousemove', onMouseMove);
+      window.removeEventListener('click', onClick);
       cancelAnimationFrame(state.animId); 
       renderer.dispose(); 
       if (el.contains(renderer.domElement)) el.removeChild(renderer.domElement); 

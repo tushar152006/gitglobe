@@ -1,0 +1,45 @@
+name: Refresh GitGlobe Data
+
+on:
+  schedule:
+    - cron: '0 2 * * *'   # runs every day at 2am UTC
+  workflow_dispatch:        # allows manual trigger from GitHub UI
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run data pipeline
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+        run: |
+          cd data
+          python fetch.py --limit 700 --token $GITHUB_TOKEN
+
+      - name: Commit updated repos.json
+        run: |
+          git config user.name  "GitGlobe Bot"
+          git config user.email "bot@gitglobe.app"
+          git add public/data/repos.json
+          git diff --staged --quiet || git commit -m "chore: refresh repos data [$(date -u '+%Y-%m-%d')]"
+          git push
+
+      - name: Trigger Vercel redeploy
+        env:
+          VERCEL_DEPLOY_HOOK: ${{ secrets.VERCEL_DEPLOY_HOOK }}
+        run: |
+          if [ -n "$VERCEL_DEPLOY_HOOK" ]; then
+            curl -X POST "$VERCEL_DEPLOY_HOOK"
+            echo "Vercel redeploy triggered"
+          else
+            echo "No deploy hook set — skipping redeploy"
+          fi

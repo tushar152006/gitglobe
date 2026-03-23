@@ -26,7 +26,7 @@ export function getSociety(repo: Repo) {
 
 const GLOBE_R = 1;
 
-export default function Globe({ repos, onSelect, flyTarget }: any) {
+export default function Globe({ repos, onSelect }: any) {
   const mountRef = useRef<HTMLDivElement>(null);
   const stateRef = useRef<any>(null);
 
@@ -101,8 +101,20 @@ export default function Globe({ repos, onSelect, flyTarget }: any) {
     animate();
     window.dispatchEvent(new Event('resize')); // Immediate centering fix
 
-    return () => { cancelAnimationFrame(state.animId); renderer.dispose(); if (el.contains(renderer.domElement)) el.removeChild(renderer.domElement); };
-  }, [repos]);
+    const onMouseClick = () => {
+      if (onSelect && repos.length > 0) {
+        onSelect(repos[0]);
+      }
+    }
+    renderer.domElement.addEventListener('click', onMouseClick)
+
+    return () => { 
+      cancelAnimationFrame(state.animId);
+      renderer.dispose();
+      renderer.domElement.removeEventListener('click', onMouseClick)
+      if (el.contains(renderer.domElement)) el.removeChild(renderer.domElement);
+    };
+  }, [repos, onSelect]);
 
   return <div ref={mountRef} style={{ position: 'fixed', inset: 0, width: '100%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center' }} />;
 }

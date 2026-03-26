@@ -1,13 +1,37 @@
 // ── App.tsx (Phase 3) ─────────────────────────────────────────────────────────
 // Adds: Societies system · Pulse layer · Society detail panel
 
-import { useEffect, useState, useRef, useMemo, useCallback } from 'react'
+import { lazy, Suspense, useEffect, useState, useRef, useMemo, useCallback } from 'react'
 import Globe, { getLangColor, fmt } from './components/Globe'
 import type { Repo } from './components/Globe'
 import SocietyPanel from './components/SocietyPanel'
 import SocietyOverlay from './components/SocietyOverlay'
 import { buildSocieties } from './components/societies'
 import type { Society } from './components/societies'
+import type { ContributorOverlap, ForkConnectionRepo, OrgConstellation } from './types/relationships'
+import { useRelationshipStore } from './store/useRelationshipStore'
+import RelationshipDeck from './components/RelationshipDeck'
+import TimeSlider from './components/TimeSlider'
+const RecommendationPanel = lazy(() => import('./components/RecommendationPanel'))
+const NearbyPanel = lazy(() => import('./components/NearbyPanel'))
+const DependencyPanel = lazy(() => import('./components/DependencyPanel'))
+const EvolutionPanel = lazy(() => import('./components/EvolutionPanel'))
+const RegionalPanel = lazy(() => import('./components/RegionalPanel'))
+import RegionalOverlay from './components/RegionalOverlay'
+const UnknownOriginPanel = lazy(() => import('./components/UnknownOriginPanel'))
+import { fetchRecommendations } from './services/recommendationService'
+import {
+  buildCountrySignals,
+  buildDomainOptions,
+  buildNearbyRepos,
+  buildRegionSignals,
+  inferDomain,
+  inferRegion,
+  summarizeNearby,
+  type CountrySignal,
+} from './services/intelligence'
+import type { GeocodedLocation, GeocodingDataset } from './types/geocoding'
+import type { DependencyLink, GeoIntelligenceRecord } from './types/intelligence'
 import './App.css'
 
 const REGIONS: Record<string, {latMin:number;latMax:number;lngMin:number;lngMax:number}> = {
@@ -47,6 +71,14 @@ interface LiveRepo {
   loc: string; topics: string; live?: boolean
 }
 interface TrendingRepo { name:string; desc:string; stars:number; forks:number; lang:string; owner:string; topics:string; trending:boolean }
+type SnapshotPayload = {
+  year: number
+  repos: Array<{
+    repo_id: string
+    created_at: string
+    stars_history: Array<{ date: string; stars: number }>
+  }>
+}
 
 export default function App() {
   const [repos, setRepos]               = useState<Repo[]>([])
@@ -69,17 +101,41 @@ export default function App() {
   const [showTrending,    setShowTrending]    = useState(false)
   const [trendingLoading, setTrendingLoading] = useState(false)
   const [langFilter,   setLangFilter]   = useState<string|null>(null)
+  const [domainFilter, setDomainFilter] = useState<string|null>(null)
   const [regionFilter, setRegionFilter] = useState<string|null>(null)
   const [starsFilter,  setStarsFilter]  = useState<number|null>(null)
+  const [showHeatmap,  setShowHeatmap]  = useState(false)
+  const [showRegional, setShowRegional] = useState(false)
+  const [showNearby,   setShowNearby]   = useState(false)
+  const [showDependencies, setShowDependencies] = useState(false)
+  const [showUnknownOrigins, setShowUnknownOrigins] = useState(false)
+  const [showEvolution, setShowEvolution] = useState(false)
+  const [nearbyLoading,setNearbyLoading]= useState(false)
+  const [userOrigin,   setUserOrigin]   = useState<{lat:number;lng:number}|null>(null)
+  const [originLabel,  setOriginLabel]  = useState('')
+  const [geoIntelligence, setGeoIntelligence] = useState<GeoIntelligenceRecord[]>([])
+  const [affinityDependencyLinks, setAffinityDependencyLinks] = useState<DependencyLink[]>([])
+  const [manifestDependencyLinks, setManifestDependencyLinks] = useState<DependencyLink[]>([])
+  const [geocodingDataset, setGeocodingDataset] = useState<GeocodingDataset | null>(null)
+  const [snapshotPayloads, setSnapshotPayloads] = useState<Record<number, SnapshotPayload>>({})
 
   // ── Phase 3 state ──────────────────────────────────────────────────────────
   const [activeSociety,   setActiveSociety]   = useState<Society|null>(null)
   const [showSocietyPanel,setShowSocietyPanel]= useState(false)
   const [showSocieties,   setShowSocieties]   = useState(false)
   const [pulseEnabled,    setPulseEnabled]    = useState(true)
+  const [showConstellations, setShowConstellations] = useState(true)
+  const [showOverlaps,    setShowOverlaps]    = useState(false)
+  const [showAIRecs,      setShowAIRecs]      = useState(false)
+  const {
+    showForkArcs, setShowForkArcs, showContributorNetwork, setShowContributorNetwork, showOrgConstellations, setShowOrgConstellations,
+    timeRange, setTimeRange, selectedOrg, isolatedRepoId, setIsolatedRepoId, selectedCountry, setSelectedCountry,
+    recommendations, setRecommendations, forkArcs, contributorOverlaps, orgConstellations, setRelationshipData, loadedSnapshots, setSnapshotLoaded,
+  } = useRelationshipStore()
 
   const searchRef = useRef<HTMLInputElement>(null)
   const liveTimer = useRef<ReturnType<typeof setTimeout>|null>(null)
+  const requestedSnapshotYears = useRef(new Set<number>())
 
   useEffect(() => {
     setLoadPct(30)
@@ -98,6 +154,39 @@ export default function App() {
 
   // ── Build societies from loaded repos ────────────────────────────────────
   const societies = useMemo(() => buildSocieties(repos), [repos])
+  useEffect(() => {
+    async function loadRelationshipData() {
+      const [fork, overlap, org, dependency, manifestDependency, geodata] = await Promise.all([
+        fetch('/data/fork_network.json').then(r => r.json()) as Promise<ForkConnectionRepo[]>,
+        fetch('/data/contributor_overlaps.json').then(r => r.json()) as Promise<ContributorOverlap[]>,
+        fetch('/data/org_constellations.json').then(r => r.json()) as Promise<OrgConstellation[]>,
+        fetch('/data/dependency_graph.json').then(r => r.json()) as Promise<DependencyLink[]>,
+        fetch('/data/dependency_manifest_graph.json').then(r => r.json()).catch(() => []) as Promise<DependencyLink[]>,
+        fetch('/data/geodata.json').then(r => r.json()) as Promise<GeocodingDataset>,
+      ])
+      const computedForkArcs = fork.flatMap(repo => repo.top_forks.slice(0, 4).map(forkRepo => ({
+        repoId: repo.repo_id,
+        parentId: repo.parent_id ?? repo.repo_id,
+        parentCoords: repo.location,
+        forkId: forkRepo.id,
+        forkCoords: forkRepo.location,
+        stars: forkRepo.stars,
+      })))
+      setRelationshipData({ forkArcs: computedForkArcs, contributorOverlaps: overlap, orgConstellations: org })
+      setGeoIntelligence((geodata.locations ?? []).map((item) => ({
+        repo_id: item.id,
+        country: item.resolvedName ?? 'Unknown',
+        region: item.coords ? inferRegion(item.coords.lat, item.coords.lng) : 'Unknown',
+        geocode_confidence: item.confidence === 'EXACT' ? 1 : item.confidence === 'HIGH' ? 0.84 : item.confidence === 'MEDIUM' ? 0.66 : item.confidence === 'LOW' ? 0.4 : 0.1,
+        location_source: item.source === 'local_cache' ? 'profile' : item.source === 'offline_rules' ? 'derived' : 'unknown',
+        is_unknown_origin: item.coords === null,
+      } as GeoIntelligenceRecord)))
+      setAffinityDependencyLinks(dependency.map((item) => ({ ...item, data_source: 'affinity' as const })))
+      setManifestDependencyLinks(manifestDependency.map((item) => ({ ...item, data_source: 'manifest' as const })))
+      setGeocodingDataset(geodata)
+    }
+    loadRelationshipData().catch(() => {})
+  }, [setRelationshipData])
 
   const trendingNames = useMemo(()=>new Set(trendingRepos.map(r=>r.name)),[trendingRepos])
 
@@ -108,6 +197,7 @@ export default function App() {
         setShowResults(false);setShowFilters(false);setShowAbout(false);
         setShowTrending(false);setSelected(null);
         setShowSocietyPanel(false);setActiveSociety(null);setShowSocieties(false)
+        setShowOverlaps(false); setShowAIRecs(false)
         searchRef.current?.blur()
       }
       if(e.key==='f'&&document.activeElement!==searchRef.current){setShowFilters(v=>!v);setShowResults(false)}
@@ -115,49 +205,148 @@ export default function App() {
       // Phase 3 shortcuts
       if(e.key==='s'&&document.activeElement!==searchRef.current){setShowSocieties(v=>!v)}
       if(e.key==='p'&&document.activeElement!==searchRef.current){setPulseEnabled(v=>!v)}
+      if(e.key==='a'&&document.activeElement!==searchRef.current){setShowForkArcs(!showForkArcs)}
+      if(e.key==='o'&&document.activeElement!==searchRef.current){setShowConstellations(!showConstellations)}
+      if(e.key==='c'&&document.activeElement!==searchRef.current){setShowContributorNetwork(!showContributorNetwork)}
+      if(e.key==='i'&&document.activeElement!==searchRef.current){setShowRegional(v=>!v)}
+      if(e.key==='e'&&document.activeElement!==searchRef.current){setShowEvolution(v=>!v)}
     }
     window.addEventListener('keydown',onKey)
     return()=>window.removeEventListener('keydown',onKey)
-  },[])
+  },[setShowForkArcs,setShowContributorNetwork,showForkArcs,showContributorNetwork,showConstellations])
+
+  useEffect(() => {
+    const year = Math.max(2015, Math.min(new Date().getUTCFullYear(), timeRange[1]))
+    if (loadedSnapshots[year] || requestedSnapshotYears.current.has(year)) return
+    requestedSnapshotYears.current.add(year)
+    fetch(`/data/snapshots/${year}.json`)
+      .then((r) => r.json())
+      .then((payload) => {
+        setSnapshotPayloads((prev) => ({ ...prev, [year]: payload }))
+        setSnapshotLoaded(year)
+      })
+      .catch(() => {
+        requestedSnapshotYears.current.delete(year)
+      })
+  }, [timeRange, loadedSnapshots, setSnapshotLoaded])
 
   useEffect(()=>{
     const p=new URLSearchParams(window.location.search)
     if(p.get('lang'))    setLangFilter(p.get('lang'))
+    if(p.get('domain'))  setDomainFilter(p.get('domain'))
     if(p.get('region'))  setRegionFilter(p.get('region'))
     if(p.get('stars'))   setStarsFilter(Number(p.get('stars')))
   },[])
 
   const availableLangs = useMemo(()=>[...new Set(repos.map(r=>r.lang))].sort(),[repos])
+  const availableDomains = useMemo(()=>buildDomainOptions(repos),[repos])
+  const repoByName = useMemo(()=>new Map(repos.map((repo) => [repo.name, repo])),[repos])
+  const repoNameSet = useMemo(()=>new Set(repos.map((repo) => repo.name)),[repos])
 
   const filteredRepos = useMemo(()=>{
     const base = repos.filter(r=>{
       if(langFilter   && r.lang!==langFilter)      return false
+      if(domainFilter && inferDomain(r)!==domainFilter) return false
       if(regionFilter && !inRegion(r,regionFilter)) return false
       if(starsFilter  && r.stars<starsFilter)       return false
       // Society filter: show only repos in the active society
       if(activeSociety && showSocietyPanel) {
         return activeSociety.repos.some((sr: Repo) => sr.name === r.name)
       }
+      const pseudoCreated = 2015 + (Math.abs(r.name.length * 7 + r.owner.length * 13) % 12)
+      if (pseudoCreated < timeRange[0] || pseudoCreated > timeRange[1]) return false
       return true
     })
     return base.map(r=>trendingMode&&trendingNames.has(r.name)?{...r,trending:true}:r)
-  },[repos,langFilter,regionFilter,starsFilter,trendingMode,trendingNames,activeSociety,showSocietyPanel])
+  },[repos,langFilter,domainFilter,regionFilter,starsFilter,trendingMode,trendingNames,activeSociety,showSocietyPanel,timeRange])
 
-  const activeFilterCount = [langFilter,regionFilter,starsFilter].filter(Boolean).length
+  const activeFilterCount = [langFilter,domainFilter,regionFilter,starsFilter].filter(Boolean).length
   const countries = useMemo(()=>new Set(repos.map(r=>r.loc.split(',').pop()?.trim())).size,[repos])
   const repoCount    = useCountUp(filteredRepos.length)
   const countryCount = useCountUp(countries)
+  const countrySignals = useMemo(()=>buildCountrySignals(filteredRepos),[filteredRepos])
+  const regionSignals = useMemo(()=>buildRegionSignals(filteredRepos),[filteredRepos])
+  const nearbyRepos = useMemo(
+    ()=>userOrigin ? buildNearbyRepos(filteredRepos, userOrigin, domainFilter, langFilter) : [],
+    [filteredRepos, userOrigin, domainFilter, langFilter],
+  )
+  const nearbySummary = useMemo(
+    ()=>userOrigin && nearbyRepos.length ? summarizeNearby(nearbyRepos) : null,
+    [userOrigin, nearbyRepos],
+  )
+  const geocodedById = useMemo(
+    ()=>new Map((geocodingDataset?.locations ?? []).map((item: GeocodedLocation) => [item.id, item])),
+    [geocodingDataset],
+  )
+  const geoByRepo = useMemo(
+    ()=>new Map(geoIntelligence.map((item) => [item.repo_id, item])),
+    [geoIntelligence],
+  )
+  const selectedGeo = selected ? geoByRepo.get(selected.name) ?? null : null
+  const selectedGeocoded = selected ? geocodedById.get(selected.name) ?? null : null
+  const activeSnapshotYear = Math.max(2015, Math.min(new Date().getUTCFullYear(), timeRange[1]))
+  const { globeRepos, unknownOriginRepos } = useMemo(() => {
+    const nextGlobeRepos: Repo[] = []
+    const nextUnknownOriginRepos: Repo[] = []
+    filteredRepos.forEach((repo) => {
+      const geo = geocodedById.get(repo.name)
+      if (geo?.coords === null) {
+        nextUnknownOriginRepos.push(repo)
+        return
+      }
+      if (!geo?.coords) {
+        nextGlobeRepos.push(repo)
+        return
+      }
+      nextGlobeRepos.push({
+        ...repo,
+        lat: geo.coords.lat,
+        lng: geo.coords.lng,
+        loc: geo.resolvedName || repo.loc,
+      })
+    })
+    return { globeRepos: nextGlobeRepos, unknownOriginRepos: nextUnknownOriginRepos }
+  }, [filteredRepos, geocodedById])
+  const evolutionRows = useMemo(() => {
+    const payload = snapshotPayloads[activeSnapshotYear]
+    if (!payload) return []
+    const regionTally = new Map<string, { stars: number; repos: number }>()
+    payload.repos.forEach((entry) => {
+      const repo = repoByName.get(entry.repo_id)
+      const last = entry.stars_history[entry.stars_history.length - 1]
+      if (!repo || !last) return
+      const region = inferRegion(repo.lat, repo.lng)
+      if (!regionTally.has(region)) regionTally.set(region, { stars: 0, repos: 0 })
+      const item = regionTally.get(region)!
+      item.stars += last.stars
+      item.repos += 1
+    })
+    return [...regionTally.entries()]
+      .map(([region, item]) => ({ region, stars: item.stars, repos: item.repos }))
+      .sort((a, b) => b.stars - a.stars)
+      .slice(0, 7)
+  }, [snapshotPayloads, activeSnapshotYear, repoByName])
+  const localSearchResults = useMemo(() => {
+    const normalizedQuery = query.trim().toLowerCase()
+    if (!normalizedQuery) return []
+    return filteredRepos.filter((repo) =>
+      repo.name.toLowerCase().includes(normalizedQuery) ||
+      repo.lang.toLowerCase().includes(normalizedQuery) ||
+      repo.loc.toLowerCase().includes(normalizedQuery) ||
+      repo.desc.toLowerCase().includes(normalizedQuery) ||
+      repo.topics.toLowerCase().includes(normalizedQuery)
+    ).slice(0, 5)
+  }, [query, filteredRepos])
+  const visibleLegendLangs = useMemo(
+    () => [...new Set(filteredRepos.map((repo) => repo.lang))].slice(0, 10),
+    [filteredRepos],
+  )
 
-  function clearFilters(){setLangFilter(null);setRegionFilter(null);setStarsFilter(null)}
+  function clearFilters(){setLangFilter(null);setDomainFilter(null);setRegionFilter(null);setStarsFilter(null)}
 
   useEffect(()=>{
     if(!query.trim()){setLocalResults([]);setLiveResults([]);setShowResults(false);return}
-    const q=query.toLowerCase()
-    setLocalResults(filteredRepos.filter(r=>
-      r.name.toLowerCase().includes(q)||r.lang.toLowerCase().includes(q)||
-      r.loc.toLowerCase().includes(q)||r.desc.toLowerCase().includes(q)||
-      r.topics.toLowerCase().includes(q)
-    ).slice(0,5))
+    setLocalResults(localSearchResults)
     setShowResults(true); setActiveIdx(-1)
     if(liveTimer.current) clearTimeout(liveTimer.current)
     liveTimer.current=setTimeout(async()=>{
@@ -166,12 +355,16 @@ export default function App() {
         const res=await fetch(`/api/search?q=${encodeURIComponent(query)}&per_page=8`)
         if(!res.ok) throw new Error()
         const data=await res.json()
-        const localNames=new Set(repos.map(r=>r.name))
-        setLiveResults((data.repos||[]).filter((r:LiveRepo)=>!localNames.has(r.name)))
+        setLiveResults((data.repos||[]).filter((r:LiveRepo)=>!repoNameSet.has(r.name)))
       }catch{setLiveResults([])}
       finally{setLiveLoading(false)}
     },500)
-  },[query,filteredRepos])
+    return () => {
+      if (liveTimer.current) clearTimeout(liveTimer.current)
+    }
+  },[query,localSearchResults,repoNameSet])
+
+  const searchResults = useMemo(() => [...localResults, ...liveResults], [localResults, liveResults])
 
   function selectRepo(repo:LiveRepo){
     const r:Repo={...repo,lat:repo.lat??0,lng:repo.lng??0}
@@ -181,10 +374,10 @@ export default function App() {
   }
 
   function handleKeyDown(e:React.KeyboardEvent){
-    const total=localResults.length+liveResults.length
+    const total=searchResults.length
     if(e.key==='ArrowDown'){setActiveIdx(i=>Math.min(i+1,total-1));e.preventDefault()}
     if(e.key==='ArrowUp')  {setActiveIdx(i=>Math.max(i-1,0));e.preventDefault()}
-    if(e.key==='Enter'&&activeIdx>=0){const all=[...localResults,...liveResults];if(all[activeIdx])selectRepo(all[activeIdx] as LiveRepo)}
+    if(e.key==='Enter'&&activeIdx>=0){if(searchResults[activeIdx])selectRepo(searchResults[activeIdx] as LiveRepo)}
     if(e.key==='Escape'){setShowResults(false);setShowFilters(false);searchRef.current?.blur()}
   }
 
@@ -195,6 +388,7 @@ export default function App() {
   function handleShare(){
     const params=new URLSearchParams()
     if(langFilter)   params.set('lang',langFilter)
+    if(domainFilter) params.set('domain',domainFilter)
     if(regionFilter) params.set('region',regionFilter)
     if(starsFilter)  params.set('stars',String(starsFilter))
     if(trendingMode) params.set('trending','1')
@@ -217,13 +411,40 @@ export default function App() {
   }
 
   function handleSocietyRepoSelect(repoName: string) {
-    const repo = repos.find(r => r.name === repoName)
+    const repo = repoByName.get(repoName)
     if (repo) {
       setSelected(repo)
       setFlyTarget({ lat: repo.lat, lng: repo.lng })
       setShowSocietyPanel(false)
     }
   }
+
+  function handleFocusCountry(country: CountrySignal) {
+    setFlyTarget({ lat: country.coords[1], lng: country.coords[0] })
+    setShowHeatmap(true)
+  }
+
+  function handleNearbyRequest() {
+    if (!navigator.geolocation) return
+    setNearbyLoading(true)
+    navigator.geolocation.getCurrentPosition((position) => {
+      const next = { lat: position.coords.latitude, lng: position.coords.longitude }
+      setUserOrigin(next)
+      setOriginLabel(`${next.lat.toFixed(1)}, ${next.lng.toFixed(1)}`)
+      setFlyTarget(next)
+      setNearbyLoading(false)
+    }, () => {
+      setNearbyLoading(false)
+      setOriginLabel('Location unavailable')
+    }, { enableHighAccuracy: true, timeout: 10000 })
+  }
+
+  useEffect(() => {
+    if (!selected) return
+    fetchRecommendations({ repoId: selected.name, lat: selected.lat, lng: selected.lng })
+      .then(setRecommendations)
+      .catch(() => setRecommendations([]))
+  }, [selected, setRecommendations])
 
   const allResults=[...localResults,...liveResults]
 
@@ -240,17 +461,37 @@ export default function App() {
 
       {!loading&&(
         <Globe
-          repos={filteredRepos}
+          repos={globeRepos}
+          unknownOriginCount={unknownOriginRepos.length}
           onSelect={setSelected}
           onHover={handleHover}
+          onUnknownClusterClick={()=>setShowUnknownOrigins(true)}
           flyTarget={flyTarget}
           trendingNames={trendingNames}
           societies={societies}
           activeSociety={activeSociety}
           onSocietyClick={handleSocietyClick}
           pulseEnabled={pulseEnabled}
+          forkArcs={forkArcs}
+          orgConstellations={orgConstellations}
+          showForkArcs={showForkArcs}
+          showConstellations={showConstellations && showOrgConstellations}
         />
       )}
+      <RelationshipDeck
+        forkArcs={forkArcs}
+        contributorOverlaps={contributorOverlaps}
+        orgConstellations={orgConstellations}
+        showForkArcs={showForkArcs}
+        showContributorNetwork={showContributorNetwork}
+        showOrgConstellations={showOrgConstellations}
+        selectedOrg={selectedOrg}
+        isolatedRepoId={isolatedRepoId}
+        selectedCountry={selectedCountry}
+        onCountryClick={setSelectedCountry}
+        onRepoArcClick={setIsolatedRepoId}
+      />
+      <RegionalOverlay signals={countrySignals} visible={showHeatmap} onSelectCountry={handleFocusCountry} />
 
       {tooltip&&(
         <div className="tooltip" style={{left:tooltip.x+16,top:tooltip.y-12}}>
@@ -336,6 +577,18 @@ export default function App() {
                 </div>
               </div>
               <div className="filter-section">
+                <div className="filter-label">Domain</div>
+                <div className="chip-row">
+                  {availableDomains.map(domain=>(
+                    <button key={domain.name} className={`chip ${domainFilter===domain.name?'active':''}`}
+                      style={domainFilter===domain.name?{borderColor:domain.color,color:domain.color}:{}}
+                      onMouseDown={e=>{e.preventDefault();setDomainFilter(domainFilter===domain.name?null:domain.name)}}>
+                      <span className="chip-dot" style={{background:domain.color}}/>{domain.name}
+                    </button>
+                  ))}
+                </div>
+              </div>
+              <div className="filter-section">
                 <div className="filter-label">Region</div>
                 <div className="chip-row">
                   {Object.keys(REGIONS).map(r=>(
@@ -388,6 +641,42 @@ export default function App() {
           >
             <span className={`pulse-dot-anim ${pulseEnabled?'live':''}`}/>
             <span>Pulse</span>
+          </button>
+          <button className={`network-btn ${showForkArcs?'active':''}`} onClick={()=>setShowForkArcs(!showForkArcs)} title="Fork arcs (A)">
+            <span>Arcs</span>
+          </button>
+          <button className={`network-btn ${showConstellations?'active':''}`} onClick={()=>setShowConstellations(!showConstellations)} title="Org constellations (O)">
+            <span>Orgs</span>
+          </button>
+          <button className={`network-btn ${showContributorNetwork?'active':''}`} onClick={()=>setShowContributorNetwork(!showContributorNetwork)} title="Contributor overlaps (C)">
+            <span>Contrib</span>
+          </button>
+          <button className={`network-btn ${showOrgConstellations?'active':''}`} onClick={()=>setShowOrgConstellations(!showOrgConstellations)}>
+            <span>OrgNet</span>
+          </button>
+          <button className={`network-btn ${showOverlaps?'active':''}`} onClick={()=>setShowOverlaps(v=>!v)}>
+            <span>Overlap</span>
+          </button>
+          <button className={`network-btn ${showAIRecs?'active':''}`} onClick={()=>setShowAIRecs(v=>!v)}>
+            <span>AI</span>
+          </button>
+          <button className={`network-btn ${showHeatmap?'active':''}`} onClick={()=>setShowHeatmap(v=>!v)}>
+            <span>Heat</span>
+          </button>
+          <button className={`network-btn ${showRegional?'active':''}`} onClick={()=>setShowRegional(v=>!v)}>
+            <span>Intel</span>
+          </button>
+          <button className={`network-btn ${showNearby?'active':''}`} onClick={()=>setShowNearby(v=>!v)}>
+            <span>Nearby</span>
+          </button>
+          <button className={`network-btn ${showDependencies?'active':''}`} onClick={()=>setShowDependencies(v=>!v)}>
+            <span>Deps</span>
+          </button>
+          <button className={`network-btn ${showUnknownOrigins?'active':''}`} onClick={()=>setShowUnknownOrigins(v=>!v)}>
+            <span>Unknown</span>
+          </button>
+          <button className={`network-btn ${showEvolution?'active':''}`} onClick={()=>setShowEvolution(v=>!v)}>
+            <span>History</span>
           </button>
 
           <button className={`trending-btn ${trendingMode?'active':''}`} onClick={()=>setTrendingMode(v=>!v)} title="Toggle trending (T)">
@@ -453,6 +742,121 @@ export default function App() {
         </div>
       )}
 
+      <TimeSlider
+        minYear={2015}
+        maxYear={new Date().getUTCFullYear()}
+        value={timeRange}
+        onChange={(next) => setTimeRange(next[0] > next[1] ? [next[1], next[1]] : next)}
+      />
+
+      {showOverlaps&&(
+        <div className="overlap-panel">
+          <div className="trending-header">
+            <span>Contributor overlaps</span>
+            <button onClick={()=>setShowOverlaps(false)}>×</button>
+          </div>
+          {contributorOverlaps.slice(0,10).map((item)=>(
+            <div className="overlap-item" key={`${item.source_country}-${item.target_country}`}>
+              <strong>{item.source_country}</strong>
+              <span>↔</span>
+              <strong>{item.target_country}</strong>
+              <em>{item.shared_contributors} shared</em>
+            </div>
+          ))}
+        </div>
+      )}
+
+      {showAIRecs&&(
+        <Suspense fallback={null}>
+          <RecommendationPanel
+            recommendations={recommendations}
+            onSelect={(repoId) => {
+              const repo = repos.find(r => r.name === repoId)
+              if (repo) {
+                setSelected(repo)
+                setFlyTarget({ lat: repo.lat, lng: repo.lng })
+              }
+              setShowAIRecs(false)
+            }}
+          />
+        </Suspense>
+      )}
+
+      <Suspense fallback={null}>
+        <RegionalPanel
+          visible={showRegional}
+          domain={domainFilter}
+          countrySignals={countrySignals}
+          regionSignals={regionSignals}
+          onClose={()=>setShowRegional(false)}
+          onFocusCountry={handleFocusCountry}
+        />
+      </Suspense>
+
+      <Suspense fallback={null}>
+        <NearbyPanel
+          visible={showNearby}
+          loading={nearbyLoading}
+          nearbyRepos={nearbyRepos}
+          originLabel={originLabel}
+          summary={nearbySummary}
+          onClose={()=>setShowNearby(false)}
+          onRequestLocation={handleNearbyRequest}
+          onSelectRepo={(repo) => {
+            setSelected(repo)
+            setFlyTarget({ lat: repo.lat, lng: repo.lng })
+            setShowNearby(false)
+          }}
+        />
+      </Suspense>
+
+      <Suspense fallback={null}>
+        <DependencyPanel
+          visible={showDependencies}
+          selectedRepoId={selected?.name ?? null}
+          affinityLinks={affinityDependencyLinks}
+          manifestLinks={manifestDependencyLinks}
+          onClose={()=>setShowDependencies(false)}
+          onSelectRepo={(repoId) => {
+            const repo = repoByName.get(repoId)
+            if (!repo) return
+            setSelected(repo)
+            setFlyTarget({ lat: repo.lat, lng: repo.lng })
+          }}
+        />
+      </Suspense>
+
+      <Suspense fallback={null}>
+        <UnknownOriginPanel
+          visible={showUnknownOrigins}
+          repos={unknownOriginRepos}
+          onClose={()=>setShowUnknownOrigins(false)}
+          onSelectRepo={(repo) => {
+            setSelected(repo)
+            setShowUnknownOrigins(false)
+          }}
+        />
+      </Suspense>
+
+      <Suspense fallback={null}>
+        <EvolutionPanel
+          visible={showEvolution}
+          year={activeSnapshotYear}
+          rows={evolutionRows}
+          onClose={()=>setShowEvolution(false)}
+        />
+      </Suspense>
+
+      <div className="toggle-panel">
+        <label><input type="checkbox" checked={showForkArcs} onChange={e=>setShowForkArcs(e.target.checked)} /> Fork Networks</label>
+        <label><input type="checkbox" checked={showContributorNetwork} onChange={e=>setShowContributorNetwork(e.target.checked)} /> Contributor Overlaps</label>
+        <label><input type="checkbox" checked={showOrgConstellations} onChange={e=>setShowOrgConstellations(e.target.checked)} /> Org Constellations</label>
+        <label><input type="checkbox" checked={showHeatmap} onChange={e=>setShowHeatmap(e.target.checked)} /> Country Heatmap</label>
+        <label><input type="checkbox" checked={showDependencies} onChange={e=>setShowDependencies(e.target.checked)} /> Dependency Graph</label>
+        <label><input type="checkbox" checked={showEvolution} onChange={e=>setShowEvolution(e.target.checked)} /> Regional History</label>
+        <label><input type="checkbox" checked={true} readOnly /> Time Mode</label>
+      </div>
+
       {(activeFilterCount>0||trendingMode||activeSociety)&&(
         <div className="active-filters-bar">
           {trendingMode&&<span className="active-chip active-chip-trend">🔥 Trending<button onClick={()=>setTrendingMode(false)}>×</button></span>}
@@ -463,6 +867,7 @@ export default function App() {
             </span>
           )}
           {langFilter&&<span className="active-chip" style={{borderColor:getLangColor(langFilter)}}><span className="chip-dot" style={{background:getLangColor(langFilter)}}/>{langFilter}<button onClick={()=>setLangFilter(null)}>×</button></span>}
+          {domainFilter&&<span className="active-chip">{domainFilter}<button onClick={()=>setDomainFilter(null)}>×</button></span>}
           {regionFilter&&<span className="active-chip">{regionFilter}<button onClick={()=>setRegionFilter(null)}>×</button></span>}
           {starsFilter&&<span className="active-chip">⭐ {starsFilter>=1000?(starsFilter/1000)+'k+':starsFilter+'+'}<button onClick={()=>setStarsFilter(null)}>×</button></span>}
           <button className="clear-all-btn" onClick={()=>{clearFilters();setTrendingMode(false);handleSocietyClose()}}>Clear all</button>
@@ -482,7 +887,13 @@ export default function App() {
             <div className="panel-row"><span className="panel-key">Stars</span><span className="panel-val green">⭐ {fmt(selected.stars)}</span></div>
             <div className="panel-row"><span className="panel-key">Forks</span><span className="panel-val">{fmt(selected.forks)}</span></div>
             <div className="panel-row"><span className="panel-key">Language</span><span className="lang-badge"><span className="lang-dot" style={{background:getLangColor(selected.lang)}}/>{selected.lang}</span></div>
+            <div className="panel-row"><span className="panel-key">Domain</span><span className="panel-val">{inferDomain(selected)}</span></div>
             <div className="panel-row"><span className="panel-key">Location</span><span className="panel-val accent">{selected.loc}</span></div>
+            {selectedGeocoded&&<div className="panel-row"><span className="panel-key">Resolved Name</span><span className="panel-val">{selectedGeocoded.resolvedName ?? 'Unknown'}</span></div>}
+            {selectedGeocoded&&<div className="panel-row"><span className="panel-key">Geocode Level</span><span className="panel-val">{selectedGeocoded.confidence}</span></div>}
+            {selectedGeocoded&&<div className="panel-row"><span className="panel-key">Geocode Source</span><span className="panel-val">{selectedGeocoded.source}</span></div>}
+            {selectedGeo&&<div className="panel-row"><span className="panel-key">Geo Confidence</span><span className="panel-val">{Math.round(selectedGeo.geocode_confidence * 100)}%</span></div>}
+            {selectedGeo&&<div className="panel-row"><span className="panel-key">Location Source</span><span className="panel-val">{selectedGeo.location_source}</span></div>}
             <div className="panel-row"><span className="panel-key">Owner</span><span className="panel-val">{selected.owner}</span></div>
             <div className="panel-row"><span className="panel-key">Topics</span><span className="panel-val">{selected.topics?.split(',').join(' · ')}</span></div>
             {/* Society membership badge */}
@@ -521,15 +932,17 @@ export default function App() {
             <div className="shortcut-row"><kbd>T</kbd><span>Toggle trending</span></div>
             <div className="shortcut-row"><kbd>S</kbd><span>Toggle societies</span></div>
             <div className="shortcut-row"><kbd>P</kbd><span>Toggle pulse</span></div>
+            <div className="shortcut-row"><kbd>I</kbd><span>Regional intelligence</span></div>
+            <div className="shortcut-row"><kbd>E</kbd><span>Regional evolution</span></div>
             <div className="shortcut-row"><kbd>Esc</kbd><span>Close panels</span></div>
           </div>
-          <div className="about-phase">Phase 3 — Societies + Pulse Active</div>
+          <div className="about-phase">Phase 4+ — relationships + intelligence + nearby discovery</div>
         </div>
       )}
 
       <div className="legend">
         <div className="legend-title">Language</div>
-        {[...new Set(filteredRepos.map(r=>r.lang))].slice(0,10).map(l=>(
+        {visibleLegendLangs.map(l=>(
           <div key={l} className={`legend-row ${langFilter===l?'legend-active':''}`}
             onClick={()=>setLangFilter(langFilter===l?null:l)} style={{cursor:'pointer'}}>
             <span className="legend-dot" style={{background:getLangColor(l)}}/>{l}
@@ -537,7 +950,7 @@ export default function App() {
         ))}
       </div>
 
-      {!loading&&<div className="hint">Drag to rotate · Scroll to zoom · Press / to search · S for Societies</div>}
+      {!loading&&<div className="hint">Drag to rotate · Scroll to zoom · / search · Heat for regional activity · Nearby to discover local repos</div>}
     </>
   )
 }

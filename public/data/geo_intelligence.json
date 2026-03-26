@@ -1,0 +1,4986 @@
+[
+  {
+    "repo_id": "codecrafters-io/build-your-own-x",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.72,
+    "location_source": "derived",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "sindresorhus/awesome",
+    "country": "UK",
+    "region": "Europe",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "freeCodeCamp/freeCodeCamp",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.72,
+    "location_source": "derived",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "public-apis/public-apis",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.72,
+    "location_source": "derived",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "EbookFoundation/free-programming-books",
+    "country": "Switzerland",
+    "region": "Europe",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "kamranahmedse/developer-roadmap",
+    "country": "UK",
+    "region": "Europe",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "donnemartin/system-design-primer",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "jwasham/coding-interview-university",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.72,
+    "location_source": "derived",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "openclaw/openclaw",
+    "country": "UK",
+    "region": "Europe",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "vinta/awesome-python",
+    "country": "Taiwan",
+    "region": "Asia",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "awesome-selfhosted/awesome-selfhosted",
+    "country": "UK",
+    "region": "Europe",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "996icu/996.ICU",
+    "country": "China",
+    "region": "Asia",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "practical-tutorials/project-based-learning",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "facebook/react",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "torvalds/linux",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "TheAlgorithms/Python",
+    "country": "India",
+    "region": "Asia",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "trimstray/the-book-of-secret-knowledge",
+    "country": "Poland",
+    "region": "Europe",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "vuejs/vue",
+    "country": "Singapore",
+    "region": "Other",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "ossu/computer-science",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "trekhleb/javascript-algorithms",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "tensorflow/tensorflow",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "ohmyzsh/ohmyzsh",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "getify/You-Dont-Know-JS",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "CyC2018/CS-Notes",
+    "country": "China",
+    "region": "Asia",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "microsoft/vscode",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "Significant-Gravitas/AutoGPT",
+    "country": "Netherlands",
+    "region": "Europe",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "n8n-io/n8n",
+    "country": "Germany",
+    "region": "Europe",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "jackfrued/Python-100-Days",
+    "country": "China",
+    "region": "Asia",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "flutter/flutter",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "twbs/bootstrap",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "github/gitignore",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.72,
+    "location_source": "derived",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "massgravel/Microsoft-Activation-Scripts",
+    "country": "India",
+    "region": "Asia",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "avelino/awesome-go",
+    "country": "Brazil",
+    "region": "South America",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "jlevy/the-art-of-command-line",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "huggingface/transformers",
+    "country": "France",
+    "region": "Europe",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "Snailclimb/JavaGuide",
+    "country": "China",
+    "region": "Asia",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "f/prompts.chat",
+    "country": "Turkey",
+    "region": "Europe",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "DigitalPlatDev/FreeDomain",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.72,
+    "location_source": "derived",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "yt-dlp/yt-dlp",
+    "country": "Germany",
+    "region": "Europe",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "airbnb/javascript",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "521xueweihan/HelloGitHub",
+    "country": "China",
+    "region": "Asia",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "ytdl-org/youtube-dl",
+    "country": "Germany",
+    "region": "Europe",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "vercel/next.js",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.72,
+    "location_source": "derived",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "yangshun/tech-interview-handbook",
+    "country": "Singapore",
+    "region": "Other",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "Genymobile/scrcpy",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "x1xhlol/system-prompts-and-models-of-ai-tools",
+    "country": "Spain",
+    "region": "Europe",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "golang/go",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "langchain-ai/langchain",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.72,
+    "location_source": "derived",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "microsoft/PowerToys",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "anomalyco/opencode",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "open-webui/open-webui",
+    "country": "Austria",
+    "region": "Europe",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "Chalarangelo/30-seconds-of-code",
+    "country": "Greece",
+    "region": "Europe",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "facebook/react-native",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "krahets/hello-algo",
+    "country": "China",
+    "region": "Asia",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "kubernetes/kubernetes",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.72,
+    "location_source": "derived",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "electron/electron",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.72,
+    "location_source": "derived",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "ripienaar/free-for-dev",
+    "country": "India",
+    "region": "Asia",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "excalidraw/excalidraw",
+    "country": "Czech Republic",
+    "region": "Europe",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "justjavac/free-programming-books-zh_CN",
+    "country": "China",
+    "region": "Asia",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "nodejs/node",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "iptv-org/iptv",
+    "country": "France",
+    "region": "Europe",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "obra/superpowers",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "d3/d3",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "rust-lang/rust",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.72,
+    "location_source": "derived",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "rustdesk/rustdesk",
+    "country": "Singapore",
+    "region": "Other",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "Hack-with-Github/Awesome-Hacking",
+    "country": "India",
+    "region": "Asia",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "axios/axios",
+    "country": "South Africa",
+    "region": "Africa",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "microsoft/generative-ai-for-beginners",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "godotengine/godot",
+    "country": "Denmark",
+    "region": "Europe",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "affaan-m/everything-claude-code",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "microsoft/TypeScript",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "GrowingGit/GitHub-Chinese-Top-Charts",
+    "country": "China",
+    "region": "Asia",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "denoland/deno",
+    "country": "Poland",
+    "region": "Europe",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "clash-verge-rev/clash-verge-rev",
+    "country": "China",
+    "region": "Asia",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "goldbergyoni/nodebestpractices",
+    "country": "Israel",
+    "region": "Africa",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "tauri-apps/tauri",
+    "country": "Brazil",
+    "region": "South America",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "papers-we-love/papers-we-love",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "facebook/create-react-app",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "anthropics/skills",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.72,
+    "location_source": "derived",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "deepseek-ai/DeepSeek-V3",
+    "country": "China",
+    "region": "Asia",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "microsoft/terminal",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "jaywcjlove/awesome-mac",
+    "country": "China",
+    "region": "Asia",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "angular/angular",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.72,
+    "location_source": "derived",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "2dust/v2rayN",
+    "country": "China",
+    "region": "Asia",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "supabase/supabase",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.72,
+    "location_source": "derived",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "ggml-org/llama.cpp",
+    "country": "Bulgaria",
+    "region": "Europe",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "google-gemini/gemini-cli",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.72,
+    "location_source": "derived",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "Anduin2017/HowToCook",
+    "country": "Hong Kong",
+    "region": "Asia",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "pytorch/pytorch",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "mtdvio/every-programmer-should-know",
+    "country": "Germany",
+    "region": "Europe",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "openai/whisper",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "fastapi/fastapi",
+    "country": "Germany",
+    "region": "Europe",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "nvbn/thefuck",
+    "country": "Netherlands",
+    "region": "Europe",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "microsoft/markitdown",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "django/django",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "home-assistant/core",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "3b1b/manim",
+    "country": "China",
+    "region": "Asia",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "browser-use/browser-use",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.72,
+    "location_source": "derived",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "github/spec-kit",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.72,
+    "location_source": "derived",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "bregman-arie/devops-exercises",
+    "country": "Spain",
+    "region": "Europe",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "fighting41love/funNLP",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "tensorflow/models",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.72,
+    "location_source": "derived",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "d2l-ai/d2l-zh",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "swisskyrepo/PayloadsAllTheThings",
+    "country": "France",
+    "region": "Europe",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "infiniflow/ragflow",
+    "country": "China",
+    "region": "Asia",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "vllm-project/vllm",
+    "country": "Hong Kong",
+    "region": "Asia",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "sherlock-project/sherlock",
+    "country": "Norway",
+    "region": "Europe",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "PaddlePaddle/PaddleOCR",
+    "country": "China",
+    "region": "Asia",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "python/cpython",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "josephmisiti/awesome-machine-learning",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "pallets/flask",
+    "country": "Austria",
+    "region": "Europe",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "OpenHands/OpenHands",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "hiyouga/LlamaFactory",
+    "country": "China",
+    "region": "Asia",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "ansible/ansible",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.72,
+    "location_source": "derived",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "FoundationAgents/MetaGPT",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "labmlai/annotated_deep_learning_paper_implementations",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "scikit-learn/scikit-learn",
+    "country": "France",
+    "region": "Europe",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "localstack/localstack",
+    "country": "Switzerland",
+    "region": "Europe",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "OpenBB-finance/OpenBB",
+    "country": "Canada",
+    "region": "North America",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "openinterpreter/open-interpreter",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "pathwaycom/pathway",
+    "country": "France",
+    "region": "Europe",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "unclecode/crawl4ai",
+    "country": "Singapore",
+    "region": "Other",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "scrapy/scrapy",
+    "country": "Spain",
+    "region": "Europe",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "commaai/openpilot",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "Asabeneh/30-Days-Of-Python",
+    "country": "Finland",
+    "region": "Europe",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "CorentinJ/Real-Time-Voice-Cloning",
+    "country": "Belgium",
+    "region": "Europe",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "meta-llama/llama",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "unslothai/unsloth",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.72,
+    "location_source": "derived",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "opendatalab/MinerU",
+    "country": "China",
+    "region": "Asia",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "zylon-ai/private-gpt",
+    "country": "Spain",
+    "region": "Europe",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "ultralytics/yolov5",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.72,
+    "location_source": "derived",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "docling-project/docling",
+    "country": "Switzerland",
+    "region": "Europe",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "karpathy/autoresearch",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "ageitgey/face_recognition",
+    "country": "Brazil",
+    "region": "South America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "microsoft/autogen",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "Textualize/rich",
+    "country": "UK",
+    "region": "Europe",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "karpathy/nanoGPT",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "FoundationAgents/OpenManus",
+    "country": "China",
+    "region": "Asia",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "Z4nzu/hackingtool",
+    "country": "India",
+    "region": "Asia",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "ultralytics/ultralytics",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.72,
+    "location_source": "derived",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "psf/requests",
+    "country": "UK",
+    "region": "Europe",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "harry0703/MoneyPrinterTurbo",
+    "country": "Vietnam",
+    "region": "Asia",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "Zie619/n8n-workflows",
+    "country": "India",
+    "region": "Asia",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "xai-org/grok-1",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.72,
+    "location_source": "derived",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "mem0ai/mem0",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.72,
+    "location_source": "derived",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "nextlevelbuilder/ui-ux-pro-max-skill",
+    "country": "Vietnam",
+    "region": "Asia",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "charlax/professional-programming",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "karpathy/nanochat",
+    "country": "Belgium",
+    "region": "Europe",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "odoo/odoo",
+    "country": "Belgium",
+    "region": "Europe",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "virattt/ai-hedge-fund",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "freqtrade/freqtrade",
+    "country": "Russia",
+    "region": "Europe",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "run-llama/llama_index",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.72,
+    "location_source": "derived",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "ComposioHQ/awesome-claude-skills",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.72,
+    "location_source": "derived",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "lllyasviel/Fooocus",
+    "country": "Germany",
+    "region": "Europe",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "minimaxir/big-list-of-naughty-strings",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "crewAIInc/crewAI",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.72,
+    "location_source": "derived",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "bytedance/deer-flow",
+    "country": "Singapore",
+    "region": "Other",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "NanmiCoder/MediaCrawler",
+    "country": "China",
+    "region": "Asia",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "coqui-ai/TTS",
+    "country": "Brazil",
+    "region": "South America",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "apache/airflow",
+    "country": "Poland",
+    "region": "Europe",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "firecrawl/firecrawl",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.72,
+    "location_source": "derived",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "ant-design/ant-design",
+    "country": "China",
+    "region": "Asia",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "immich-app/immich",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.72,
+    "location_source": "derived",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "tailwindlabs/tailwindcss",
+    "country": "Canada",
+    "region": "North America",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "puppeteer/puppeteer",
+    "country": "Germany",
+    "region": "Europe",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "storybookjs/storybook",
+    "country": "Netherlands",
+    "region": "Europe",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "ChatGPTNextWeb/NextChat",
+    "country": "China",
+    "region": "Asia",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "microsoft/playwright",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "realworld-apps/realworld",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "modelcontextprotocol/servers",
+    "country": "UK",
+    "region": "Europe",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "vitejs/vite",
+    "country": "Singapore",
+    "region": "Other",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "hoppscotch/hoppscotch",
+    "country": "India",
+    "region": "Asia",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "Stirling-Tools/Stirling-PDF",
+    "country": "UK",
+    "region": "Europe",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "nestjs/nest",
+    "country": "Poland",
+    "region": "Europe",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "grafana/grafana",
+    "country": "Sweden",
+    "region": "Europe",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "abi/screenshot-to-code",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "strapi/strapi",
+    "country": "France",
+    "region": "Europe",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "apache/superset",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "daytonaio/daytona",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "toeverything/AFFiNE",
+    "country": "Singapore",
+    "region": "Other",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "apache/echarts",
+    "country": "China",
+    "region": "Asia",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "facebook/docusaurus",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "socketio/socket.io",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "nocodb/nocodb",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "reduxjs/redux",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.72,
+    "location_source": "derived",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "nuxt/nuxt",
+    "country": "UK",
+    "region": "Europe",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "cline/cline",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.72,
+    "location_source": "derived",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "pmndrs/zustand",
+    "country": "Japan",
+    "region": "Asia",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "appwrite/appwrite",
+    "country": "New Zealand",
+    "region": "Oceania",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "laurent22/joplin",
+    "country": "UK",
+    "region": "Europe",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "vuejs/core",
+    "country": "Singapore",
+    "region": "Other",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "ionic-team/ionic-framework",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.72,
+    "location_source": "derived",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "DefinitelyTyped/DefinitelyTyped",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "FlowiseAI/Flowise",
+    "country": "India",
+    "region": "Asia",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "upstash/context7",
+    "country": "Turkey",
+    "region": "Europe",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "cypress-io/cypress",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.72,
+    "location_source": "derived",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "lyswhut/lx-music-desktop",
+    "country": "China",
+    "region": "Asia",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "TanStack/query",
+    "country": "Austria",
+    "region": "Europe",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "expo/expo",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.72,
+    "location_source": "derived",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "garrytan/gstack",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "OpenCut-app/OpenCut",
+    "country": "Bangladesh",
+    "region": "Asia",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "slab/quill",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.72,
+    "location_source": "derived",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "makeplane/plane",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.72,
+    "location_source": "derived",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "pixijs/pixijs",
+    "country": "UK",
+    "region": "Europe",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "tldraw/tldraw",
+    "country": "UK",
+    "region": "Europe",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "prisma/prisma",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.72,
+    "location_source": "derived",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "jestjs/jest",
+    "country": "Norway",
+    "region": "Europe",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "RocketChat/Rocket.Chat",
+    "country": "Brazil",
+    "region": "South America",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "vercel/hyper",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.72,
+    "location_source": "derived",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "react-hook-form/react-hook-form",
+    "country": "Japan",
+    "region": "Asia",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "koala73/worldmonitor",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "babel/babel",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "AykutSarac/jsoncrack.com",
+    "country": "Turkey",
+    "region": "Europe",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "code-yeongyu/oh-my-openagent",
+    "country": "South Korea",
+    "region": "Asia",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "FuelLabs/fuels-ts",
+    "country": "Brazil",
+    "region": "South America",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "DIYgod/RSSHub",
+    "country": "Singapore",
+    "region": "Other",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "CherryHQ/cherry-studio",
+    "country": "China",
+    "region": "Asia",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "fastapi/full-stack-fastapi-template",
+    "country": "Germany",
+    "region": "Europe",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "colinhacks/zod",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "siyuan-note/siyuan",
+    "country": "China",
+    "region": "Asia",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "payloadcms/payload",
+    "country": "Canada",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "hexojs/hexo",
+    "country": "Taiwan",
+    "region": "Asia",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "janhq/jan",
+    "country": "Indonesia",
+    "region": "Other",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "styled-components/styled-components",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.72,
+    "location_source": "derived",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "vuetifyjs/vuetify",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.72,
+    "location_source": "derived",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "twentyhq/twenty",
+    "country": "France",
+    "region": "Europe",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "remotion-dev/remotion",
+    "country": "Switzerland",
+    "region": "Europe",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "calcom/cal.com",
+    "country": "Mexico",
+    "region": "Other",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "thedotmack/claude-mem",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "chakra-ui/chakra-ui",
+    "country": "UK",
+    "region": "Europe",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "trpc/trpc",
+    "country": "Sweden",
+    "region": "Europe",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "appsmithorg/appsmith",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.72,
+    "location_source": "derived",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "mifi/lossless-cut",
+    "country": "Norway",
+    "region": "Europe",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "astral-sh/uv",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.72,
+    "location_source": "derived",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "zed-industries/zed",
+    "country": "Italy",
+    "region": "Europe",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "unionlabs/union",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.72,
+    "location_source": "derived",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "alacritty/alacritty",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "rust-lang/rustlings",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.72,
+    "location_source": "derived",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "FuelLabs/sway",
+    "country": "Canada",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "BurntSushi/ripgrep",
+    "country": "India",
+    "region": "Asia",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "sharkdp/bat",
+    "country": "Germany",
+    "region": "Europe",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "dani-garcia/vaultwarden",
+    "country": "Spain",
+    "region": "Europe",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "FuelLabs/fuel-core",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "meilisearch/meilisearch",
+    "country": "France",
+    "region": "Europe",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "rust-unofficial/awesome-rust",
+    "country": "UK",
+    "region": "Europe",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "starship/starship",
+    "country": "Japan",
+    "region": "Asia",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "lencx/ChatGPT",
+    "country": "China",
+    "region": "Asia",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "typst/typst",
+    "country": "Germany",
+    "region": "Europe",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "astral-sh/ruff",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.72,
+    "location_source": "derived",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "bevyengine/bevy",
+    "country": "France",
+    "region": "Europe",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "helix-editor/helix",
+    "country": "Japan",
+    "region": "Asia",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "FuelLabs/fuels-rs",
+    "country": "Canada",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "ruvnet/RuView",
+    "country": "Germany",
+    "region": "Europe",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "sharkdp/fd",
+    "country": "Germany",
+    "region": "Europe",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "juspay/hyperswitch",
+    "country": "India",
+    "region": "Asia",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "nushell/nushell",
+    "country": "Australia",
+    "region": "Oceania",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "lapce/lapce",
+    "country": "Hungary",
+    "region": "Europe",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "pola-rs/polars",
+    "country": "Netherlands",
+    "region": "Europe",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "spacedriveapp/spacedrive",
+    "country": "Australia",
+    "region": "Oceania",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "servo/servo",
+    "country": "Spain",
+    "region": "Europe",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "DioxusLabs/dioxus",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "block/goose",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "swc-project/swc",
+    "country": "South Korea",
+    "region": "Asia",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "firecracker-microvm/firecracker",
+    "country": "UK",
+    "region": "Europe",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "GyulyVGC/sniffnet",
+    "country": "Italy",
+    "region": "Europe",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "TabbyML/tabby",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "fish-shell/fish-shell",
+    "country": "Germany",
+    "region": "Europe",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "google/comprehensive-rust",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.72,
+    "location_source": "derived",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "yewstack/yew",
+    "country": "Taiwan",
+    "region": "Asia",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "casey/just",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "linera-io/linera-protocol",
+    "country": "Brazil",
+    "region": "South America",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "surrealdb/surrealdb",
+    "country": "UK",
+    "region": "Europe",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "tokio-rs/tokio",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "influxdata/influxdb",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.72,
+    "location_source": "derived",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "zellij-org/zellij",
+    "country": "Austria",
+    "region": "Europe",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "qarmin/czkawka",
+    "country": "Poland",
+    "region": "Europe",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "sunface/rust-course",
+    "country": "China",
+    "region": "Asia",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "vercel/turborepo",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.72,
+    "location_source": "derived",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "iced-rs/iced",
+    "country": "Spain",
+    "region": "Europe",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "qdrant/qdrant",
+    "country": "Germany",
+    "region": "Europe",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "atuinsh/atuin",
+    "country": "UK",
+    "region": "Europe",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "zeroclaw-labs/zeroclaw",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "emilk/egui",
+    "country": "Sweden",
+    "region": "Europe",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "sharkdp/hyperfine",
+    "country": "Germany",
+    "region": "Europe",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "jj-vcs/jj",
+    "country": "Japan",
+    "region": "Asia",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "lbjlaq/Antigravity-Manager",
+    "country": "China",
+    "region": "Asia",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "ankitects/anki",
+    "country": "Australia",
+    "region": "Oceania",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "chroma-core/chroma",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.72,
+    "location_source": "derived",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "cloudflare/pingora",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "jdx/mise",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "rwf2/Rocket",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.72,
+    "location_source": "derived",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "zama-ai/fhevm",
+    "country": "France",
+    "region": "Europe",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "TheAlgorithms/Rust",
+    "country": "India",
+    "region": "Asia",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "tokio-rs/axum",
+    "country": "Denmark",
+    "region": "Europe",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "wezterm/wezterm",
+    "country": "UK",
+    "region": "Europe",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "vercel-labs/agent-browser",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "GraphiteEditor/Graphite",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "Wilfred/difftastic",
+    "country": "UK",
+    "region": "Europe",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "Schniz/fnm",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.72,
+    "location_source": "derived",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "actix/actix-web",
+    "country": "France",
+    "region": "Europe",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "ogham/exa",
+    "country": "France",
+    "region": "Europe",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "tree-sitter/tree-sitter",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "clockworklabs/SpacetimeDB",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.72,
+    "location_source": "derived",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "biomejs/biome",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "BloopAI/vibe-kanban",
+    "country": "UK",
+    "region": "Europe",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "rustfs/rustfs",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.72,
+    "location_source": "derived",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "rome/tools",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.72,
+    "location_source": "derived",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "uutils/coreutils",
+    "country": "France",
+    "region": "Europe",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "googleworkspace/cli",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.72,
+    "location_source": "derived",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "facebook/flow",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "slint-ui/slint",
+    "country": "Germany",
+    "region": "Europe",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "RustPython/RustPython",
+    "country": "South Korea",
+    "region": "Asia",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "niri-wm/niri",
+    "country": "Sweden",
+    "region": "Europe",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "vectordotdev/vector",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "nautechsystems/nautilus_trader",
+    "country": "Australia",
+    "region": "Oceania",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "rust-lang/mdBook",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.72,
+    "location_source": "derived",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "neondatabase/neon",
+    "country": "Germany",
+    "region": "Europe",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "gleam-lang/gleam",
+    "country": "UK",
+    "region": "Europe",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "eza-community/eza",
+    "country": "Denmark",
+    "region": "Europe",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "wasmerio/wasmer",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "gin-gonic/gin",
+    "country": "Spain",
+    "region": "Europe",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "gohugoio/hugo",
+    "country": "Norway",
+    "region": "Europe",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "syncthing/syncthing",
+    "country": "Sweden",
+    "region": "Europe",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "jesseduffield/lazygit",
+    "country": "Australia",
+    "region": "Oceania",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "moby/moby",
+    "country": "Netherlands",
+    "region": "Europe",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "caddyserver/caddy",
+    "country": "Canada",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "prometheus/prometheus",
+    "country": "Germany",
+    "region": "Europe",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "traefik/traefik",
+    "country": "France",
+    "region": "Europe",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "minio/minio",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.72,
+    "location_source": "derived",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "FiloSottile/mkcert",
+    "country": "Italy",
+    "region": "Europe",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "pocketbase/pocketbase",
+    "country": "China",
+    "region": "Asia",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "rclone/rclone",
+    "country": "UK",
+    "region": "Europe",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "wagoodman/dive",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "etcd-io/etcd",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "jesseduffield/lazydocker",
+    "country": "Australia",
+    "region": "Oceania",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "AlistGo/alist",
+    "country": "China",
+    "region": "Asia",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "hashicorp/terraform",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "mudler/LocalAI",
+    "country": "Italy",
+    "region": "Europe",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "astaxie/build-web-application-with-golang",
+    "country": "China",
+    "region": "Asia",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "spf13/cobra",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "milvus-io/milvus",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "cli/cli",
+    "country": "Netherlands",
+    "region": "Europe",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "charmbracelet/bubbletea",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "danielmiessler/Fabric",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "pingcap/tidb",
+    "country": "China",
+    "region": "Asia",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "evanw/esbuild",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "go-gorm/gorm",
+    "country": "China",
+    "region": "Asia",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "photoprism/photoprism",
+    "country": "Germany",
+    "region": "Europe",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "gofiber/fiber",
+    "country": "Germany",
+    "region": "Europe",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "istio/istio",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "docker/compose",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.72,
+    "location_source": "derived",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "juanfont/headscale",
+    "country": "Netherlands",
+    "region": "Europe",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "hashicorp/vault",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "unknwon/the-way-to-go_ZH_CN",
+    "country": "China",
+    "region": "Asia",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "1Panel-dev/1Panel",
+    "country": "Hong Kong",
+    "region": "Asia",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "schollz/croc",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "harness/harness",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "filebrowser/filebrowser",
+    "country": "Netherlands",
+    "region": "Europe",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "ehang-io/nps",
+    "country": "China",
+    "region": "Asia",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "halfrost/LeetCode-Go",
+    "country": "Singapore",
+    "region": "Other",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "IceWhaleTech/CasaOS",
+    "country": "China",
+    "region": "Asia",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "wailsapp/wails",
+    "country": "Australia",
+    "region": "Oceania",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "AdguardTeam/AdGuardHome",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.72,
+    "location_source": "derived",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "derailed/k9s",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.72,
+    "location_source": "derived",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "zeromicro/go-zero",
+    "country": "Hong Kong",
+    "region": "Asia",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "restic/restic",
+    "country": "Germany",
+    "region": "Europe",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "k3s-io/k3s",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "beego/beego",
+    "country": "China",
+    "region": "Asia",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "labstack/echo",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "cockroachdb/cockroach",
+    "country": "Netherlands",
+    "region": "Europe",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "kubernetes/minikube",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "seaweedfs/seaweedfs",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "containers/podman",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "iawia002/lux",
+    "country": "China",
+    "region": "Asia",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "grafana/k6",
+    "country": "Sweden",
+    "region": "Europe",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "spf13/viper",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "hashicorp/consul",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "tailscale/tailscale",
+    "country": "Canada",
+    "region": "North America",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "helm/helm",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.72,
+    "location_source": "derived",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "binwiederhier/ntfy",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.72,
+    "location_source": "derived",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "micro-editor/micro",
+    "country": "Germany",
+    "region": "Europe",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "github/github-mcp-server",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.72,
+    "location_source": "derived",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "opentofu/opentofu",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "fyne-io/fyne",
+    "country": "UK",
+    "region": "Europe",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "grafana/loki",
+    "country": "Sweden",
+    "region": "Europe",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "tmrts/go-patterns",
+    "country": "Russia",
+    "region": "Europe",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "goharbor/harbor",
+    "country": "China",
+    "region": "Asia",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "abiosoft/colima",
+    "country": "Nigeria",
+    "region": "Africa",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "go-kit/kit",
+    "country": "Germany",
+    "region": "Europe",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "authelia/authelia",
+    "country": "Australia",
+    "region": "Oceania",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "cloudreve/cloudreve",
+    "country": "Singapore",
+    "region": "Other",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "Wox-launcher/Wox",
+    "country": "Australia",
+    "region": "Oceania",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "sipeed/picoclaw",
+    "country": "China",
+    "region": "Asia",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "openfaas/faas",
+    "country": "UK",
+    "region": "Europe",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "yeasy/docker_practice",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "stretchr/testify",
+    "country": "UK",
+    "region": "Europe",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "nsqio/nsq",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "sirupsen/logrus",
+    "country": "Canada",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "dapr/dapr",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "kataras/iris",
+    "country": "Greece",
+    "region": "Europe",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "iluwatar/java-design-patterns",
+    "country": "Finland",
+    "region": "Europe",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "macrozheng/mall",
+    "country": "China",
+    "region": "Asia",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "spring-projects/spring-boot",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.72,
+    "location_source": "derived",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "doocs/advanced-java",
+    "country": "China",
+    "region": "Asia",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "MisterBooo/LeetCodeAnimation",
+    "country": "China",
+    "region": "Asia",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "NationalSecurityAgency/ghidra",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.72,
+    "location_source": "derived",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "TheAlgorithms/Java",
+    "country": "India",
+    "region": "Asia",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "kdn251/interviews",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "spring-projects/spring-framework",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.72,
+    "location_source": "derived",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "termux/termux-app",
+    "country": "Sweden",
+    "region": "Europe",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "google/guava",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.72,
+    "location_source": "derived",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "ReactiveX/RxJava",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "skylot/jadx",
+    "country": "Germany",
+    "region": "Europe",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "jeecgboot/JeecgBoot",
+    "country": "China",
+    "region": "Asia",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "apache/dubbo",
+    "country": "China",
+    "region": "Asia",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "PhilJay/MPAndroidChart",
+    "country": "Austria",
+    "region": "Europe",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "halo-dev/halo",
+    "country": "China",
+    "region": "Asia",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "TeamNewPipe/NewPipe",
+    "country": "Germany",
+    "region": "Europe",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "eugenp/tutorials",
+    "country": "Romania",
+    "region": "Europe",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "alibaba/arthas",
+    "country": "China",
+    "region": "Asia",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "YunaiV/ruoyi-vue-pro",
+    "country": "China",
+    "region": "Asia",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "doocs/leetcode",
+    "country": "China",
+    "region": "Asia",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "airbnb/lottie-android",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "ashishps1/awesome-system-design-resources",
+    "country": "India",
+    "region": "Asia",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "bumptech/glide",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "netty/netty",
+    "country": "Germany",
+    "region": "Europe",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "SeleniumHQ/selenium",
+    "country": "Russia",
+    "region": "Europe",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "xkcoding/spring-boot-demo",
+    "country": "China",
+    "region": "Asia",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "zxing/zxing",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "alibaba/easyexcel",
+    "country": "China",
+    "region": "Asia",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "Blankj/AndroidUtilCode",
+    "country": "China",
+    "region": "Asia",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "keycloak/keycloak",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.72,
+    "location_source": "derived",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "alibaba/nacos",
+    "country": "China",
+    "region": "Asia",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "binarywang/WxJava",
+    "country": "China",
+    "region": "Asia",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "apache/kafka",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "ityouknow/spring-boot-examples",
+    "country": "China",
+    "region": "Asia",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "chinabugotech/hutool",
+    "country": "China",
+    "region": "Asia",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "xuxueli/xxl-job",
+    "country": "China",
+    "region": "Asia",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "apolloconfig/apollo",
+    "country": "China",
+    "region": "Asia",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "alibaba/canal",
+    "country": "China",
+    "region": "Asia",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "alibaba/spring-cloud-alibaba",
+    "country": "China",
+    "region": "Asia",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "yuliskov/SmartTube",
+    "country": "UK",
+    "region": "Europe",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "DrKLO/Telegram",
+    "country": "Ukraine",
+    "region": "Europe",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "alibaba/druid",
+    "country": "China",
+    "region": "Asia",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "Anuken/Mindustry",
+    "country": "Netherlands",
+    "region": "Europe",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "crossoverJie/JCSprout",
+    "country": "China",
+    "region": "Asia",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "qiurunze123/miaosha",
+    "country": "China",
+    "region": "Asia",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "kestra-io/kestra",
+    "country": "France",
+    "region": "Europe",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "OpenAPITools/openapi-generator",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "apache/incubator-seata",
+    "country": "China",
+    "region": "Asia",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "apache/flink",
+    "country": "Germany",
+    "region": "Europe",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "alibaba/fastjson",
+    "country": "China",
+    "region": "Asia",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "hollischuang/toBeTopJavaer",
+    "country": "China",
+    "region": "Asia",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "JakeWharton/butterknife",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "CodePhiliaX/Chat2DB",
+    "country": "Singapore",
+    "region": "Other",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "scwang90/SmartRefreshLayout",
+    "country": "China",
+    "region": "Asia",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "jenkinsci/jenkins",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.72,
+    "location_source": "derived",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "libgdx/libgdx",
+    "country": "Netherlands",
+    "region": "Europe",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "proxyee-down-org/proxyee-down",
+    "country": "China",
+    "region": "Asia",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "apache/skywalking",
+    "country": "China",
+    "region": "Asia",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "greenrobot/EventBus",
+    "country": "Germany",
+    "region": "Europe",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "Netflix/Hystrix",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "google/gson",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.72,
+    "location_source": "derived",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "dataease/dataease",
+    "country": "China",
+    "region": "Asia",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "EnterpriseQualityCoding/FizzBuzzEnterpriseEdition",
+    "country": "Denmark",
+    "region": "Europe",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "LSPosed/LSPosed",
+    "country": "China",
+    "region": "Asia",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "doocs/source-code-hunter",
+    "country": "China",
+    "region": "Asia",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "alibaba/Sentinel",
+    "country": "China",
+    "region": "Asia",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "openjdk/jdk",
+    "country": "Germany",
+    "region": "Europe",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "apache/rocketmq",
+    "country": "Singapore",
+    "region": "Other",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "kunal-kushwaha/DSA-Bootcamp-Java",
+    "country": "UK",
+    "region": "Europe",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "google/ExoPlayer",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.72,
+    "location_source": "derived",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "oracle/graal",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "CarGuo/GSYVideoPlayer",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.72,
+    "location_source": "derived",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "thingsboard/thingsboard",
+    "country": "Ukraine",
+    "region": "Europe",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "brettwooldridge/HikariCP",
+    "country": "Japan",
+    "region": "Asia",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "apache/shardingsphere",
+    "country": "China",
+    "region": "Asia",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "didi/DoKit",
+    "country": "China",
+    "region": "Asia",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "mybatis/mybatis-3",
+    "country": "Thailand",
+    "region": "Asia",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "linlinjava/litemall",
+    "country": "China",
+    "region": "Asia",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "ReactiveX/RxAndroid",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "yudaocode/SpringBoot-Labs",
+    "country": "China",
+    "region": "Asia",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "JetBrains/intellij-community",
+    "country": "Netherlands",
+    "region": "Europe",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "dianping/cat",
+    "country": "China",
+    "region": "Asia",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "lionsoul2014/ip2region",
+    "country": "China",
+    "region": "Asia",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "Baseflow/PhotoView",
+    "country": "Netherlands",
+    "region": "Europe",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "mui/material-ui",
+    "country": "France",
+    "region": "Europe",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "microsoft/Web-Dev-For-Beginners",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "ryanmcdermott/clean-code-javascript",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "sveltejs/svelte",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "louislam/uptime-kuma",
+    "country": "Hong Kong",
+    "region": "Asia",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "anuraghazra/github-readme-stats",
+    "country": "India",
+    "region": "Asia",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "FortAwesome/Font-Awesome",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.72,
+    "location_source": "derived",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "typicode/json-server",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "hakimel/reveal.js",
+    "country": "Sweden",
+    "region": "Europe",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "chartjs/Chart.js",
+    "country": "Canada",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "juliangarnier/anime",
+    "country": "France",
+    "region": "Europe",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "leonardomso/33-js-concepts",
+    "country": "Spain",
+    "region": "Europe",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "webpack/webpack",
+    "country": "Germany",
+    "region": "Europe",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "resume/resume.github.com",
+    "country": "France",
+    "region": "Europe",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "gorhill/uBlock",
+    "country": "Canada",
+    "region": "North America",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "atom/atom",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "adam-p/markdown-here",
+    "country": "Canada",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "jgraph/drawio-desktop",
+    "country": "UK",
+    "region": "Europe",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "angular/angular.js",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.72,
+    "location_source": "derived",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "h5bp/html5-boilerplate",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "Mintplex-Labs/anything-llm",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.72,
+    "location_source": "derived",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "gatsbyjs/gatsby",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "azl397985856/leetcode",
+    "country": "China",
+    "region": "Asia",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "marktext/marktext",
+    "country": "China",
+    "region": "Asia",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "mozilla/pdf.js",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "TryGhost/Ghost",
+    "country": "UK",
+    "region": "Europe",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "prettier/prettier",
+    "country": "China",
+    "region": "Asia",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "chinese-poetry/chinese-poetry",
+    "country": "China",
+    "region": "Asia",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "Semantic-Org/Semantic-UI",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "poteto/hiring-without-whiteboards",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.72,
+    "location_source": "derived",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "NARKOZ/hacker-scripts",
+    "country": "Ukraine",
+    "region": "Europe",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "iamkun/dayjs",
+    "country": "China",
+    "region": "Asia",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "algorithm-visualizer/algorithm-visualizer",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "moment/moment",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "bigskysoftware/htmx",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.72,
+    "location_source": "derived",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "typescript-cheatsheets/react",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "serverless/serverless",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.72,
+    "location_source": "derived",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "Asabeneh/30-Days-Of-JavaScript",
+    "country": "Finland",
+    "region": "Europe",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "microsoft/monaco-editor",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "LeCoupa/awesome-cheatsheets",
+    "country": "Spain",
+    "region": "Europe",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "google/zx",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.72,
+    "location_source": "derived",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "meteor/meteor",
+    "country": "Canada",
+    "region": "North America",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "Leaflet/Leaflet",
+    "country": "Ukraine",
+    "region": "Europe",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "GitSquared/edex-ui",
+    "country": "France",
+    "region": "Europe",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "sudheerj/reactjs-interview-questions",
+    "country": "India",
+    "region": "Asia",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "NaiboWang/EasySpider",
+    "country": "Singapore",
+    "region": "Other",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "parcel-bundler/parcel",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "Unitech/pm2",
+    "country": "France",
+    "region": "Europe",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "bmad-code-org/BMAD-METHOD",
+    "country": "Canada",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "usebruno/bruno",
+    "country": "India",
+    "region": "Asia",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "nolimits4web/swiper",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.72,
+    "location_source": "derived",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "nwjs/nw.js",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.72,
+    "location_source": "derived",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "yarnpkg/yarn",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.72,
+    "location_source": "derived",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "zen-browser/desktop",
+    "country": "Thailand",
+    "region": "Asia",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "HeyPuter/puter",
+    "country": "Canada",
+    "region": "North America",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "videojs/video.js",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "goabstract/Awesome-Design-Tools",
+    "country": "Portugal",
+    "region": "Europe",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "phaserjs/phaser",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.72,
+    "location_source": "derived",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "Dogfalo/materialize",
+    "country": "Germany",
+    "region": "Europe",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "impress/impress.js",
+    "country": "Poland",
+    "region": "Europe",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "preactjs/preact",
+    "country": "Germany",
+    "region": "Europe",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "naptha/tesseract.js",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "denysdovhan/wtfjs",
+    "country": "Ukraine",
+    "region": "Europe",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "ToolJet/ToolJet",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "DavidHDev/react-bits",
+    "country": "Brazil",
+    "region": "South America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "drawdb-io/drawdb",
+    "country": "Canada",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "markedjs/marked",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.72,
+    "location_source": "derived",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "carbon-app/carbon",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "fastify/fastify",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.72,
+    "location_source": "derived",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "koajs/koa",
+    "country": "China",
+    "region": "Asia",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "jondot/awesome-react-native",
+    "country": "Israel",
+    "region": "Africa",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "alvarotrigo/fullPage.js",
+    "country": "UK",
+    "region": "Europe",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "sahat/hackathon-starter",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "ryanhanwu/How-To-Ask-Questions-The-Smart-Way",
+    "country": "Taiwan",
+    "region": "Asia",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "gchq/CyberChef",
+    "country": "UK",
+    "region": "Europe",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "zenorocha/clipboard.js",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "TheAlgorithms/JavaScript",
+    "country": "India",
+    "region": "Asia",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "qishibo/AnotherRedisDesktopManager",
+    "country": "Netherlands",
+    "region": "Europe",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "atlassian/react-beautiful-dnd",
+    "country": "Australia",
+    "region": "Oceania",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "pcottle/learnGitBranching",
+    "country": "Vietnam",
+    "region": "Asia",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "adobe/brackets",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "gulpjs/gulp",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "rasbt/LLMs-from-scratch",
+    "country": "Germany",
+    "region": "Europe",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "microsoft/ML-For-Beginners",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "netdata/netdata",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.72,
+    "location_source": "derived",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "Developer-Y/cs-video-courses",
+    "country": "Canada",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "mlabonne/llm-course",
+    "country": "UK",
+    "region": "Europe",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "tesseract-ocr/tesseract",
+    "country": "Germany",
+    "region": "Europe",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "binhnguyennus/awesome-scalability",
+    "country": "Singapore",
+    "region": "Other",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "Avik-Jain/100-Days-Of-ML-Code",
+    "country": "Canada",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "JuliaLang/julia",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "microsoft/AI-For-Beginners",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "streamlit/streamlit",
+    "country": "Germany",
+    "region": "Europe",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "aymericdamien/TensorFlow-Examples",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "gradio-app/gradio",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "deepspeedai/DeepSpeed",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "ray-project/ray",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "microsoft/qlib",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "paperless-ngx/paperless-ngx",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "LAION-AI/Open-Assistant",
+    "country": "Germany",
+    "region": "Europe",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "roboflow/supervision",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.72,
+    "location_source": "derived",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "fengdu78/Coursera-ML-AndrewNg-Notes",
+    "country": "China",
+    "region": "Asia",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "BVLC/caffe",
+    "country": "Canada",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "google-ai-edge/mediapipe",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "TheAlgorithms/C-Plus-Plus",
+    "country": "India",
+    "region": "Asia",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "CMU-Perceptual-Computing-Lab/openpose",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "ItzCrazyKns/Vane",
+    "country": "China",
+    "region": "Asia",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "explosion/spaCy",
+    "country": "Germany",
+    "region": "Europe",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "openai/CLIP",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "patchy631/ai-engineering-hub",
+    "country": "India",
+    "region": "Asia",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code",
+    "country": "India",
+    "region": "Asia",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "eriklindernoren/ML-From-Scratch",
+    "country": "Sweden",
+    "region": "Europe",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "Lightning-AI/pytorch-lightning",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.72,
+    "location_source": "derived",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "AMAI-GmbH/AI-Expert-Roadmap",
+    "country": "Germany",
+    "region": "Europe",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "iperov/DeepFaceLive",
+    "country": "China",
+    "region": "Asia",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "JaidedAI/EasyOCR",
+    "country": "Thailand",
+    "region": "Asia",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "donnemartin/data-science-ipython-notebooks",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "eugeneyan/applied-ml",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "ZuzooVn/machine-learning-for-software-engineers",
+    "country": "Vietnam",
+    "region": "Asia",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "academic/awesome-datascience",
+    "country": "Turkey",
+    "region": "Europe",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "d2l-ai/d2l-en",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "dmlc/xgboost",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "fastai/fastai",
+    "country": "Australia",
+    "region": "Oceania",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "ChristosChristofidis/awesome-deep-learning",
+    "country": "UK",
+    "region": "Europe",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "mozilla/DeepSpeech",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "srbhr/Resume-Matcher",
+    "country": "India",
+    "region": "Asia",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "terryum/awesome-deep-learning-papers",
+    "country": "South Korea",
+    "region": "Asia",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "ageron/handson-ml",
+    "country": "New Zealand",
+    "region": "Oceania",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "modular/modular",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.72,
+    "location_source": "derived",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "datawhalechina/pumpkin-book",
+    "country": "China",
+    "region": "Asia",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "shap/shap",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "mlflow/mlflow",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.72,
+    "location_source": "derived",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "mxgmn/WaveFunctionCollapse",
+    "country": "Finland",
+    "region": "Europe",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "fastai/fastbook",
+    "country": "Australia",
+    "region": "Oceania",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "deepset-ai/haystack",
+    "country": "Germany",
+    "region": "Europe",
+    "geocode_confidence": 0.84,
+    "location_source": "org",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "trekhleb/homemade-machine-learning",
+    "country": "USA",
+    "region": "North America",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  },
+  {
+    "repo_id": "PaddlePaddle/Paddle",
+    "country": "China",
+    "region": "Asia",
+    "geocode_confidence": 0.94,
+    "location_source": "profile",
+    "is_unknown_origin": false
+  }
+]

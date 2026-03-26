@@ -1,0 +1,6871 @@
+{
+  "version": "1.0.0",
+  "generatedAt": "2026-03-26T11:46:34.978579+00:00",
+  "locations": [
+    {
+      "id": "codecrafters-io/build-your-own-x",
+      "originalString": "USA",
+      "resolvedName": "USA",
+      "coords": {
+        "lat": 37.0902,
+        "lng": -95.7129
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "sindresorhus/awesome",
+      "originalString": "London, UK",
+      "resolvedName": "London, UK",
+      "coords": {
+        "lat": 51.5074,
+        "lng": -0.1278
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "freeCodeCamp/freeCodeCamp",
+      "originalString": "USA",
+      "resolvedName": "USA",
+      "coords": {
+        "lat": 37.0902,
+        "lng": -95.7129
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "public-apis/public-apis",
+      "originalString": "USA",
+      "resolvedName": "USA",
+      "coords": {
+        "lat": 37.0902,
+        "lng": -95.7129
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "EbookFoundation/free-programming-books",
+      "originalString": "Switzerland",
+      "resolvedName": "Switzerland",
+      "coords": {
+        "lat": 46.8182,
+        "lng": 8.2275
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "kamranahmedse/developer-roadmap",
+      "originalString": "London, UK",
+      "resolvedName": "London, UK",
+      "coords": {
+        "lat": 51.5074,
+        "lng": -0.1278
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "donnemartin/system-design-primer",
+      "originalString": "Washington DC, USA",
+      "resolvedName": "Washington DC, USA",
+      "coords": {
+        "lat": 38.9072,
+        "lng": -77.0369
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "jwasham/coding-interview-university",
+      "originalString": "USA",
+      "resolvedName": "USA",
+      "coords": {
+        "lat": 37.0902,
+        "lng": -95.7129
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "openclaw/openclaw",
+      "originalString": "London, UK",
+      "resolvedName": "London, UK",
+      "coords": {
+        "lat": 51.5074,
+        "lng": -0.1278
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "vinta/awesome-python",
+      "originalString": "Taiwan",
+      "resolvedName": "Taiwan",
+      "coords": {
+        "lat": 23.6978,
+        "lng": 120.9605
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "awesome-selfhosted/awesome-selfhosted",
+      "originalString": "London, UK",
+      "resolvedName": "London, UK",
+      "coords": {
+        "lat": 51.5074,
+        "lng": -0.1278
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "996icu/996.ICU",
+      "originalString": "China",
+      "resolvedName": "China",
+      "coords": {
+        "lat": 35.8617,
+        "lng": 104.1954
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "practical-tutorials/project-based-learning",
+      "originalString": "San Francisco, CA, USA",
+      "resolvedName": "San Francisco, CA, USA",
+      "coords": {
+        "lat": 37.7749,
+        "lng": -122.4194
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "facebook/react",
+      "originalString": "Menlo Park, CA, USA",
+      "resolvedName": "Menlo Park, CA, USA",
+      "coords": {
+        "lat": 37.453,
+        "lng": -122.1817
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "torvalds/linux",
+      "originalString": "Portland, OR, USA",
+      "resolvedName": "Portland, OR, USA",
+      "coords": {
+        "lat": 45.5051,
+        "lng": -122.675
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "TheAlgorithms/Python",
+      "originalString": "India",
+      "resolvedName": "India",
+      "coords": {
+        "lat": 20.5937,
+        "lng": 78.9629
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "trimstray/the-book-of-secret-knowledge",
+      "originalString": "Poland",
+      "resolvedName": "Poland",
+      "coords": {
+        "lat": 51.9194,
+        "lng": 19.1451
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "vuejs/vue",
+      "originalString": "Singapore",
+      "resolvedName": "Singapore",
+      "coords": {
+        "lat": 1.3521,
+        "lng": 103.8198
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "ossu/computer-science",
+      "originalString": "New York, USA",
+      "resolvedName": "New York, USA",
+      "coords": {
+        "lat": 40.7128,
+        "lng": -74.006
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "trekhleb/javascript-algorithms",
+      "originalString": "San Francisco, CA, USA",
+      "resolvedName": "San Francisco, CA, USA",
+      "coords": {
+        "lat": 37.7749,
+        "lng": -122.4194
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "tensorflow/tensorflow",
+      "originalString": "San Francisco, CA, USA",
+      "resolvedName": "San Francisco, CA, USA",
+      "coords": {
+        "lat": 37.7749,
+        "lng": -122.4194
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "ohmyzsh/ohmyzsh",
+      "originalString": "Portland, OR, USA",
+      "resolvedName": "Portland, OR, USA",
+      "coords": {
+        "lat": 45.5051,
+        "lng": -122.675
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "getify/You-Dont-Know-JS",
+      "originalString": "Austin, TX, USA",
+      "resolvedName": "Austin, TX, USA",
+      "coords": {
+        "lat": 30.2672,
+        "lng": -97.7431
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "CyC2018/CS-Notes",
+      "originalString": "Guangzhou, China",
+      "resolvedName": "Guangzhou, China",
+      "coords": {
+        "lat": 23.1291,
+        "lng": 113.2644
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "microsoft/vscode",
+      "originalString": "Redmond, WA, USA",
+      "resolvedName": "Redmond, WA, USA",
+      "coords": {
+        "lat": 47.674,
+        "lng": -122.1215
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "Significant-Gravitas/AutoGPT",
+      "originalString": "Amsterdam, Netherlands",
+      "resolvedName": "Amsterdam, Netherlands",
+      "coords": {
+        "lat": 52.3676,
+        "lng": 4.9041
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "n8n-io/n8n",
+      "originalString": "Germany",
+      "resolvedName": "Germany",
+      "coords": {
+        "lat": 51.1657,
+        "lng": 10.4515
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "jackfrued/Python-100-Days",
+      "originalString": "Chengdu, China",
+      "resolvedName": "Chengdu, China",
+      "coords": {
+        "lat": 30.5728,
+        "lng": 104.0668
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "flutter/flutter",
+      "originalString": "San Francisco, CA, USA",
+      "resolvedName": "San Francisco, CA, USA",
+      "coords": {
+        "lat": 37.7749,
+        "lng": -122.4194
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "twbs/bootstrap",
+      "originalString": "San Francisco, CA, USA",
+      "resolvedName": "San Francisco, CA, USA",
+      "coords": {
+        "lat": 37.7749,
+        "lng": -122.4194
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "github/gitignore",
+      "originalString": "USA",
+      "resolvedName": "USA",
+      "coords": {
+        "lat": 37.0902,
+        "lng": -95.7129
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "massgravel/Microsoft-Activation-Scripts",
+      "originalString": "India",
+      "resolvedName": "India",
+      "coords": {
+        "lat": 20.5937,
+        "lng": 78.9629
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "avelino/awesome-go",
+      "originalString": "Brazil",
+      "resolvedName": "Brazil",
+      "coords": {
+        "lat": -14.235,
+        "lng": -51.9253
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "jlevy/the-art-of-command-line",
+      "originalString": "San Francisco, CA, USA",
+      "resolvedName": "San Francisco, CA, USA",
+      "coords": {
+        "lat": 37.7749,
+        "lng": -122.4194
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "huggingface/transformers",
+      "originalString": "Paris, France",
+      "resolvedName": "Paris, France",
+      "coords": {
+        "lat": 48.8566,
+        "lng": 2.3522
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "Snailclimb/JavaGuide",
+      "originalString": "Wuhan, China",
+      "resolvedName": "Wuhan, China",
+      "coords": {
+        "lat": 30.5928,
+        "lng": 114.3055
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "f/prompts.chat",
+      "originalString": "Istanbul, Turkey",
+      "resolvedName": "Istanbul, Turkey",
+      "coords": {
+        "lat": 41.0082,
+        "lng": 28.9784
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "DigitalPlatDev/FreeDomain",
+      "originalString": "USA",
+      "resolvedName": "USA",
+      "coords": {
+        "lat": 37.0902,
+        "lng": -95.7129
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "yt-dlp/yt-dlp",
+      "originalString": "Germany",
+      "resolvedName": "Germany",
+      "coords": {
+        "lat": 51.1657,
+        "lng": 10.4515
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "airbnb/javascript",
+      "originalString": "San Francisco, CA, USA",
+      "resolvedName": "San Francisco, CA, USA",
+      "coords": {
+        "lat": 37.7749,
+        "lng": -122.4194
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "521xueweihan/HelloGitHub",
+      "originalString": "Beijing, China",
+      "resolvedName": "Beijing, China",
+      "coords": {
+        "lat": 39.9042,
+        "lng": 116.4074
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "ytdl-org/youtube-dl",
+      "originalString": "Germany",
+      "resolvedName": "Germany",
+      "coords": {
+        "lat": 51.1657,
+        "lng": 10.4515
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "vercel/next.js",
+      "originalString": "USA",
+      "resolvedName": "USA",
+      "coords": {
+        "lat": 37.0902,
+        "lng": -95.7129
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "yangshun/tech-interview-handbook",
+      "originalString": "Singapore",
+      "resolvedName": "Singapore",
+      "coords": {
+        "lat": 1.3521,
+        "lng": 103.8198
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "Genymobile/scrcpy",
+      "originalString": "San Francisco, CA, USA",
+      "resolvedName": "San Francisco, CA, USA",
+      "coords": {
+        "lat": 37.7749,
+        "lng": -122.4194
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "x1xhlol/system-prompts-and-models-of-ai-tools",
+      "originalString": "Spain",
+      "resolvedName": "Spain",
+      "coords": {
+        "lat": 40.4637,
+        "lng": -3.7492
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "golang/go",
+      "originalString": "Cambridge, MA, USA",
+      "resolvedName": "Cambridge, MA, USA",
+      "coords": {
+        "lat": 42.3736,
+        "lng": -71.1097
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "langchain-ai/langchain",
+      "originalString": "USA",
+      "resolvedName": "USA",
+      "coords": {
+        "lat": 37.0902,
+        "lng": -95.7129
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "microsoft/PowerToys",
+      "originalString": "Redmond, WA, USA",
+      "resolvedName": "Redmond, WA, USA",
+      "coords": {
+        "lat": 47.674,
+        "lng": -122.1215
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "anomalyco/opencode",
+      "originalString": "New York, USA",
+      "resolvedName": "New York, USA",
+      "coords": {
+        "lat": 40.7128,
+        "lng": -74.006
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "open-webui/open-webui",
+      "originalString": "Austria",
+      "resolvedName": "Austria",
+      "coords": {
+        "lat": 47.5162,
+        "lng": 14.5501
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "Chalarangelo/30-seconds-of-code",
+      "originalString": "Athens, Greece",
+      "resolvedName": "Athens, Greece",
+      "coords": {
+        "lat": 37.9838,
+        "lng": 23.7275
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "facebook/react-native",
+      "originalString": "Menlo Park, CA, USA",
+      "resolvedName": "Menlo Park, CA, USA",
+      "coords": {
+        "lat": 37.453,
+        "lng": -122.1817
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "krahets/hello-algo",
+      "originalString": "Shanghai, China",
+      "resolvedName": "Shanghai, China",
+      "coords": {
+        "lat": 31.2304,
+        "lng": 121.4737
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "kubernetes/kubernetes",
+      "originalString": "USA",
+      "resolvedName": "USA",
+      "coords": {
+        "lat": 37.0902,
+        "lng": -95.7129
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "electron/electron",
+      "originalString": "USA",
+      "resolvedName": "USA",
+      "coords": {
+        "lat": 37.0902,
+        "lng": -95.7129
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "ripienaar/free-for-dev",
+      "originalString": "India",
+      "resolvedName": "India",
+      "coords": {
+        "lat": 20.5937,
+        "lng": 78.9629
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "excalidraw/excalidraw",
+      "originalString": "Czech Republic",
+      "resolvedName": "Czech Republic",
+      "coords": {
+        "lat": 49.8175,
+        "lng": 15.473
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "justjavac/free-programming-books-zh_CN",
+      "originalString": "China",
+      "resolvedName": "China",
+      "coords": {
+        "lat": 35.8617,
+        "lng": 104.1954
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "nodejs/node",
+      "originalString": "San Francisco, CA, USA",
+      "resolvedName": "San Francisco, CA, USA",
+      "coords": {
+        "lat": 37.7749,
+        "lng": -122.4194
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "iptv-org/iptv",
+      "originalString": "France",
+      "resolvedName": "France",
+      "coords": {
+        "lat": 46.2276,
+        "lng": 2.2137
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "obra/superpowers",
+      "originalString": "San Francisco, CA, USA",
+      "resolvedName": "San Francisco, CA, USA",
+      "coords": {
+        "lat": 37.7749,
+        "lng": -122.4194
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "d3/d3",
+      "originalString": "San Francisco, CA, USA",
+      "resolvedName": "San Francisco, CA, USA",
+      "coords": {
+        "lat": 37.7749,
+        "lng": -122.4194
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "rust-lang/rust",
+      "originalString": "USA",
+      "resolvedName": "USA",
+      "coords": {
+        "lat": 37.0902,
+        "lng": -95.7129
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "rustdesk/rustdesk",
+      "originalString": "Singapore",
+      "resolvedName": "Singapore",
+      "coords": {
+        "lat": 1.3521,
+        "lng": 103.8198
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "Hack-with-Github/Awesome-Hacking",
+      "originalString": "Bangalore, India",
+      "resolvedName": "Bangalore, India",
+      "coords": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "axios/axios",
+      "originalString": "South Africa",
+      "resolvedName": "South Africa",
+      "coords": {
+        "lat": -30.5595,
+        "lng": 22.9375
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "microsoft/generative-ai-for-beginners",
+      "originalString": "Redmond, WA, USA",
+      "resolvedName": "Redmond, WA, USA",
+      "coords": {
+        "lat": 47.674,
+        "lng": -122.1215
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "godotengine/godot",
+      "originalString": "Copenhagen, Denmark",
+      "resolvedName": "Copenhagen, Denmark",
+      "coords": {
+        "lat": 55.6761,
+        "lng": 12.5683
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "affaan-m/everything-claude-code",
+      "originalString": "San Francisco, CA, USA",
+      "resolvedName": "San Francisco, CA, USA",
+      "coords": {
+        "lat": 37.7749,
+        "lng": -122.4194
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "microsoft/TypeScript",
+      "originalString": "Redmond, WA, USA",
+      "resolvedName": "Redmond, WA, USA",
+      "coords": {
+        "lat": 47.674,
+        "lng": -122.1215
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "GrowingGit/GitHub-Chinese-Top-Charts",
+      "originalString": "Guangzhou, China",
+      "resolvedName": "Guangzhou, China",
+      "coords": {
+        "lat": 23.1291,
+        "lng": 113.2644
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "denoland/deno",
+      "originalString": "Warsaw, Poland",
+      "resolvedName": "Warsaw, Poland",
+      "coords": {
+        "lat": 52.2297,
+        "lng": 21.0122
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "clash-verge-rev/clash-verge-rev",
+      "originalString": "China",
+      "resolvedName": "China",
+      "coords": {
+        "lat": 35.8617,
+        "lng": 104.1954
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "goldbergyoni/nodebestpractices",
+      "originalString": "Israel",
+      "resolvedName": "Israel",
+      "coords": {
+        "lat": 31.0461,
+        "lng": 34.8516
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "tauri-apps/tauri",
+      "originalString": "Brazil",
+      "resolvedName": "Brazil",
+      "coords": {
+        "lat": -14.235,
+        "lng": -51.9253
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "papers-we-love/papers-we-love",
+      "originalString": "New York, USA",
+      "resolvedName": "New York, USA",
+      "coords": {
+        "lat": 40.7128,
+        "lng": -74.006
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "facebook/create-react-app",
+      "originalString": "Menlo Park, CA, USA",
+      "resolvedName": "Menlo Park, CA, USA",
+      "coords": {
+        "lat": 37.453,
+        "lng": -122.1817
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "anthropics/skills",
+      "originalString": "USA",
+      "resolvedName": "USA",
+      "coords": {
+        "lat": 37.0902,
+        "lng": -95.7129
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "deepseek-ai/DeepSeek-V3",
+      "originalString": "Hangzhou, China",
+      "resolvedName": "Hangzhou, China",
+      "coords": {
+        "lat": 30.2741,
+        "lng": 120.1551
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "microsoft/terminal",
+      "originalString": "Redmond, WA, USA",
+      "resolvedName": "Redmond, WA, USA",
+      "coords": {
+        "lat": 47.674,
+        "lng": -122.1215
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "jaywcjlove/awesome-mac",
+      "originalString": "China",
+      "resolvedName": "China",
+      "coords": {
+        "lat": 35.8617,
+        "lng": 104.1954
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "angular/angular",
+      "originalString": "USA",
+      "resolvedName": "USA",
+      "coords": {
+        "lat": 37.0902,
+        "lng": -95.7129
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "2dust/v2rayN",
+      "originalString": "Beijing, China",
+      "resolvedName": "Beijing, China",
+      "coords": {
+        "lat": 39.9042,
+        "lng": 116.4074
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "supabase/supabase",
+      "originalString": "USA",
+      "resolvedName": "USA",
+      "coords": {
+        "lat": 37.0902,
+        "lng": -95.7129
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "ggml-org/llama.cpp",
+      "originalString": "Bulgaria",
+      "resolvedName": "Bulgaria",
+      "coords": {
+        "lat": 42.7339,
+        "lng": 25.4858
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "google-gemini/gemini-cli",
+      "originalString": "USA",
+      "resolvedName": "USA",
+      "coords": {
+        "lat": 37.0902,
+        "lng": -95.7129
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "Anduin2017/HowToCook",
+      "originalString": "Hong Kong",
+      "resolvedName": "Hong Kong",
+      "coords": {
+        "lat": 22.3193,
+        "lng": 114.1694
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "pytorch/pytorch",
+      "originalString": "New York, USA",
+      "resolvedName": "New York, USA",
+      "coords": {
+        "lat": 40.7128,
+        "lng": -74.006
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "mtdvio/every-programmer-should-know",
+      "originalString": "Berlin, Germany",
+      "resolvedName": "Berlin, Germany",
+      "coords": {
+        "lat": 52.52,
+        "lng": 13.405
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "openai/whisper",
+      "originalString": "San Francisco, CA, USA",
+      "resolvedName": "San Francisco, CA, USA",
+      "coords": {
+        "lat": 37.7749,
+        "lng": -122.4194
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "fastapi/fastapi",
+      "originalString": "Germany",
+      "resolvedName": "Germany",
+      "coords": {
+        "lat": 51.1657,
+        "lng": 10.4515
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "nvbn/thefuck",
+      "originalString": "Netherlands",
+      "resolvedName": "Netherlands",
+      "coords": {
+        "lat": 52.1326,
+        "lng": 5.2913
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "microsoft/markitdown",
+      "originalString": "Redmond, WA, USA",
+      "resolvedName": "Redmond, WA, USA",
+      "coords": {
+        "lat": 47.674,
+        "lng": -122.1215
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "django/django",
+      "originalString": "Philadelphia, PA, USA",
+      "resolvedName": "Philadelphia, PA, USA",
+      "coords": {
+        "lat": 39.9526,
+        "lng": -75.1652
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "home-assistant/core",
+      "originalString": "Houston, TX, USA",
+      "resolvedName": "Houston, TX, USA",
+      "coords": {
+        "lat": 29.7604,
+        "lng": -95.3698
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "3b1b/manim",
+      "originalString": "Hangzhou, China",
+      "resolvedName": "Hangzhou, China",
+      "coords": {
+        "lat": 30.2741,
+        "lng": 120.1551
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "browser-use/browser-use",
+      "originalString": "USA",
+      "resolvedName": "USA",
+      "coords": {
+        "lat": 37.0902,
+        "lng": -95.7129
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "github/spec-kit",
+      "originalString": "USA",
+      "resolvedName": "USA",
+      "coords": {
+        "lat": 37.0902,
+        "lng": -95.7129
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "bregman-arie/devops-exercises",
+      "originalString": "Spain",
+      "resolvedName": "Spain",
+      "coords": {
+        "lat": 40.4637,
+        "lng": -3.7492
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "fighting41love/funNLP",
+      "originalString": "Los Angeles, CA, USA",
+      "resolvedName": "Los Angeles, CA, USA",
+      "coords": {
+        "lat": 34.0522,
+        "lng": -118.2437
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "tensorflow/models",
+      "originalString": "USA",
+      "resolvedName": "USA",
+      "coords": {
+        "lat": 37.0902,
+        "lng": -95.7129
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "d2l-ai/d2l-zh",
+      "originalString": "Menlo Park, CA, USA",
+      "resolvedName": "Menlo Park, CA, USA",
+      "coords": {
+        "lat": 37.453,
+        "lng": -122.1817
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "swisskyrepo/PayloadsAllTheThings",
+      "originalString": "France",
+      "resolvedName": "France",
+      "coords": {
+        "lat": 46.2276,
+        "lng": 2.2137
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "infiniflow/ragflow",
+      "originalString": "Shanghai, China",
+      "resolvedName": "Shanghai, China",
+      "coords": {
+        "lat": 31.2304,
+        "lng": 121.4737
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "vllm-project/vllm",
+      "originalString": "Hong Kong",
+      "resolvedName": "Hong Kong",
+      "coords": {
+        "lat": 22.3193,
+        "lng": 114.1694
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "sherlock-project/sherlock",
+      "originalString": "Norway",
+      "resolvedName": "Norway",
+      "coords": {
+        "lat": 60.472,
+        "lng": 8.4689
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "PaddlePaddle/PaddleOCR",
+      "originalString": "Wuhan, China",
+      "resolvedName": "Wuhan, China",
+      "coords": {
+        "lat": 30.5928,
+        "lng": 114.3055
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "python/cpython",
+      "originalString": "San Francisco, CA, USA",
+      "resolvedName": "San Francisco, CA, USA",
+      "coords": {
+        "lat": 37.7749,
+        "lng": -122.4194
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "josephmisiti/awesome-machine-learning",
+      "originalString": "Miami, FL, USA",
+      "resolvedName": "Miami, FL, USA",
+      "coords": {
+        "lat": 25.7617,
+        "lng": -80.1918
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "pallets/flask",
+      "originalString": "Austria",
+      "resolvedName": "Austria",
+      "coords": {
+        "lat": 47.5162,
+        "lng": 14.5501
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "OpenHands/OpenHands",
+      "originalString": "Boston, MA, USA",
+      "resolvedName": "Boston, MA, USA",
+      "coords": {
+        "lat": 42.3601,
+        "lng": -71.0589
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "hiyouga/LlamaFactory",
+      "originalString": "Beijing, China",
+      "resolvedName": "Beijing, China",
+      "coords": {
+        "lat": 39.9042,
+        "lng": 116.4074
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "ansible/ansible",
+      "originalString": "USA",
+      "resolvedName": "USA",
+      "coords": {
+        "lat": 37.0902,
+        "lng": -95.7129
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "FoundationAgents/MetaGPT",
+      "originalString": "Palo Alto, CA, USA",
+      "resolvedName": "Palo Alto, CA, USA",
+      "coords": {
+        "lat": 37.4419,
+        "lng": -122.143
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "labmlai/annotated_deep_learning_paper_implementations",
+      "originalString": "Los Angeles, CA, USA",
+      "resolvedName": "Los Angeles, CA, USA",
+      "coords": {
+        "lat": 34.0522,
+        "lng": -118.2437
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "scikit-learn/scikit-learn",
+      "originalString": "France",
+      "resolvedName": "France",
+      "coords": {
+        "lat": 46.2276,
+        "lng": 2.2137
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "localstack/localstack",
+      "originalString": "Zurich, Switzerland",
+      "resolvedName": "Zurich, Switzerland",
+      "coords": {
+        "lat": 47.3769,
+        "lng": 8.5417
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "OpenBB-finance/OpenBB",
+      "originalString": "Canada",
+      "resolvedName": "Canada",
+      "coords": {
+        "lat": 56.1304,
+        "lng": -106.3468
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "openinterpreter/open-interpreter",
+      "originalString": "Seattle, WA, USA",
+      "resolvedName": "Seattle, WA, USA",
+      "coords": {
+        "lat": 47.6062,
+        "lng": -122.3321
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "pathwaycom/pathway",
+      "originalString": "France",
+      "resolvedName": "France",
+      "coords": {
+        "lat": 46.2276,
+        "lng": 2.2137
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "unclecode/crawl4ai",
+      "originalString": "Singapore",
+      "resolvedName": "Singapore",
+      "coords": {
+        "lat": 1.3521,
+        "lng": 103.8198
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "scrapy/scrapy",
+      "originalString": "Madrid, Spain",
+      "resolvedName": "Madrid, Spain",
+      "coords": {
+        "lat": 40.4168,
+        "lng": -3.7038
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "commaai/openpilot",
+      "originalString": "San Diego, CA, USA",
+      "resolvedName": "San Diego, CA, USA",
+      "coords": {
+        "lat": 32.7157,
+        "lng": -117.1611
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "Asabeneh/30-Days-Of-Python",
+      "originalString": "Helsinki, Finland",
+      "resolvedName": "Helsinki, Finland",
+      "coords": {
+        "lat": 60.1699,
+        "lng": 24.9384
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "CorentinJ/Real-Time-Voice-Cloning",
+      "originalString": "Belgium",
+      "resolvedName": "Belgium",
+      "coords": {
+        "lat": 50.5039,
+        "lng": 4.4699
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "meta-llama/llama",
+      "originalString": "Menlo Park, CA, USA",
+      "resolvedName": "Menlo Park, CA, USA",
+      "coords": {
+        "lat": 37.453,
+        "lng": -122.1817
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "unslothai/unsloth",
+      "originalString": "USA",
+      "resolvedName": "USA",
+      "coords": {
+        "lat": 37.0902,
+        "lng": -95.7129
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "opendatalab/MinerU",
+      "originalString": "China",
+      "resolvedName": "China",
+      "coords": {
+        "lat": 35.8617,
+        "lng": 104.1954
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "zylon-ai/private-gpt",
+      "originalString": "Madrid, Spain",
+      "resolvedName": "Madrid, Spain",
+      "coords": {
+        "lat": 40.4168,
+        "lng": -3.7038
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "ultralytics/yolov5",
+      "originalString": "USA",
+      "resolvedName": "USA",
+      "coords": {
+        "lat": 37.0902,
+        "lng": -95.7129
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "docling-project/docling",
+      "originalString": "Switzerland",
+      "resolvedName": "Switzerland",
+      "coords": {
+        "lat": 46.8182,
+        "lng": 8.2275
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "karpathy/autoresearch",
+      "originalString": "Denver, CO, USA",
+      "resolvedName": "Denver, CO, USA",
+      "coords": {
+        "lat": 39.7392,
+        "lng": -104.9903
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "ageitgey/face_recognition",
+      "originalString": "Rio de Janeiro, Brazil",
+      "resolvedName": "Rio de Janeiro, Brazil",
+      "coords": {
+        "lat": -22.9068,
+        "lng": -43.1729
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "microsoft/autogen",
+      "originalString": "Redmond, WA, USA",
+      "resolvedName": "Redmond, WA, USA",
+      "coords": {
+        "lat": 47.674,
+        "lng": -122.1215
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "Textualize/rich",
+      "originalString": "Edinburgh, UK",
+      "resolvedName": "Edinburgh, UK",
+      "coords": {
+        "lat": 55.9533,
+        "lng": -3.1883
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "karpathy/nanoGPT",
+      "originalString": "Sunnyvale, CA, USA",
+      "resolvedName": "Sunnyvale, CA, USA",
+      "coords": {
+        "lat": 37.3688,
+        "lng": -122.0363
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "FoundationAgents/OpenManus",
+      "originalString": "Shenzhen, China",
+      "resolvedName": "Shenzhen, China",
+      "coords": {
+        "lat": 22.5431,
+        "lng": 114.0579
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "Z4nzu/hackingtool",
+      "originalString": "India",
+      "resolvedName": "India",
+      "coords": {
+        "lat": 20.5937,
+        "lng": 78.9629
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "ultralytics/ultralytics",
+      "originalString": "USA",
+      "resolvedName": "USA",
+      "coords": {
+        "lat": 37.0902,
+        "lng": -95.7129
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "psf/requests",
+      "originalString": "England, UK",
+      "resolvedName": "England, UK",
+      "coords": {
+        "lat": 52.3555,
+        "lng": -1.1743
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "harry0703/MoneyPrinterTurbo",
+      "originalString": "Ho Chi Minh City, Vietnam",
+      "resolvedName": "Ho Chi Minh City, Vietnam",
+      "coords": {
+        "lat": 10.8231,
+        "lng": 106.6297
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "Zie619/n8n-workflows",
+      "originalString": "Bangalore, India",
+      "resolvedName": "Bangalore, India",
+      "coords": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "xai-org/grok-1",
+      "originalString": "USA",
+      "resolvedName": "USA",
+      "coords": {
+        "lat": 37.0902,
+        "lng": -95.7129
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "mem0ai/mem0",
+      "originalString": "USA",
+      "resolvedName": "USA",
+      "coords": {
+        "lat": 37.0902,
+        "lng": -95.7129
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "originalString": "Vietnam",
+      "resolvedName": "Vietnam",
+      "coords": {
+        "lat": 14.0583,
+        "lng": 108.2772
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "charlax/professional-programming",
+      "originalString": "New York, USA",
+      "resolvedName": "New York, USA",
+      "coords": {
+        "lat": 40.7128,
+        "lng": -74.006
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "karpathy/nanochat",
+      "originalString": "Belgium",
+      "resolvedName": "Belgium",
+      "coords": {
+        "lat": 50.5039,
+        "lng": 4.4699
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "odoo/odoo",
+      "originalString": "Belgium",
+      "resolvedName": "Belgium",
+      "coords": {
+        "lat": 50.5039,
+        "lng": 4.4699
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "virattt/ai-hedge-fund",
+      "originalString": "New York, USA",
+      "resolvedName": "New York, USA",
+      "coords": {
+        "lat": 40.7128,
+        "lng": -74.006
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "freqtrade/freqtrade",
+      "originalString": "Moscow, Russia",
+      "resolvedName": "Moscow, Russia",
+      "coords": {
+        "lat": 55.7558,
+        "lng": 37.6173
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "run-llama/llama_index",
+      "originalString": "USA",
+      "resolvedName": "USA",
+      "coords": {
+        "lat": 37.0902,
+        "lng": -95.7129
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "ComposioHQ/awesome-claude-skills",
+      "originalString": "USA",
+      "resolvedName": "USA",
+      "coords": {
+        "lat": 37.0902,
+        "lng": -95.7129
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "lllyasviel/Fooocus",
+      "originalString": "Stuttgart, Germany",
+      "resolvedName": "Stuttgart, Germany",
+      "coords": {
+        "lat": 48.7758,
+        "lng": 9.1829
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "minimaxir/big-list-of-naughty-strings",
+      "originalString": "San Francisco, CA, USA",
+      "resolvedName": "San Francisco, CA, USA",
+      "coords": {
+        "lat": 37.7749,
+        "lng": -122.4194
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "crewAIInc/crewAI",
+      "originalString": "USA",
+      "resolvedName": "USA",
+      "coords": {
+        "lat": 37.0902,
+        "lng": -95.7129
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "bytedance/deer-flow",
+      "originalString": "Singapore",
+      "resolvedName": "Singapore",
+      "coords": {
+        "lat": 1.3521,
+        "lng": 103.8198
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "NanmiCoder/MediaCrawler",
+      "originalString": "Shenzhen, China",
+      "resolvedName": "Shenzhen, China",
+      "coords": {
+        "lat": 22.5431,
+        "lng": 114.0579
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "coqui-ai/TTS",
+      "originalString": "Brazil",
+      "resolvedName": "Brazil",
+      "coords": {
+        "lat": -14.235,
+        "lng": -51.9253
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "apache/airflow",
+      "originalString": "Warsaw, Poland",
+      "resolvedName": "Warsaw, Poland",
+      "coords": {
+        "lat": 52.2297,
+        "lng": 21.0122
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "firecrawl/firecrawl",
+      "originalString": "USA",
+      "resolvedName": "USA",
+      "coords": {
+        "lat": 37.0902,
+        "lng": -95.7129
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "ant-design/ant-design",
+      "originalString": "Hangzhou, China",
+      "resolvedName": "Hangzhou, China",
+      "coords": {
+        "lat": 30.2741,
+        "lng": 120.1551
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "immich-app/immich",
+      "originalString": "USA",
+      "resolvedName": "USA",
+      "coords": {
+        "lat": 37.0902,
+        "lng": -95.7129
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "tailwindlabs/tailwindcss",
+      "originalString": "Canada",
+      "resolvedName": "Canada",
+      "coords": {
+        "lat": 56.1304,
+        "lng": -106.3468
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "puppeteer/puppeteer",
+      "originalString": "Germany",
+      "resolvedName": "Germany",
+      "coords": {
+        "lat": 51.1657,
+        "lng": 10.4515
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "storybookjs/storybook",
+      "originalString": "Netherlands",
+      "resolvedName": "Netherlands",
+      "coords": {
+        "lat": 52.1326,
+        "lng": 5.2913
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "ChatGPTNextWeb/NextChat",
+      "originalString": "China",
+      "resolvedName": "China",
+      "coords": {
+        "lat": 35.8617,
+        "lng": 104.1954
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "microsoft/playwright",
+      "originalString": "Redmond, WA, USA",
+      "resolvedName": "Redmond, WA, USA",
+      "coords": {
+        "lat": 47.674,
+        "lng": -122.1215
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "realworld-apps/realworld",
+      "originalString": "San Francisco, CA, USA",
+      "resolvedName": "San Francisco, CA, USA",
+      "coords": {
+        "lat": 37.7749,
+        "lng": -122.4194
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "modelcontextprotocol/servers",
+      "originalString": "London, UK",
+      "resolvedName": "London, UK",
+      "coords": {
+        "lat": 51.5074,
+        "lng": -0.1278
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "vitejs/vite",
+      "originalString": "Singapore",
+      "resolvedName": "Singapore",
+      "coords": {
+        "lat": 1.3521,
+        "lng": 103.8198
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "hoppscotch/hoppscotch",
+      "originalString": "India",
+      "resolvedName": "India",
+      "coords": {
+        "lat": 20.5937,
+        "lng": 78.9629
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "Stirling-Tools/Stirling-PDF",
+      "originalString": "London, UK",
+      "resolvedName": "London, UK",
+      "coords": {
+        "lat": 51.5074,
+        "lng": -0.1278
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "nestjs/nest",
+      "originalString": "Poland",
+      "resolvedName": "Poland",
+      "coords": {
+        "lat": 51.9194,
+        "lng": 19.1451
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "grafana/grafana",
+      "originalString": "Sweden",
+      "resolvedName": "Sweden",
+      "coords": {
+        "lat": 60.1282,
+        "lng": 18.6435
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "abi/screenshot-to-code",
+      "originalString": "San Francisco, CA, USA",
+      "resolvedName": "San Francisco, CA, USA",
+      "coords": {
+        "lat": 37.7749,
+        "lng": -122.4194
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "strapi/strapi",
+      "originalString": "France",
+      "resolvedName": "France",
+      "coords": {
+        "lat": 46.2276,
+        "lng": 2.2137
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "apache/superset",
+      "originalString": "Palo Alto, CA, USA",
+      "resolvedName": "Palo Alto, CA, USA",
+      "coords": {
+        "lat": 37.4419,
+        "lng": -122.143
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "daytonaio/daytona",
+      "originalString": "New York, USA",
+      "resolvedName": "New York, USA",
+      "coords": {
+        "lat": 40.7128,
+        "lng": -74.006
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "toeverything/AFFiNE",
+      "originalString": "Singapore",
+      "resolvedName": "Singapore",
+      "coords": {
+        "lat": 1.3521,
+        "lng": 103.8198
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "apache/echarts",
+      "originalString": "Shanghai, China",
+      "resolvedName": "Shanghai, China",
+      "coords": {
+        "lat": 31.2304,
+        "lng": 121.4737
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "facebook/docusaurus",
+      "originalString": "Menlo Park, CA, USA",
+      "resolvedName": "Menlo Park, CA, USA",
+      "coords": {
+        "lat": 37.453,
+        "lng": -122.1817
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "socketio/socket.io",
+      "originalString": "San Francisco, CA, USA",
+      "resolvedName": "San Francisco, CA, USA",
+      "coords": {
+        "lat": 37.7749,
+        "lng": -122.4194
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "nocodb/nocodb",
+      "originalString": "San Francisco, CA, USA",
+      "resolvedName": "San Francisco, CA, USA",
+      "coords": {
+        "lat": 37.7749,
+        "lng": -122.4194
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "reduxjs/redux",
+      "originalString": "USA",
+      "resolvedName": "USA",
+      "coords": {
+        "lat": 37.0902,
+        "lng": -95.7129
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "nuxt/nuxt",
+      "originalString": "Edinburgh, UK",
+      "resolvedName": "Edinburgh, UK",
+      "coords": {
+        "lat": 55.9533,
+        "lng": -3.1883
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "cline/cline",
+      "originalString": "USA",
+      "resolvedName": "USA",
+      "coords": {
+        "lat": 37.0902,
+        "lng": -95.7129
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "pmndrs/zustand",
+      "originalString": "Tokyo, Japan",
+      "resolvedName": "Tokyo, Japan",
+      "coords": {
+        "lat": 35.6762,
+        "lng": 139.6503
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "appwrite/appwrite",
+      "originalString": "New Zealand",
+      "resolvedName": "New Zealand",
+      "coords": {
+        "lat": -40.9006,
+        "lng": 174.886
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "laurent22/joplin",
+      "originalString": "London, UK",
+      "resolvedName": "London, UK",
+      "coords": {
+        "lat": 51.5074,
+        "lng": -0.1278
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "vuejs/core",
+      "originalString": "Singapore",
+      "resolvedName": "Singapore",
+      "coords": {
+        "lat": 1.3521,
+        "lng": 103.8198
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "ionic-team/ionic-framework",
+      "originalString": "USA",
+      "resolvedName": "USA",
+      "coords": {
+        "lat": 37.0902,
+        "lng": -95.7129
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "DefinitelyTyped/DefinitelyTyped",
+      "originalString": "Seattle, WA, USA",
+      "resolvedName": "Seattle, WA, USA",
+      "coords": {
+        "lat": 47.6062,
+        "lng": -122.3321
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "FlowiseAI/Flowise",
+      "originalString": "Hyderabad, India",
+      "resolvedName": "Hyderabad, India",
+      "coords": {
+        "lat": 17.385,
+        "lng": 78.4867
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "upstash/context7",
+      "originalString": "Istanbul, Turkey",
+      "resolvedName": "Istanbul, Turkey",
+      "coords": {
+        "lat": 41.0082,
+        "lng": 28.9784
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "cypress-io/cypress",
+      "originalString": "USA",
+      "resolvedName": "USA",
+      "coords": {
+        "lat": 37.0902,
+        "lng": -95.7129
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "lyswhut/lx-music-desktop",
+      "originalString": "China",
+      "resolvedName": "China",
+      "coords": {
+        "lat": 35.8617,
+        "lng": 104.1954
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "TanStack/query",
+      "originalString": "Austria",
+      "resolvedName": "Austria",
+      "coords": {
+        "lat": 47.5162,
+        "lng": 14.5501
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "expo/expo",
+      "originalString": "USA",
+      "resolvedName": "USA",
+      "coords": {
+        "lat": 37.0902,
+        "lng": -95.7129
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "garrytan/gstack",
+      "originalString": "San Francisco, CA, USA",
+      "resolvedName": "San Francisco, CA, USA",
+      "coords": {
+        "lat": 37.7749,
+        "lng": -122.4194
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "OpenCut-app/OpenCut",
+      "originalString": "Bangladesh",
+      "resolvedName": "Bangladesh",
+      "coords": {
+        "lat": 23.685,
+        "lng": 90.3563
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "slab/quill",
+      "originalString": "USA",
+      "resolvedName": "USA",
+      "coords": {
+        "lat": 37.0902,
+        "lng": -95.7129
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "makeplane/plane",
+      "originalString": "USA",
+      "resolvedName": "USA",
+      "coords": {
+        "lat": 37.0902,
+        "lng": -95.7129
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "pixijs/pixijs",
+      "originalString": "London, UK",
+      "resolvedName": "London, UK",
+      "coords": {
+        "lat": 51.5074,
+        "lng": -0.1278
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "tldraw/tldraw",
+      "originalString": "London, UK",
+      "resolvedName": "London, UK",
+      "coords": {
+        "lat": 51.5074,
+        "lng": -0.1278
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "prisma/prisma",
+      "originalString": "USA",
+      "resolvedName": "USA",
+      "coords": {
+        "lat": 37.0902,
+        "lng": -95.7129
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "jestjs/jest",
+      "originalString": "Norway",
+      "resolvedName": "Norway",
+      "coords": {
+        "lat": 60.472,
+        "lng": 8.4689
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "RocketChat/Rocket.Chat",
+      "originalString": "Brazil",
+      "resolvedName": "Brazil",
+      "coords": {
+        "lat": -14.235,
+        "lng": -51.9253
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "vercel/hyper",
+      "originalString": "USA",
+      "resolvedName": "USA",
+      "coords": {
+        "lat": 37.0902,
+        "lng": -95.7129
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "react-hook-form/react-hook-form",
+      "originalString": "Japan",
+      "resolvedName": "Japan",
+      "coords": {
+        "lat": 36.2048,
+        "lng": 138.2529
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "koala73/worldmonitor",
+      "originalString": "San Diego, CA, USA",
+      "resolvedName": "San Diego, CA, USA",
+      "coords": {
+        "lat": 32.7157,
+        "lng": -117.1611
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "babel/babel",
+      "originalString": "Los Angeles, CA, USA",
+      "resolvedName": "Los Angeles, CA, USA",
+      "coords": {
+        "lat": 34.0522,
+        "lng": -118.2437
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "AykutSarac/jsoncrack.com",
+      "originalString": "Turkey",
+      "resolvedName": "Turkey",
+      "coords": {
+        "lat": 38.9637,
+        "lng": 35.2433
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "code-yeongyu/oh-my-openagent",
+      "originalString": "Seoul, South Korea",
+      "resolvedName": "Seoul, South Korea",
+      "coords": {
+        "lat": 37.5665,
+        "lng": 126.978
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "FuelLabs/fuels-ts",
+      "originalString": "Brazil",
+      "resolvedName": "Brazil",
+      "coords": {
+        "lat": -14.235,
+        "lng": -51.9253
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "DIYgod/RSSHub",
+      "originalString": "Singapore",
+      "resolvedName": "Singapore",
+      "coords": {
+        "lat": 1.3521,
+        "lng": 103.8198
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "CherryHQ/cherry-studio",
+      "originalString": "China",
+      "resolvedName": "China",
+      "coords": {
+        "lat": 35.8617,
+        "lng": 104.1954
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "fastapi/full-stack-fastapi-template",
+      "originalString": "Germany",
+      "resolvedName": "Germany",
+      "coords": {
+        "lat": 51.1657,
+        "lng": 10.4515
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "colinhacks/zod",
+      "originalString": "Seattle, WA, USA",
+      "resolvedName": "Seattle, WA, USA",
+      "coords": {
+        "lat": 47.6062,
+        "lng": -122.3321
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "siyuan-note/siyuan",
+      "originalString": "China",
+      "resolvedName": "China",
+      "coords": {
+        "lat": 35.8617,
+        "lng": 104.1954
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "payloadcms/payload",
+      "originalString": "Vancouver, Canada",
+      "resolvedName": "Vancouver, Canada",
+      "coords": {
+        "lat": 49.2827,
+        "lng": -123.1207
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "hexojs/hexo",
+      "originalString": "Taipei, Taiwan",
+      "resolvedName": "Taipei, Taiwan",
+      "coords": {
+        "lat": 25.033,
+        "lng": 121.5654
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "janhq/jan",
+      "originalString": "Indonesia",
+      "resolvedName": "Indonesia",
+      "coords": {
+        "lat": -0.7893,
+        "lng": 113.9213
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "styled-components/styled-components",
+      "originalString": "USA",
+      "resolvedName": "USA",
+      "coords": {
+        "lat": 37.0902,
+        "lng": -95.7129
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "vuetifyjs/vuetify",
+      "originalString": "USA",
+      "resolvedName": "USA",
+      "coords": {
+        "lat": 37.0902,
+        "lng": -95.7129
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "twentyhq/twenty",
+      "originalString": "Paris, France",
+      "resolvedName": "Paris, France",
+      "coords": {
+        "lat": 48.8566,
+        "lng": 2.3522
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "remotion-dev/remotion",
+      "originalString": "Switzerland",
+      "resolvedName": "Switzerland",
+      "coords": {
+        "lat": 46.8182,
+        "lng": 8.2275
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "calcom/cal.com",
+      "originalString": "Mexico",
+      "resolvedName": "Mexico",
+      "coords": {
+        "lat": 23.6345,
+        "lng": -102.5528
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "thedotmack/claude-mem",
+      "originalString": "New York, USA",
+      "resolvedName": "New York, USA",
+      "coords": {
+        "lat": 40.7128,
+        "lng": -74.006
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "chakra-ui/chakra-ui",
+      "originalString": "London, UK",
+      "resolvedName": "London, UK",
+      "coords": {
+        "lat": 51.5074,
+        "lng": -0.1278
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "trpc/trpc",
+      "originalString": "Sweden",
+      "resolvedName": "Sweden",
+      "coords": {
+        "lat": 60.1282,
+        "lng": 18.6435
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "appsmithorg/appsmith",
+      "originalString": "USA",
+      "resolvedName": "USA",
+      "coords": {
+        "lat": 37.0902,
+        "lng": -95.7129
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "mifi/lossless-cut",
+      "originalString": "Norway",
+      "resolvedName": "Norway",
+      "coords": {
+        "lat": 60.472,
+        "lng": 8.4689
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "astral-sh/uv",
+      "originalString": "USA",
+      "resolvedName": "USA",
+      "coords": {
+        "lat": 37.0902,
+        "lng": -95.7129
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "zed-industries/zed",
+      "originalString": "Italy",
+      "resolvedName": "Italy",
+      "coords": {
+        "lat": 41.8719,
+        "lng": 12.5674
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "unionlabs/union",
+      "originalString": "USA",
+      "resolvedName": "USA",
+      "coords": {
+        "lat": 37.0902,
+        "lng": -95.7129
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "alacritty/alacritty",
+      "originalString": "San Francisco, CA, USA",
+      "resolvedName": "San Francisco, CA, USA",
+      "coords": {
+        "lat": 37.7749,
+        "lng": -122.4194
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "rust-lang/rustlings",
+      "originalString": "USA",
+      "resolvedName": "USA",
+      "coords": {
+        "lat": 37.0902,
+        "lng": -95.7129
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "FuelLabs/sway",
+      "originalString": "Toronto, Canada",
+      "resolvedName": "Toronto, Canada",
+      "coords": {
+        "lat": 43.6532,
+        "lng": -79.3832
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "BurntSushi/ripgrep",
+      "originalString": "Chennai, India",
+      "resolvedName": "Chennai, India",
+      "coords": {
+        "lat": 13.0827,
+        "lng": 80.2707
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "sharkdp/bat",
+      "originalString": "Stuttgart, Germany",
+      "resolvedName": "Stuttgart, Germany",
+      "coords": {
+        "lat": 48.7758,
+        "lng": 9.1829
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "dani-garcia/vaultwarden",
+      "originalString": "Spain",
+      "resolvedName": "Spain",
+      "coords": {
+        "lat": 40.4637,
+        "lng": -3.7492
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "FuelLabs/fuel-core",
+      "originalString": "Seattle, WA, USA",
+      "resolvedName": "Seattle, WA, USA",
+      "coords": {
+        "lat": 47.6062,
+        "lng": -122.3321
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "meilisearch/meilisearch",
+      "originalString": "France",
+      "resolvedName": "France",
+      "coords": {
+        "lat": 46.2276,
+        "lng": 2.2137
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "rust-unofficial/awesome-rust",
+      "originalString": "London, UK",
+      "resolvedName": "London, UK",
+      "coords": {
+        "lat": 51.5074,
+        "lng": -0.1278
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "starship/starship",
+      "originalString": "Tokyo, Japan",
+      "resolvedName": "Tokyo, Japan",
+      "coords": {
+        "lat": 35.6762,
+        "lng": 139.6503
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "lencx/ChatGPT",
+      "originalString": "Shanghai, China",
+      "resolvedName": "Shanghai, China",
+      "coords": {
+        "lat": 31.2304,
+        "lng": 121.4737
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "typst/typst",
+      "originalString": "Berlin, Germany",
+      "resolvedName": "Berlin, Germany",
+      "coords": {
+        "lat": 52.52,
+        "lng": 13.405
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "astral-sh/ruff",
+      "originalString": "USA",
+      "resolvedName": "USA",
+      "coords": {
+        "lat": 37.0902,
+        "lng": -95.7129
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "bevyengine/bevy",
+      "originalString": "France",
+      "resolvedName": "France",
+      "coords": {
+        "lat": 46.2276,
+        "lng": 2.2137
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "helix-editor/helix",
+      "originalString": "Tokyo, Japan",
+      "resolvedName": "Tokyo, Japan",
+      "coords": {
+        "lat": 35.6762,
+        "lng": 139.6503
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "FuelLabs/fuels-rs",
+      "originalString": "Vancouver, Canada",
+      "resolvedName": "Vancouver, Canada",
+      "coords": {
+        "lat": 49.2827,
+        "lng": -123.1207
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "ruvnet/RuView",
+      "originalString": "Germany",
+      "resolvedName": "Germany",
+      "coords": {
+        "lat": 51.1657,
+        "lng": 10.4515
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "sharkdp/fd",
+      "originalString": "Stuttgart, Germany",
+      "resolvedName": "Stuttgart, Germany",
+      "coords": {
+        "lat": 48.7758,
+        "lng": 9.1829
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "juspay/hyperswitch",
+      "originalString": "Bangalore, India",
+      "resolvedName": "Bangalore, India",
+      "coords": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "nushell/nushell",
+      "originalString": "Australia",
+      "resolvedName": "Australia",
+      "coords": {
+        "lat": -25.2744,
+        "lng": 133.7751
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "lapce/lapce",
+      "originalString": "Budapest, Hungary",
+      "resolvedName": "Budapest, Hungary",
+      "coords": {
+        "lat": 47.4979,
+        "lng": 19.0402
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "pola-rs/polars",
+      "originalString": "Netherlands",
+      "resolvedName": "Netherlands",
+      "coords": {
+        "lat": 52.1326,
+        "lng": 5.2913
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "spacedriveapp/spacedrive",
+      "originalString": "Australia",
+      "resolvedName": "Australia",
+      "coords": {
+        "lat": -25.2744,
+        "lng": 133.7751
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "servo/servo",
+      "originalString": "Spain",
+      "resolvedName": "Spain",
+      "coords": {
+        "lat": 40.4637,
+        "lng": -3.7492
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "DioxusLabs/dioxus",
+      "originalString": "San Francisco, CA, USA",
+      "resolvedName": "San Francisco, CA, USA",
+      "coords": {
+        "lat": 37.7749,
+        "lng": -122.4194
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "block/goose",
+      "originalString": "Miami, FL, USA",
+      "resolvedName": "Miami, FL, USA",
+      "coords": {
+        "lat": 25.7617,
+        "lng": -80.1918
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "swc-project/swc",
+      "originalString": "South Korea",
+      "resolvedName": "South Korea",
+      "coords": {
+        "lat": 35.9078,
+        "lng": 127.7669
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "firecracker-microvm/firecracker",
+      "originalString": "Cambridge, UK",
+      "resolvedName": "Cambridge, UK",
+      "coords": {
+        "lat": 52.2053,
+        "lng": 0.1218
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "GyulyVGC/sniffnet",
+      "originalString": "Italy",
+      "resolvedName": "Italy",
+      "coords": {
+        "lat": 41.8719,
+        "lng": 12.5674
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "TabbyML/tabby",
+      "originalString": "San Francisco, CA, USA",
+      "resolvedName": "San Francisco, CA, USA",
+      "coords": {
+        "lat": 37.7749,
+        "lng": -122.4194
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "fish-shell/fish-shell",
+      "originalString": "Germany",
+      "resolvedName": "Germany",
+      "coords": {
+        "lat": 51.1657,
+        "lng": 10.4515
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "google/comprehensive-rust",
+      "originalString": "USA",
+      "resolvedName": "USA",
+      "coords": {
+        "lat": 37.0902,
+        "lng": -95.7129
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "yewstack/yew",
+      "originalString": "Taipei, Taiwan",
+      "resolvedName": "Taipei, Taiwan",
+      "coords": {
+        "lat": 25.033,
+        "lng": 121.5654
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "casey/just",
+      "originalString": "Los Angeles, CA, USA",
+      "resolvedName": "Los Angeles, CA, USA",
+      "coords": {
+        "lat": 34.0522,
+        "lng": -118.2437
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "linera-io/linera-protocol",
+      "originalString": "Brazil",
+      "resolvedName": "Brazil",
+      "coords": {
+        "lat": -14.235,
+        "lng": -51.9253
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "surrealdb/surrealdb",
+      "originalString": "London, UK",
+      "resolvedName": "London, UK",
+      "coords": {
+        "lat": 51.5074,
+        "lng": -0.1278
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "tokio-rs/tokio",
+      "originalString": "Portland, OR, USA",
+      "resolvedName": "Portland, OR, USA",
+      "coords": {
+        "lat": 45.5051,
+        "lng": -122.675
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "influxdata/influxdb",
+      "originalString": "USA",
+      "resolvedName": "USA",
+      "coords": {
+        "lat": 37.0902,
+        "lng": -95.7129
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "zellij-org/zellij",
+      "originalString": "Austria",
+      "resolvedName": "Austria",
+      "coords": {
+        "lat": 47.5162,
+        "lng": 14.5501
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "qarmin/czkawka",
+      "originalString": "Poland",
+      "resolvedName": "Poland",
+      "coords": {
+        "lat": 51.9194,
+        "lng": 19.1451
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "sunface/rust-course",
+      "originalString": "Beijing, China",
+      "resolvedName": "Beijing, China",
+      "coords": {
+        "lat": 39.9042,
+        "lng": 116.4074
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "vercel/turborepo",
+      "originalString": "USA",
+      "resolvedName": "USA",
+      "coords": {
+        "lat": 37.0902,
+        "lng": -95.7129
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "iced-rs/iced",
+      "originalString": "Barcelona, Spain",
+      "resolvedName": "Barcelona, Spain",
+      "coords": {
+        "lat": 41.3851,
+        "lng": 2.1734
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "qdrant/qdrant",
+      "originalString": "Germany",
+      "resolvedName": "Germany",
+      "coords": {
+        "lat": 51.1657,
+        "lng": 10.4515
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "atuinsh/atuin",
+      "originalString": "London, UK",
+      "resolvedName": "London, UK",
+      "coords": {
+        "lat": 51.5074,
+        "lng": -0.1278
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "zeroclaw-labs/zeroclaw",
+      "originalString": "Cambridge, MA, USA",
+      "resolvedName": "Cambridge, MA, USA",
+      "coords": {
+        "lat": 42.3736,
+        "lng": -71.1097
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "emilk/egui",
+      "originalString": "Stockholm, Sweden",
+      "resolvedName": "Stockholm, Sweden",
+      "coords": {
+        "lat": 59.3293,
+        "lng": 18.0686
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "sharkdp/hyperfine",
+      "originalString": "Stuttgart, Germany",
+      "resolvedName": "Stuttgart, Germany",
+      "coords": {
+        "lat": 48.7758,
+        "lng": 9.1829
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "jj-vcs/jj",
+      "originalString": "Japan",
+      "resolvedName": "Japan",
+      "coords": {
+        "lat": 36.2048,
+        "lng": 138.2529
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "lbjlaq/Antigravity-Manager",
+      "originalString": "Shenzhen, China",
+      "resolvedName": "Shenzhen, China",
+      "coords": {
+        "lat": 22.5431,
+        "lng": 114.0579
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "ankitects/anki",
+      "originalString": "Australia",
+      "resolvedName": "Australia",
+      "coords": {
+        "lat": -25.2744,
+        "lng": 133.7751
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "chroma-core/chroma",
+      "originalString": "USA",
+      "resolvedName": "USA",
+      "coords": {
+        "lat": 37.0902,
+        "lng": -95.7129
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "cloudflare/pingora",
+      "originalString": "San Francisco, CA, USA",
+      "resolvedName": "San Francisco, CA, USA",
+      "coords": {
+        "lat": 37.7749,
+        "lng": -122.4194
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "jdx/mise",
+      "originalString": "Dallas, TX, USA",
+      "resolvedName": "Dallas, TX, USA",
+      "coords": {
+        "lat": 32.7767,
+        "lng": -96.797
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "rwf2/Rocket",
+      "originalString": "USA",
+      "resolvedName": "USA",
+      "coords": {
+        "lat": 37.0902,
+        "lng": -95.7129
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "zama-ai/fhevm",
+      "originalString": "Paris, France",
+      "resolvedName": "Paris, France",
+      "coords": {
+        "lat": 48.8566,
+        "lng": 2.3522
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "TheAlgorithms/Rust",
+      "originalString": "India",
+      "resolvedName": "India",
+      "coords": {
+        "lat": 20.5937,
+        "lng": 78.9629
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "tokio-rs/axum",
+      "originalString": "Denmark",
+      "resolvedName": "Denmark",
+      "coords": {
+        "lat": 56.2639,
+        "lng": 9.5018
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "wezterm/wezterm",
+      "originalString": "London, UK",
+      "resolvedName": "London, UK",
+      "coords": {
+        "lat": 51.5074,
+        "lng": -0.1278
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "vercel-labs/agent-browser",
+      "originalString": "Austin, TX, USA",
+      "resolvedName": "Austin, TX, USA",
+      "coords": {
+        "lat": 30.2672,
+        "lng": -97.7431
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "GraphiteEditor/Graphite",
+      "originalString": "Bay Area, CA, USA",
+      "resolvedName": "Bay Area, CA, USA",
+      "coords": {
+        "lat": 37.6879,
+        "lng": -122.4702
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "Wilfred/difftastic",
+      "originalString": "London, UK",
+      "resolvedName": "London, UK",
+      "coords": {
+        "lat": 51.5074,
+        "lng": -0.1278
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "Schniz/fnm",
+      "originalString": "USA",
+      "resolvedName": "USA",
+      "coords": {
+        "lat": 37.0902,
+        "lng": -95.7129
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "actix/actix-web",
+      "originalString": "France",
+      "resolvedName": "France",
+      "coords": {
+        "lat": 46.2276,
+        "lng": 2.2137
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "ogham/exa",
+      "originalString": "France",
+      "resolvedName": "France",
+      "coords": {
+        "lat": 46.2276,
+        "lng": 2.2137
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "tree-sitter/tree-sitter",
+      "originalString": "Portland, OR, USA",
+      "resolvedName": "Portland, OR, USA",
+      "coords": {
+        "lat": 45.5051,
+        "lng": -122.675
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "clockworklabs/SpacetimeDB",
+      "originalString": "USA",
+      "resolvedName": "USA",
+      "coords": {
+        "lat": 37.0902,
+        "lng": -95.7129
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "biomejs/biome",
+      "originalString": "Los Angeles, CA, USA",
+      "resolvedName": "Los Angeles, CA, USA",
+      "coords": {
+        "lat": 34.0522,
+        "lng": -118.2437
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "BloopAI/vibe-kanban",
+      "originalString": "London, UK",
+      "resolvedName": "London, UK",
+      "coords": {
+        "lat": 51.5074,
+        "lng": -0.1278
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "rustfs/rustfs",
+      "originalString": "USA",
+      "resolvedName": "USA",
+      "coords": {
+        "lat": 37.0902,
+        "lng": -95.7129
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "rome/tools",
+      "originalString": "USA",
+      "resolvedName": "USA",
+      "coords": {
+        "lat": 37.0902,
+        "lng": -95.7129
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "uutils/coreutils",
+      "originalString": "France",
+      "resolvedName": "France",
+      "coords": {
+        "lat": 46.2276,
+        "lng": 2.2137
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "googleworkspace/cli",
+      "originalString": "USA",
+      "resolvedName": "USA",
+      "coords": {
+        "lat": 37.0902,
+        "lng": -95.7129
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "facebook/flow",
+      "originalString": "Menlo Park, CA, USA",
+      "resolvedName": "Menlo Park, CA, USA",
+      "coords": {
+        "lat": 37.453,
+        "lng": -122.1817
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "slint-ui/slint",
+      "originalString": "Germany",
+      "resolvedName": "Germany",
+      "coords": {
+        "lat": 51.1657,
+        "lng": 10.4515
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "RustPython/RustPython",
+      "originalString": "Seoul, South Korea",
+      "resolvedName": "Seoul, South Korea",
+      "coords": {
+        "lat": 37.5665,
+        "lng": 126.978
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "niri-wm/niri",
+      "originalString": "Sweden",
+      "resolvedName": "Sweden",
+      "coords": {
+        "lat": 60.1282,
+        "lng": 18.6435
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "vectordotdev/vector",
+      "originalString": "New York, USA",
+      "resolvedName": "New York, USA",
+      "coords": {
+        "lat": 40.7128,
+        "lng": -74.006
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "nautechsystems/nautilus_trader",
+      "originalString": "Australia",
+      "resolvedName": "Australia",
+      "coords": {
+        "lat": -25.2744,
+        "lng": 133.7751
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "rust-lang/mdBook",
+      "originalString": "USA",
+      "resolvedName": "USA",
+      "coords": {
+        "lat": 37.0902,
+        "lng": -95.7129
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "neondatabase/neon",
+      "originalString": "Germany",
+      "resolvedName": "Germany",
+      "coords": {
+        "lat": 51.1657,
+        "lng": 10.4515
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "gleam-lang/gleam",
+      "originalString": "London, UK",
+      "resolvedName": "London, UK",
+      "coords": {
+        "lat": 51.5074,
+        "lng": -0.1278
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "eza-community/eza",
+      "originalString": "Denmark",
+      "resolvedName": "Denmark",
+      "coords": {
+        "lat": 56.2639,
+        "lng": 9.5018
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "wasmerio/wasmer",
+      "originalString": "San Francisco, CA, USA",
+      "resolvedName": "San Francisco, CA, USA",
+      "coords": {
+        "lat": 37.7749,
+        "lng": -122.4194
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "gin-gonic/gin",
+      "originalString": "Spain",
+      "resolvedName": "Spain",
+      "coords": {
+        "lat": 40.4637,
+        "lng": -3.7492
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "gohugoio/hugo",
+      "originalString": "Norway",
+      "resolvedName": "Norway",
+      "coords": {
+        "lat": 60.472,
+        "lng": 8.4689
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "syncthing/syncthing",
+      "originalString": "Sweden",
+      "resolvedName": "Sweden",
+      "coords": {
+        "lat": 60.1282,
+        "lng": 18.6435
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "jesseduffield/lazygit",
+      "originalString": "Melbourne, Australia",
+      "resolvedName": "Melbourne, Australia",
+      "coords": {
+        "lat": -37.8136,
+        "lng": 144.9631
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "moby/moby",
+      "originalString": "Netherlands",
+      "resolvedName": "Netherlands",
+      "coords": {
+        "lat": 52.1326,
+        "lng": 5.2913
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "caddyserver/caddy",
+      "originalString": "Ottawa, Canada",
+      "resolvedName": "Ottawa, Canada",
+      "coords": {
+        "lat": 45.4215,
+        "lng": -75.6972
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "prometheus/prometheus",
+      "originalString": "Germany",
+      "resolvedName": "Germany",
+      "coords": {
+        "lat": 51.1657,
+        "lng": 10.4515
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "traefik/traefik",
+      "originalString": "France",
+      "resolvedName": "France",
+      "coords": {
+        "lat": 46.2276,
+        "lng": 2.2137
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "minio/minio",
+      "originalString": "USA",
+      "resolvedName": "USA",
+      "coords": {
+        "lat": 37.0902,
+        "lng": -95.7129
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "FiloSottile/mkcert",
+      "originalString": "Italy",
+      "resolvedName": "Italy",
+      "coords": {
+        "lat": 41.8719,
+        "lng": 12.5674
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "pocketbase/pocketbase",
+      "originalString": "Shanghai, China",
+      "resolvedName": "Shanghai, China",
+      "coords": {
+        "lat": 31.2304,
+        "lng": 121.4737
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "rclone/rclone",
+      "originalString": "London, UK",
+      "resolvedName": "London, UK",
+      "coords": {
+        "lat": 51.5074,
+        "lng": -0.1278
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "wagoodman/dive",
+      "originalString": "Los Angeles, CA, USA",
+      "resolvedName": "Los Angeles, CA, USA",
+      "coords": {
+        "lat": 34.0522,
+        "lng": -118.2437
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "etcd-io/etcd",
+      "originalString": "Bay Area, CA, USA",
+      "resolvedName": "Bay Area, CA, USA",
+      "coords": {
+        "lat": 37.6879,
+        "lng": -122.4702
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "jesseduffield/lazydocker",
+      "originalString": "Melbourne, Australia",
+      "resolvedName": "Melbourne, Australia",
+      "coords": {
+        "lat": -37.8136,
+        "lng": 144.9631
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "AlistGo/alist",
+      "originalString": "Wuhan, China",
+      "resolvedName": "Wuhan, China",
+      "coords": {
+        "lat": 30.5928,
+        "lng": 114.3055
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "hashicorp/terraform",
+      "originalString": "San Francisco, CA, USA",
+      "resolvedName": "San Francisco, CA, USA",
+      "coords": {
+        "lat": 37.7749,
+        "lng": -122.4194
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "mudler/LocalAI",
+      "originalString": "Italy",
+      "resolvedName": "Italy",
+      "coords": {
+        "lat": 41.8719,
+        "lng": 12.5674
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "astaxie/build-web-application-with-golang",
+      "originalString": "Shanghai, China",
+      "resolvedName": "Shanghai, China",
+      "coords": {
+        "lat": 31.2304,
+        "lng": 121.4737
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "spf13/cobra",
+      "originalString": "New York, USA",
+      "resolvedName": "New York, USA",
+      "coords": {
+        "lat": 40.7128,
+        "lng": -74.006
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "milvus-io/milvus",
+      "originalString": "San Francisco, CA, USA",
+      "resolvedName": "San Francisco, CA, USA",
+      "coords": {
+        "lat": 37.7749,
+        "lng": -122.4194
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "cli/cli",
+      "originalString": "Netherlands",
+      "resolvedName": "Netherlands",
+      "coords": {
+        "lat": 52.1326,
+        "lng": 5.2913
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "charmbracelet/bubbletea",
+      "originalString": "Brooklyn, NY, USA",
+      "resolvedName": "Brooklyn, NY, USA",
+      "coords": {
+        "lat": 40.6782,
+        "lng": -73.9442
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "danielmiessler/Fabric",
+      "originalString": "San Francisco, CA, USA",
+      "resolvedName": "San Francisco, CA, USA",
+      "coords": {
+        "lat": 37.7749,
+        "lng": -122.4194
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "pingcap/tidb",
+      "originalString": "Shanghai, China",
+      "resolvedName": "Shanghai, China",
+      "coords": {
+        "lat": 31.2304,
+        "lng": 121.4737
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "evanw/esbuild",
+      "originalString": "San Francisco, CA, USA",
+      "resolvedName": "San Francisco, CA, USA",
+      "coords": {
+        "lat": 37.7749,
+        "lng": -122.4194
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "go-gorm/gorm",
+      "originalString": "Hangzhou, China",
+      "resolvedName": "Hangzhou, China",
+      "coords": {
+        "lat": 30.2741,
+        "lng": 120.1551
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "photoprism/photoprism",
+      "originalString": "Germany",
+      "resolvedName": "Germany",
+      "coords": {
+        "lat": 51.1657,
+        "lng": 10.4515
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "gofiber/fiber",
+      "originalString": "Germany",
+      "resolvedName": "Germany",
+      "coords": {
+        "lat": 51.1657,
+        "lng": 10.4515
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "istio/istio",
+      "originalString": "Sunnyvale, CA, USA",
+      "resolvedName": "Sunnyvale, CA, USA",
+      "coords": {
+        "lat": 37.3688,
+        "lng": -122.0363
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "docker/compose",
+      "originalString": "USA",
+      "resolvedName": "USA",
+      "coords": {
+        "lat": 37.0902,
+        "lng": -95.7129
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "juanfont/headscale",
+      "originalString": "Netherlands",
+      "resolvedName": "Netherlands",
+      "coords": {
+        "lat": 52.1326,
+        "lng": 5.2913
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "hashicorp/vault",
+      "originalString": "San Francisco, CA, USA",
+      "resolvedName": "San Francisco, CA, USA",
+      "coords": {
+        "lat": 37.7749,
+        "lng": -122.4194
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "unknwon/the-way-to-go_ZH_CN",
+      "originalString": "China",
+      "resolvedName": "China",
+      "coords": {
+        "lat": 35.8617,
+        "lng": 104.1954
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "1Panel-dev/1Panel",
+      "originalString": "Hong Kong",
+      "resolvedName": "Hong Kong",
+      "coords": {
+        "lat": 22.3193,
+        "lng": 114.1694
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "schollz/croc",
+      "originalString": "Seattle, WA, USA",
+      "resolvedName": "Seattle, WA, USA",
+      "coords": {
+        "lat": 47.6062,
+        "lng": -122.3321
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "harness/harness",
+      "originalString": "Mountain View, CA, USA",
+      "resolvedName": "Mountain View, CA, USA",
+      "coords": {
+        "lat": 37.3861,
+        "lng": -122.0839
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "filebrowser/filebrowser",
+      "originalString": "Netherlands",
+      "resolvedName": "Netherlands",
+      "coords": {
+        "lat": 52.1326,
+        "lng": 5.2913
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "ehang-io/nps",
+      "originalString": "Chengdu, China",
+      "resolvedName": "Chengdu, China",
+      "coords": {
+        "lat": 30.5728,
+        "lng": 104.0668
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "halfrost/LeetCode-Go",
+      "originalString": "Singapore",
+      "resolvedName": "Singapore",
+      "coords": {
+        "lat": 1.3521,
+        "lng": 103.8198
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "IceWhaleTech/CasaOS",
+      "originalString": "Shanghai, China",
+      "resolvedName": "Shanghai, China",
+      "coords": {
+        "lat": 31.2304,
+        "lng": 121.4737
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "wailsapp/wails",
+      "originalString": "Australia",
+      "resolvedName": "Australia",
+      "coords": {
+        "lat": -25.2744,
+        "lng": 133.7751
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "AdguardTeam/AdGuardHome",
+      "originalString": "USA",
+      "resolvedName": "USA",
+      "coords": {
+        "lat": 37.0902,
+        "lng": -95.7129
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "derailed/k9s",
+      "originalString": "USA",
+      "resolvedName": "USA",
+      "coords": {
+        "lat": 37.0902,
+        "lng": -95.7129
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "zeromicro/go-zero",
+      "originalString": "Hong Kong",
+      "resolvedName": "Hong Kong",
+      "coords": {
+        "lat": 22.3193,
+        "lng": 114.1694
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "restic/restic",
+      "originalString": "Germany",
+      "resolvedName": "Germany",
+      "coords": {
+        "lat": 51.1657,
+        "lng": 10.4515
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "k3s-io/k3s",
+      "originalString": "Portland, OR, USA",
+      "resolvedName": "Portland, OR, USA",
+      "coords": {
+        "lat": 45.5051,
+        "lng": -122.675
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "beego/beego",
+      "originalString": "Shanghai, China",
+      "resolvedName": "Shanghai, China",
+      "coords": {
+        "lat": 31.2304,
+        "lng": 121.4737
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "labstack/echo",
+      "originalString": "San Francisco, CA, USA",
+      "resolvedName": "San Francisco, CA, USA",
+      "coords": {
+        "lat": 37.7749,
+        "lng": -122.4194
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "cockroachdb/cockroach",
+      "originalString": "Netherlands",
+      "resolvedName": "Netherlands",
+      "coords": {
+        "lat": 52.1326,
+        "lng": 5.2913
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "kubernetes/minikube",
+      "originalString": "San Francisco, CA, USA",
+      "resolvedName": "San Francisco, CA, USA",
+      "coords": {
+        "lat": 37.7749,
+        "lng": -122.4194
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "seaweedfs/seaweedfs",
+      "originalString": "San Francisco, CA, USA",
+      "resolvedName": "San Francisco, CA, USA",
+      "coords": {
+        "lat": 37.7749,
+        "lng": -122.4194
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "containers/podman",
+      "originalString": "Raleigh, NC, USA",
+      "resolvedName": "Raleigh, NC, USA",
+      "coords": {
+        "lat": 35.7796,
+        "lng": -78.6382
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "iawia002/lux",
+      "originalString": "Chengdu, China",
+      "resolvedName": "Chengdu, China",
+      "coords": {
+        "lat": 30.5728,
+        "lng": 104.0668
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "grafana/k6",
+      "originalString": "Sweden",
+      "resolvedName": "Sweden",
+      "coords": {
+        "lat": 60.1282,
+        "lng": 18.6435
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "spf13/viper",
+      "originalString": "New York, USA",
+      "resolvedName": "New York, USA",
+      "coords": {
+        "lat": 40.7128,
+        "lng": -74.006
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "hashicorp/consul",
+      "originalString": "San Francisco, CA, USA",
+      "resolvedName": "San Francisco, CA, USA",
+      "coords": {
+        "lat": 37.7749,
+        "lng": -122.4194
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "tailscale/tailscale",
+      "originalString": "Canada",
+      "resolvedName": "Canada",
+      "coords": {
+        "lat": 56.1304,
+        "lng": -106.3468
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "helm/helm",
+      "originalString": "USA",
+      "resolvedName": "USA",
+      "coords": {
+        "lat": 37.0902,
+        "lng": -95.7129
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "binwiederhier/ntfy",
+      "originalString": "USA",
+      "resolvedName": "USA",
+      "coords": {
+        "lat": 37.0902,
+        "lng": -95.7129
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "micro-editor/micro",
+      "originalString": "Germany",
+      "resolvedName": "Germany",
+      "coords": {
+        "lat": 51.1657,
+        "lng": 10.4515
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "github/github-mcp-server",
+      "originalString": "USA",
+      "resolvedName": "USA",
+      "coords": {
+        "lat": 37.0902,
+        "lng": -95.7129
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "opentofu/opentofu",
+      "originalString": "Los Angeles, CA, USA",
+      "resolvedName": "Los Angeles, CA, USA",
+      "coords": {
+        "lat": 34.0522,
+        "lng": -118.2437
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "fyne-io/fyne",
+      "originalString": "London, UK",
+      "resolvedName": "London, UK",
+      "coords": {
+        "lat": 51.5074,
+        "lng": -0.1278
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "grafana/loki",
+      "originalString": "Sweden",
+      "resolvedName": "Sweden",
+      "coords": {
+        "lat": 60.1282,
+        "lng": 18.6435
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "tmrts/go-patterns",
+      "originalString": "Saint Petersburg, Russia",
+      "resolvedName": "Saint Petersburg, Russia",
+      "coords": {
+        "lat": 59.9311,
+        "lng": 30.3609
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "goharbor/harbor",
+      "originalString": "Beijing, China",
+      "resolvedName": "Beijing, China",
+      "coords": {
+        "lat": 39.9042,
+        "lng": 116.4074
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "abiosoft/colima",
+      "originalString": "Nigeria",
+      "resolvedName": "Nigeria",
+      "coords": {
+        "lat": 9.082,
+        "lng": 8.6753
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "go-kit/kit",
+      "originalString": "Berlin, Germany",
+      "resolvedName": "Berlin, Germany",
+      "coords": {
+        "lat": 52.52,
+        "lng": 13.405
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "authelia/authelia",
+      "originalString": "Melbourne, Australia",
+      "resolvedName": "Melbourne, Australia",
+      "coords": {
+        "lat": -37.8136,
+        "lng": 144.9631
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "cloudreve/cloudreve",
+      "originalString": "Singapore",
+      "resolvedName": "Singapore",
+      "coords": {
+        "lat": 1.3521,
+        "lng": 103.8198
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "Wox-launcher/Wox",
+      "originalString": "Australia",
+      "resolvedName": "Australia",
+      "coords": {
+        "lat": -25.2744,
+        "lng": 133.7751
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "sipeed/picoclaw",
+      "originalString": "Shenzhen, China",
+      "resolvedName": "Shenzhen, China",
+      "coords": {
+        "lat": 22.5431,
+        "lng": 114.0579
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "openfaas/faas",
+      "originalString": "London, UK",
+      "resolvedName": "London, UK",
+      "coords": {
+        "lat": 51.5074,
+        "lng": -0.1278
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "yeasy/docker_practice",
+      "originalString": "Bay Area, CA, USA",
+      "resolvedName": "Bay Area, CA, USA",
+      "coords": {
+        "lat": 37.6879,
+        "lng": -122.4702
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "stretchr/testify",
+      "originalString": "London, UK",
+      "resolvedName": "London, UK",
+      "coords": {
+        "lat": 51.5074,
+        "lng": -0.1278
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "nsqio/nsq",
+      "originalString": "New York, USA",
+      "resolvedName": "New York, USA",
+      "coords": {
+        "lat": 40.7128,
+        "lng": -74.006
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "sirupsen/logrus",
+      "originalString": "Ottawa, Canada",
+      "resolvedName": "Ottawa, Canada",
+      "coords": {
+        "lat": 45.4215,
+        "lng": -75.6972
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "dapr/dapr",
+      "originalString": "Seattle, WA, USA",
+      "resolvedName": "Seattle, WA, USA",
+      "coords": {
+        "lat": 47.6062,
+        "lng": -122.3321
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "kataras/iris",
+      "originalString": "Athens, Greece",
+      "resolvedName": "Athens, Greece",
+      "coords": {
+        "lat": 37.9838,
+        "lng": 23.7275
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "iluwatar/java-design-patterns",
+      "originalString": "Finland",
+      "resolvedName": "Finland",
+      "coords": {
+        "lat": 61.9241,
+        "lng": 25.7482
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "macrozheng/mall",
+      "originalString": "China",
+      "resolvedName": "China",
+      "coords": {
+        "lat": 35.8617,
+        "lng": 104.1954
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "spring-projects/spring-boot",
+      "originalString": "USA",
+      "resolvedName": "USA",
+      "coords": {
+        "lat": 37.0902,
+        "lng": -95.7129
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "doocs/advanced-java",
+      "originalString": "China",
+      "resolvedName": "China",
+      "coords": {
+        "lat": 35.8617,
+        "lng": 104.1954
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "MisterBooo/LeetCodeAnimation",
+      "originalString": "Guangzhou, China",
+      "resolvedName": "Guangzhou, China",
+      "coords": {
+        "lat": 23.1291,
+        "lng": 113.2644
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "NationalSecurityAgency/ghidra",
+      "originalString": "USA",
+      "resolvedName": "USA",
+      "coords": {
+        "lat": 37.0902,
+        "lng": -95.7129
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "TheAlgorithms/Java",
+      "originalString": "India",
+      "resolvedName": "India",
+      "coords": {
+        "lat": 20.5937,
+        "lng": 78.9629
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "kdn251/interviews",
+      "originalString": "New York, USA",
+      "resolvedName": "New York, USA",
+      "coords": {
+        "lat": 40.7128,
+        "lng": -74.006
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "spring-projects/spring-framework",
+      "originalString": "USA",
+      "resolvedName": "USA",
+      "coords": {
+        "lat": 37.0902,
+        "lng": -95.7129
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "termux/termux-app",
+      "originalString": "Stockholm, Sweden",
+      "resolvedName": "Stockholm, Sweden",
+      "coords": {
+        "lat": 59.3293,
+        "lng": 18.0686
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "google/guava",
+      "originalString": "USA",
+      "resolvedName": "USA",
+      "coords": {
+        "lat": 37.0902,
+        "lng": -95.7129
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "ReactiveX/RxJava",
+      "originalString": "Silicon Valley, CA, USA",
+      "resolvedName": "Silicon Valley, CA, USA",
+      "coords": {
+        "lat": 37.3861,
+        "lng": -122.0839
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "skylot/jadx",
+      "originalString": "Germany",
+      "resolvedName": "Germany",
+      "coords": {
+        "lat": 51.1657,
+        "lng": 10.4515
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "jeecgboot/JeecgBoot",
+      "originalString": "China",
+      "resolvedName": "China",
+      "coords": {
+        "lat": 35.8617,
+        "lng": 104.1954
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "apache/dubbo",
+      "originalString": "Hangzhou, China",
+      "resolvedName": "Hangzhou, China",
+      "coords": {
+        "lat": 30.2741,
+        "lng": 120.1551
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "PhilJay/MPAndroidChart",
+      "originalString": "Austria",
+      "resolvedName": "Austria",
+      "coords": {
+        "lat": 47.5162,
+        "lng": 14.5501
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "halo-dev/halo",
+      "originalString": "China",
+      "resolvedName": "China",
+      "coords": {
+        "lat": 35.8617,
+        "lng": 104.1954
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "TeamNewPipe/NewPipe",
+      "originalString": "Germany",
+      "resolvedName": "Germany",
+      "coords": {
+        "lat": 51.1657,
+        "lng": 10.4515
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "eugenp/tutorials",
+      "originalString": "Bucharest, Romania",
+      "resolvedName": "Bucharest, Romania",
+      "coords": {
+        "lat": 44.4268,
+        "lng": 26.1025
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "alibaba/arthas",
+      "originalString": "Hangzhou, China",
+      "resolvedName": "Hangzhou, China",
+      "coords": {
+        "lat": 30.2741,
+        "lng": 120.1551
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "YunaiV/ruoyi-vue-pro",
+      "originalString": "Shanghai, China",
+      "resolvedName": "Shanghai, China",
+      "coords": {
+        "lat": 31.2304,
+        "lng": 121.4737
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "doocs/leetcode",
+      "originalString": "China",
+      "resolvedName": "China",
+      "coords": {
+        "lat": 35.8617,
+        "lng": 104.1954
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "airbnb/lottie-android",
+      "originalString": "San Francisco, CA, USA",
+      "resolvedName": "San Francisco, CA, USA",
+      "coords": {
+        "lat": 37.7749,
+        "lng": -122.4194
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "ashishps1/awesome-system-design-resources",
+      "originalString": "India",
+      "resolvedName": "India",
+      "coords": {
+        "lat": 20.5937,
+        "lng": 78.9629
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "bumptech/glide",
+      "originalString": "Mountain View, CA, USA",
+      "resolvedName": "Mountain View, CA, USA",
+      "coords": {
+        "lat": 37.3861,
+        "lng": -122.0839
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "netty/netty",
+      "originalString": "Germany",
+      "resolvedName": "Germany",
+      "coords": {
+        "lat": 51.1657,
+        "lng": 10.4515
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "SeleniumHQ/selenium",
+      "originalString": "Moscow, Russia",
+      "resolvedName": "Moscow, Russia",
+      "coords": {
+        "lat": 55.7558,
+        "lng": 37.6173
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "xkcoding/spring-boot-demo",
+      "originalString": "Hangzhou, China",
+      "resolvedName": "Hangzhou, China",
+      "coords": {
+        "lat": 30.2741,
+        "lng": 120.1551
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "zxing/zxing",
+      "originalString": "Austin, TX, USA",
+      "resolvedName": "Austin, TX, USA",
+      "coords": {
+        "lat": 30.2672,
+        "lng": -97.7431
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "alibaba/easyexcel",
+      "originalString": "Hangzhou, China",
+      "resolvedName": "Hangzhou, China",
+      "coords": {
+        "lat": 30.2741,
+        "lng": 120.1551
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "Blankj/AndroidUtilCode",
+      "originalString": "Hangzhou, China",
+      "resolvedName": "Hangzhou, China",
+      "coords": {
+        "lat": 30.2741,
+        "lng": 120.1551
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "keycloak/keycloak",
+      "originalString": "USA",
+      "resolvedName": "USA",
+      "coords": {
+        "lat": 37.0902,
+        "lng": -95.7129
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "alibaba/nacos",
+      "originalString": "Hangzhou, China",
+      "resolvedName": "Hangzhou, China",
+      "coords": {
+        "lat": 30.2741,
+        "lng": 120.1551
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "binarywang/WxJava",
+      "originalString": "China",
+      "resolvedName": "China",
+      "coords": {
+        "lat": 35.8617,
+        "lng": 104.1954
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "apache/kafka",
+      "originalString": "San Francisco, CA, USA",
+      "resolvedName": "San Francisco, CA, USA",
+      "coords": {
+        "lat": 37.7749,
+        "lng": -122.4194
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "ityouknow/spring-boot-examples",
+      "originalString": "Beijing, China",
+      "resolvedName": "Beijing, China",
+      "coords": {
+        "lat": 39.9042,
+        "lng": 116.4074
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "chinabugotech/hutool",
+      "originalString": "Beijing, China",
+      "resolvedName": "Beijing, China",
+      "coords": {
+        "lat": 39.9042,
+        "lng": 116.4074
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "xuxueli/xxl-job",
+      "originalString": "Shanghai, China",
+      "resolvedName": "Shanghai, China",
+      "coords": {
+        "lat": 31.2304,
+        "lng": 121.4737
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "apolloconfig/apollo",
+      "originalString": "Shanghai, China",
+      "resolvedName": "Shanghai, China",
+      "coords": {
+        "lat": 31.2304,
+        "lng": 121.4737
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "alibaba/canal",
+      "originalString": "Hangzhou, China",
+      "resolvedName": "Hangzhou, China",
+      "coords": {
+        "lat": 30.2741,
+        "lng": 120.1551
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "alibaba/spring-cloud-alibaba",
+      "originalString": "Hangzhou, China",
+      "resolvedName": "Hangzhou, China",
+      "coords": {
+        "lat": 30.2741,
+        "lng": 120.1551
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "yuliskov/SmartTube",
+      "originalString": "London, UK",
+      "resolvedName": "London, UK",
+      "coords": {
+        "lat": 51.5074,
+        "lng": -0.1278
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "DrKLO/Telegram",
+      "originalString": "Ukraine",
+      "resolvedName": "Ukraine",
+      "coords": {
+        "lat": 48.3794,
+        "lng": 31.1656
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "alibaba/druid",
+      "originalString": "Hangzhou, China",
+      "resolvedName": "Hangzhou, China",
+      "coords": {
+        "lat": 30.2741,
+        "lng": 120.1551
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "Anuken/Mindustry",
+      "originalString": "Netherlands",
+      "resolvedName": "Netherlands",
+      "coords": {
+        "lat": 52.1326,
+        "lng": 5.2913
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "crossoverJie/JCSprout",
+      "originalString": "China",
+      "resolvedName": "China",
+      "coords": {
+        "lat": 35.8617,
+        "lng": 104.1954
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "qiurunze123/miaosha",
+      "originalString": "Hangzhou, China",
+      "resolvedName": "Hangzhou, China",
+      "coords": {
+        "lat": 30.2741,
+        "lng": 120.1551
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "kestra-io/kestra",
+      "originalString": "France",
+      "resolvedName": "France",
+      "coords": {
+        "lat": 46.2276,
+        "lng": 2.2137
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "OpenAPITools/openapi-generator",
+      "originalString": "Palo Alto, CA, USA",
+      "resolvedName": "Palo Alto, CA, USA",
+      "coords": {
+        "lat": 37.4419,
+        "lng": -122.143
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "apache/incubator-seata",
+      "originalString": "Beijing, China",
+      "resolvedName": "Beijing, China",
+      "coords": {
+        "lat": 39.9042,
+        "lng": 116.4074
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "apache/flink",
+      "originalString": "Germany",
+      "resolvedName": "Germany",
+      "coords": {
+        "lat": 51.1657,
+        "lng": 10.4515
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "alibaba/fastjson",
+      "originalString": "Hangzhou, China",
+      "resolvedName": "Hangzhou, China",
+      "coords": {
+        "lat": 30.2741,
+        "lng": 120.1551
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "hollischuang/toBeTopJavaer",
+      "originalString": "Hangzhou, China",
+      "resolvedName": "Hangzhou, China",
+      "coords": {
+        "lat": 30.2741,
+        "lng": 120.1551
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "JakeWharton/butterknife",
+      "originalString": "Pittsburgh, PA, USA",
+      "resolvedName": "Pittsburgh, PA, USA",
+      "coords": {
+        "lat": 40.4406,
+        "lng": -79.9959
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "CodePhiliaX/Chat2DB",
+      "originalString": "Singapore",
+      "resolvedName": "Singapore",
+      "coords": {
+        "lat": 1.3521,
+        "lng": 103.8198
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "scwang90/SmartRefreshLayout",
+      "originalString": "China",
+      "resolvedName": "China",
+      "coords": {
+        "lat": 35.8617,
+        "lng": 104.1954
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "jenkinsci/jenkins",
+      "originalString": "USA",
+      "resolvedName": "USA",
+      "coords": {
+        "lat": 37.0902,
+        "lng": -95.7129
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "libgdx/libgdx",
+      "originalString": "Netherlands",
+      "resolvedName": "Netherlands",
+      "coords": {
+        "lat": 52.1326,
+        "lng": 5.2913
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "proxyee-down-org/proxyee-down",
+      "originalString": "Shenzhen, China",
+      "resolvedName": "Shenzhen, China",
+      "coords": {
+        "lat": 22.5431,
+        "lng": 114.0579
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "apache/skywalking",
+      "originalString": "Beijing, China",
+      "resolvedName": "Beijing, China",
+      "coords": {
+        "lat": 39.9042,
+        "lng": 116.4074
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "greenrobot/EventBus",
+      "originalString": "Berlin, Germany",
+      "resolvedName": "Berlin, Germany",
+      "coords": {
+        "lat": 52.52,
+        "lng": 13.405
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "Netflix/Hystrix",
+      "originalString": "San Jose, CA, USA",
+      "resolvedName": "San Jose, CA, USA",
+      "coords": {
+        "lat": 37.3382,
+        "lng": -121.8863
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "google/gson",
+      "originalString": "USA",
+      "resolvedName": "USA",
+      "coords": {
+        "lat": 37.0902,
+        "lng": -95.7129
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "dataease/dataease",
+      "originalString": "China",
+      "resolvedName": "China",
+      "coords": {
+        "lat": 35.8617,
+        "lng": 104.1954
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "EnterpriseQualityCoding/FizzBuzzEnterpriseEdition",
+      "originalString": "Denmark",
+      "resolvedName": "Denmark",
+      "coords": {
+        "lat": 56.2639,
+        "lng": 9.5018
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "LSPosed/LSPosed",
+      "originalString": "China",
+      "resolvedName": "China",
+      "coords": {
+        "lat": 35.8617,
+        "lng": 104.1954
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "doocs/source-code-hunter",
+      "originalString": "China",
+      "resolvedName": "China",
+      "coords": {
+        "lat": 35.8617,
+        "lng": 104.1954
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "alibaba/Sentinel",
+      "originalString": "Hangzhou, China",
+      "resolvedName": "Hangzhou, China",
+      "coords": {
+        "lat": 30.2741,
+        "lng": 120.1551
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "openjdk/jdk",
+      "originalString": "Germany",
+      "resolvedName": "Germany",
+      "coords": {
+        "lat": 51.1657,
+        "lng": 10.4515
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "apache/rocketmq",
+      "originalString": "Singapore",
+      "resolvedName": "Singapore",
+      "coords": {
+        "lat": 1.3521,
+        "lng": 103.8198
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "kunal-kushwaha/DSA-Bootcamp-Java",
+      "originalString": "London, UK",
+      "resolvedName": "London, UK",
+      "coords": {
+        "lat": 51.5074,
+        "lng": -0.1278
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "google/ExoPlayer",
+      "originalString": "USA",
+      "resolvedName": "USA",
+      "coords": {
+        "lat": 37.0902,
+        "lng": -95.7129
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "oracle/graal",
+      "originalString": "Austin, TX, USA",
+      "resolvedName": "Austin, TX, USA",
+      "coords": {
+        "lat": 30.2672,
+        "lng": -97.7431
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "CarGuo/GSYVideoPlayer",
+      "originalString": "USA",
+      "resolvedName": "USA",
+      "coords": {
+        "lat": 37.0902,
+        "lng": -95.7129
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "thingsboard/thingsboard",
+      "originalString": "Kyiv, Ukraine",
+      "resolvedName": "Kyiv, Ukraine",
+      "coords": {
+        "lat": 50.4501,
+        "lng": 30.5234
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "brettwooldridge/HikariCP",
+      "originalString": "Tokyo, Japan",
+      "resolvedName": "Tokyo, Japan",
+      "coords": {
+        "lat": 35.6762,
+        "lng": 139.6503
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "apache/shardingsphere",
+      "originalString": "Beijing, China",
+      "resolvedName": "Beijing, China",
+      "coords": {
+        "lat": 39.9042,
+        "lng": 116.4074
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "didi/DoKit",
+      "originalString": "Beijing, China",
+      "resolvedName": "Beijing, China",
+      "coords": {
+        "lat": 39.9042,
+        "lng": 116.4074
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "mybatis/mybatis-3",
+      "originalString": "Thailand",
+      "resolvedName": "Thailand",
+      "coords": {
+        "lat": 15.87,
+        "lng": 100.9925
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "linlinjava/litemall",
+      "originalString": "Shanghai, China",
+      "resolvedName": "Shanghai, China",
+      "coords": {
+        "lat": 31.2304,
+        "lng": 121.4737
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "ReactiveX/RxAndroid",
+      "originalString": "Pittsburgh, PA, USA",
+      "resolvedName": "Pittsburgh, PA, USA",
+      "coords": {
+        "lat": 40.4406,
+        "lng": -79.9959
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "yudaocode/SpringBoot-Labs",
+      "originalString": "China",
+      "resolvedName": "China",
+      "coords": {
+        "lat": 35.8617,
+        "lng": 104.1954
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "JetBrains/intellij-community",
+      "originalString": "Netherlands",
+      "resolvedName": "Netherlands",
+      "coords": {
+        "lat": 52.1326,
+        "lng": 5.2913
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "dianping/cat",
+      "originalString": "Shanghai, China",
+      "resolvedName": "Shanghai, China",
+      "coords": {
+        "lat": 31.2304,
+        "lng": 121.4737
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "lionsoul2014/ip2region",
+      "originalString": "Shenzhen, China",
+      "resolvedName": "Shenzhen, China",
+      "coords": {
+        "lat": 22.5431,
+        "lng": 114.0579
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "Baseflow/PhotoView",
+      "originalString": "Netherlands",
+      "resolvedName": "Netherlands",
+      "coords": {
+        "lat": 52.1326,
+        "lng": 5.2913
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "mui/material-ui",
+      "originalString": "France",
+      "resolvedName": "France",
+      "coords": {
+        "lat": 46.2276,
+        "lng": 2.2137
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "microsoft/Web-Dev-For-Beginners",
+      "originalString": "Redmond, WA, USA",
+      "resolvedName": "Redmond, WA, USA",
+      "coords": {
+        "lat": 47.674,
+        "lng": -122.1215
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "ryanmcdermott/clean-code-javascript",
+      "originalString": "Bay Area, CA, USA",
+      "resolvedName": "Bay Area, CA, USA",
+      "coords": {
+        "lat": 37.6879,
+        "lng": -122.4702
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "sveltejs/svelte",
+      "originalString": "New York, USA",
+      "resolvedName": "New York, USA",
+      "coords": {
+        "lat": 40.7128,
+        "lng": -74.006
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "louislam/uptime-kuma",
+      "originalString": "Hong Kong",
+      "resolvedName": "Hong Kong",
+      "coords": {
+        "lat": 22.3193,
+        "lng": 114.1694
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "anuraghazra/github-readme-stats",
+      "originalString": "India",
+      "resolvedName": "India",
+      "coords": {
+        "lat": 20.5937,
+        "lng": 78.9629
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "FortAwesome/Font-Awesome",
+      "originalString": "USA",
+      "resolvedName": "USA",
+      "coords": {
+        "lat": 37.0902,
+        "lng": -95.7129
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "typicode/json-server",
+      "originalString": "Boston, MA, USA",
+      "resolvedName": "Boston, MA, USA",
+      "coords": {
+        "lat": 42.3601,
+        "lng": -71.0589
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "hakimel/reveal.js",
+      "originalString": "Sweden",
+      "resolvedName": "Sweden",
+      "coords": {
+        "lat": 60.1282,
+        "lng": 18.6435
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "chartjs/Chart.js",
+      "originalString": "Toronto, Canada",
+      "resolvedName": "Toronto, Canada",
+      "coords": {
+        "lat": 43.6532,
+        "lng": -79.3832
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "juliangarnier/anime",
+      "originalString": "Paris, France",
+      "resolvedName": "Paris, France",
+      "coords": {
+        "lat": 48.8566,
+        "lng": 2.3522
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "leonardomso/33-js-concepts",
+      "originalString": "Valencia, Spain",
+      "resolvedName": "Valencia, Spain",
+      "coords": {
+        "lat": 39.4699,
+        "lng": -0.3763
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "webpack/webpack",
+      "originalString": "Germany",
+      "resolvedName": "Germany",
+      "coords": {
+        "lat": 51.1657,
+        "lng": 10.4515
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "resume/resume.github.com",
+      "originalString": "France",
+      "resolvedName": "France",
+      "coords": {
+        "lat": 46.2276,
+        "lng": 2.2137
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "gorhill/uBlock",
+      "originalString": "Canada",
+      "resolvedName": "Canada",
+      "coords": {
+        "lat": 56.1304,
+        "lng": -106.3468
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "atom/atom",
+      "originalString": "San Francisco, CA, USA",
+      "resolvedName": "San Francisco, CA, USA",
+      "coords": {
+        "lat": 37.7749,
+        "lng": -122.4194
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "adam-p/markdown-here",
+      "originalString": "Toronto, Canada",
+      "resolvedName": "Toronto, Canada",
+      "coords": {
+        "lat": 43.6532,
+        "lng": -79.3832
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "jgraph/drawio-desktop",
+      "originalString": "London, UK",
+      "resolvedName": "London, UK",
+      "coords": {
+        "lat": 51.5074,
+        "lng": -0.1278
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "angular/angular.js",
+      "originalString": "USA",
+      "resolvedName": "USA",
+      "coords": {
+        "lat": 37.0902,
+        "lng": -95.7129
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "h5bp/html5-boilerplate",
+      "originalString": "Boston, MA, USA",
+      "resolvedName": "Boston, MA, USA",
+      "coords": {
+        "lat": 42.3601,
+        "lng": -71.0589
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "Mintplex-Labs/anything-llm",
+      "originalString": "USA",
+      "resolvedName": "USA",
+      "coords": {
+        "lat": 37.0902,
+        "lng": -95.7129
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "gatsbyjs/gatsby",
+      "originalString": "Salt Lake City, UT, USA",
+      "resolvedName": "Salt Lake City, UT, USA",
+      "coords": {
+        "lat": 40.7608,
+        "lng": -111.891
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "azl397985856/leetcode",
+      "originalString": "China",
+      "resolvedName": "China",
+      "coords": {
+        "lat": 35.8617,
+        "lng": 104.1954
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "marktext/marktext",
+      "originalString": "Shanghai, China",
+      "resolvedName": "Shanghai, China",
+      "coords": {
+        "lat": 31.2304,
+        "lng": 121.4737
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "mozilla/pdf.js",
+      "originalString": "Mountain View, CA, USA",
+      "resolvedName": "Mountain View, CA, USA",
+      "coords": {
+        "lat": 37.3861,
+        "lng": -122.0839
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "TryGhost/Ghost",
+      "originalString": "London, UK",
+      "resolvedName": "London, UK",
+      "coords": {
+        "lat": 51.5074,
+        "lng": -0.1278
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "prettier/prettier",
+      "originalString": "China",
+      "resolvedName": "China",
+      "coords": {
+        "lat": 35.8617,
+        "lng": 104.1954
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "chinese-poetry/chinese-poetry",
+      "originalString": "Shanghai, China",
+      "resolvedName": "Shanghai, China",
+      "coords": {
+        "lat": 31.2304,
+        "lng": 121.4737
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "Semantic-Org/Semantic-UI",
+      "originalString": "New York, USA",
+      "resolvedName": "New York, USA",
+      "coords": {
+        "lat": 40.7128,
+        "lng": -74.006
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "poteto/hiring-without-whiteboards",
+      "originalString": "USA",
+      "resolvedName": "USA",
+      "coords": {
+        "lat": 37.0902,
+        "lng": -95.7129
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "NARKOZ/hacker-scripts",
+      "originalString": "Ukraine",
+      "resolvedName": "Ukraine",
+      "coords": {
+        "lat": 48.3794,
+        "lng": 31.1656
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "iamkun/dayjs",
+      "originalString": "Shanghai, China",
+      "resolvedName": "Shanghai, China",
+      "coords": {
+        "lat": 31.2304,
+        "lng": 121.4737
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "algorithm-visualizer/algorithm-visualizer",
+      "originalString": "New York, USA",
+      "resolvedName": "New York, USA",
+      "coords": {
+        "lat": 40.7128,
+        "lng": -74.006
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "moment/moment",
+      "originalString": "Palo Alto, CA, USA",
+      "resolvedName": "Palo Alto, CA, USA",
+      "coords": {
+        "lat": 37.4419,
+        "lng": -122.143
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "bigskysoftware/htmx",
+      "originalString": "USA",
+      "resolvedName": "USA",
+      "coords": {
+        "lat": 37.0902,
+        "lng": -95.7129
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "typescript-cheatsheets/react",
+      "originalString": "San Francisco, CA, USA",
+      "resolvedName": "San Francisco, CA, USA",
+      "coords": {
+        "lat": 37.7749,
+        "lng": -122.4194
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "serverless/serverless",
+      "originalString": "USA",
+      "resolvedName": "USA",
+      "coords": {
+        "lat": 37.0902,
+        "lng": -95.7129
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "Asabeneh/30-Days-Of-JavaScript",
+      "originalString": "Helsinki, Finland",
+      "resolvedName": "Helsinki, Finland",
+      "coords": {
+        "lat": 60.1699,
+        "lng": 24.9384
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "microsoft/monaco-editor",
+      "originalString": "Redmond, WA, USA",
+      "resolvedName": "Redmond, WA, USA",
+      "coords": {
+        "lat": 47.674,
+        "lng": -122.1215
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "LeCoupa/awesome-cheatsheets",
+      "originalString": "Barcelona, Spain",
+      "resolvedName": "Barcelona, Spain",
+      "coords": {
+        "lat": 41.3851,
+        "lng": 2.1734
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "google/zx",
+      "originalString": "USA",
+      "resolvedName": "USA",
+      "coords": {
+        "lat": 37.0902,
+        "lng": -95.7129
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "meteor/meteor",
+      "originalString": "Canada",
+      "resolvedName": "Canada",
+      "coords": {
+        "lat": 56.1304,
+        "lng": -106.3468
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "Leaflet/Leaflet",
+      "originalString": "Ukraine",
+      "resolvedName": "Ukraine",
+      "coords": {
+        "lat": 48.3794,
+        "lng": 31.1656
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "GitSquared/edex-ui",
+      "originalString": "France",
+      "resolvedName": "France",
+      "coords": {
+        "lat": 46.2276,
+        "lng": 2.2137
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "sudheerj/reactjs-interview-questions",
+      "originalString": "Ahmedabad, India",
+      "resolvedName": "Ahmedabad, India",
+      "coords": {
+        "lat": 23.0225,
+        "lng": 72.5714
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "NaiboWang/EasySpider",
+      "originalString": "Singapore",
+      "resolvedName": "Singapore",
+      "coords": {
+        "lat": 1.3521,
+        "lng": 103.8198
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "parcel-bundler/parcel",
+      "originalString": "San Francisco, CA, USA",
+      "resolvedName": "San Francisco, CA, USA",
+      "coords": {
+        "lat": 37.7749,
+        "lng": -122.4194
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "Unitech/pm2",
+      "originalString": "Paris, France",
+      "resolvedName": "Paris, France",
+      "coords": {
+        "lat": 48.8566,
+        "lng": 2.3522
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "bmad-code-org/BMAD-METHOD",
+      "originalString": "Calgary, Canada",
+      "resolvedName": "Calgary, Canada",
+      "coords": {
+        "lat": 51.0447,
+        "lng": -114.0719
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "usebruno/bruno",
+      "originalString": "Bangalore, India",
+      "resolvedName": "Bangalore, India",
+      "coords": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "nolimits4web/swiper",
+      "originalString": "USA",
+      "resolvedName": "USA",
+      "coords": {
+        "lat": 37.0902,
+        "lng": -95.7129
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "nwjs/nw.js",
+      "originalString": "USA",
+      "resolvedName": "USA",
+      "coords": {
+        "lat": 37.0902,
+        "lng": -95.7129
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "yarnpkg/yarn",
+      "originalString": "USA",
+      "resolvedName": "USA",
+      "coords": {
+        "lat": 37.0902,
+        "lng": -95.7129
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "zen-browser/desktop",
+      "originalString": "Thailand",
+      "resolvedName": "Thailand",
+      "coords": {
+        "lat": 15.87,
+        "lng": 100.9925
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "HeyPuter/puter",
+      "originalString": "Canada",
+      "resolvedName": "Canada",
+      "coords": {
+        "lat": 56.1304,
+        "lng": -106.3468
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "videojs/video.js",
+      "originalString": "San Francisco, CA, USA",
+      "resolvedName": "San Francisco, CA, USA",
+      "coords": {
+        "lat": 37.7749,
+        "lng": -122.4194
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "goabstract/Awesome-Design-Tools",
+      "originalString": "Portugal",
+      "resolvedName": "Portugal",
+      "coords": {
+        "lat": 39.3999,
+        "lng": -8.2245
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "phaserjs/phaser",
+      "originalString": "USA",
+      "resolvedName": "USA",
+      "coords": {
+        "lat": 37.0902,
+        "lng": -95.7129
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "Dogfalo/materialize",
+      "originalString": "Germany",
+      "resolvedName": "Germany",
+      "coords": {
+        "lat": 51.1657,
+        "lng": 10.4515
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "impress/impress.js",
+      "originalString": "Poland",
+      "resolvedName": "Poland",
+      "coords": {
+        "lat": 51.9194,
+        "lng": 19.1451
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "preactjs/preact",
+      "originalString": "Germany",
+      "resolvedName": "Germany",
+      "coords": {
+        "lat": 51.1657,
+        "lng": 10.4515
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "naptha/tesseract.js",
+      "originalString": "Cambridge, MA, USA",
+      "resolvedName": "Cambridge, MA, USA",
+      "coords": {
+        "lat": 42.3736,
+        "lng": -71.1097
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "denysdovhan/wtfjs",
+      "originalString": "Ukraine",
+      "resolvedName": "Ukraine",
+      "coords": {
+        "lat": 48.3794,
+        "lng": 31.1656
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "ToolJet/ToolJet",
+      "originalString": "San Francisco, CA, USA",
+      "resolvedName": "San Francisco, CA, USA",
+      "coords": {
+        "lat": 37.7749,
+        "lng": -122.4194
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "DavidHDev/react-bits",
+      "originalString": "Rio de Janeiro, Brazil",
+      "resolvedName": "Rio de Janeiro, Brazil",
+      "coords": {
+        "lat": -22.9068,
+        "lng": -43.1729
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "drawdb-io/drawdb",
+      "originalString": "Montreal, Canada",
+      "resolvedName": "Montreal, Canada",
+      "coords": {
+        "lat": 45.5017,
+        "lng": -73.5673
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "markedjs/marked",
+      "originalString": "USA",
+      "resolvedName": "USA",
+      "coords": {
+        "lat": 37.0902,
+        "lng": -95.7129
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "carbon-app/carbon",
+      "originalString": "San Francisco, CA, USA",
+      "resolvedName": "San Francisco, CA, USA",
+      "coords": {
+        "lat": 37.7749,
+        "lng": -122.4194
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "fastify/fastify",
+      "originalString": "USA",
+      "resolvedName": "USA",
+      "coords": {
+        "lat": 37.0902,
+        "lng": -95.7129
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "koajs/koa",
+      "originalString": "Hangzhou, China",
+      "resolvedName": "Hangzhou, China",
+      "coords": {
+        "lat": 30.2741,
+        "lng": 120.1551
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "jondot/awesome-react-native",
+      "originalString": "Tel Aviv, Israel",
+      "resolvedName": "Tel Aviv, Israel",
+      "coords": {
+        "lat": 32.0853,
+        "lng": 34.7818
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "alvarotrigo/fullPage.js",
+      "originalString": "Cambridge, UK",
+      "resolvedName": "Cambridge, UK",
+      "coords": {
+        "lat": 52.2053,
+        "lng": 0.1218
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "sahat/hackathon-starter",
+      "originalString": "Seattle, WA, USA",
+      "resolvedName": "Seattle, WA, USA",
+      "coords": {
+        "lat": 47.6062,
+        "lng": -122.3321
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "ryanhanwu/How-To-Ask-Questions-The-Smart-Way",
+      "originalString": "Taiwan",
+      "resolvedName": "Taiwan",
+      "coords": {
+        "lat": 23.6978,
+        "lng": 120.9605
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "gchq/CyberChef",
+      "originalString": "London, UK",
+      "resolvedName": "London, UK",
+      "coords": {
+        "lat": 51.5074,
+        "lng": -0.1278
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "zenorocha/clipboard.js",
+      "originalString": "San Francisco, CA, USA",
+      "resolvedName": "San Francisco, CA, USA",
+      "coords": {
+        "lat": 37.7749,
+        "lng": -122.4194
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "TheAlgorithms/JavaScript",
+      "originalString": "India",
+      "resolvedName": "India",
+      "coords": {
+        "lat": 20.5937,
+        "lng": 78.9629
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "qishibo/AnotherRedisDesktopManager",
+      "originalString": "Netherlands",
+      "resolvedName": "Netherlands",
+      "coords": {
+        "lat": 52.1326,
+        "lng": 5.2913
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "atlassian/react-beautiful-dnd",
+      "originalString": "Australia",
+      "resolvedName": "Australia",
+      "coords": {
+        "lat": -25.2744,
+        "lng": 133.7751
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "pcottle/learnGitBranching",
+      "originalString": "Vietnam",
+      "resolvedName": "Vietnam",
+      "coords": {
+        "lat": 14.0583,
+        "lng": 108.2772
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "adobe/brackets",
+      "originalString": "San Jose, CA, USA",
+      "resolvedName": "San Jose, CA, USA",
+      "coords": {
+        "lat": 37.3382,
+        "lng": -121.8863
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "gulpjs/gulp",
+      "originalString": "Phoenix, AZ, USA",
+      "resolvedName": "Phoenix, AZ, USA",
+      "coords": {
+        "lat": 33.4484,
+        "lng": -112.074
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "rasbt/LLMs-from-scratch",
+      "originalString": "Germany",
+      "resolvedName": "Germany",
+      "coords": {
+        "lat": 51.1657,
+        "lng": 10.4515
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "microsoft/ML-For-Beginners",
+      "originalString": "Redmond, WA, USA",
+      "resolvedName": "Redmond, WA, USA",
+      "coords": {
+        "lat": 47.674,
+        "lng": -122.1215
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "netdata/netdata",
+      "originalString": "USA",
+      "resolvedName": "USA",
+      "coords": {
+        "lat": 37.0902,
+        "lng": -95.7129
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "Developer-Y/cs-video-courses",
+      "originalString": "Toronto, Canada",
+      "resolvedName": "Toronto, Canada",
+      "coords": {
+        "lat": 43.6532,
+        "lng": -79.3832
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "mlabonne/llm-course",
+      "originalString": "London, UK",
+      "resolvedName": "London, UK",
+      "coords": {
+        "lat": 51.5074,
+        "lng": -0.1278
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "tesseract-ocr/tesseract",
+      "originalString": "Germany",
+      "resolvedName": "Germany",
+      "coords": {
+        "lat": 51.1657,
+        "lng": 10.4515
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "binhnguyennus/awesome-scalability",
+      "originalString": "Singapore",
+      "resolvedName": "Singapore",
+      "coords": {
+        "lat": 1.3521,
+        "lng": 103.8198
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "Avik-Jain/100-Days-Of-ML-Code",
+      "originalString": "Vancouver, Canada",
+      "resolvedName": "Vancouver, Canada",
+      "coords": {
+        "lat": 49.2827,
+        "lng": -123.1207
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "JuliaLang/julia",
+      "originalString": "Cambridge, MA, USA",
+      "resolvedName": "Cambridge, MA, USA",
+      "coords": {
+        "lat": 42.3736,
+        "lng": -71.1097
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "microsoft/AI-For-Beginners",
+      "originalString": "Redmond, WA, USA",
+      "resolvedName": "Redmond, WA, USA",
+      "coords": {
+        "lat": 47.674,
+        "lng": -122.1215
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "streamlit/streamlit",
+      "originalString": "Berlin, Germany",
+      "resolvedName": "Berlin, Germany",
+      "coords": {
+        "lat": 52.52,
+        "lng": 13.405
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "aymericdamien/TensorFlow-Examples",
+      "originalString": "San Francisco, CA, USA",
+      "resolvedName": "San Francisco, CA, USA",
+      "coords": {
+        "lat": 37.7749,
+        "lng": -122.4194
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "gradio-app/gradio",
+      "originalString": "Mountain View, CA, USA",
+      "resolvedName": "Mountain View, CA, USA",
+      "coords": {
+        "lat": 37.3861,
+        "lng": -122.0839
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "deepspeedai/DeepSpeed",
+      "originalString": "Seattle, WA, USA",
+      "resolvedName": "Seattle, WA, USA",
+      "coords": {
+        "lat": 47.6062,
+        "lng": -122.3321
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "ray-project/ray",
+      "originalString": "San Francisco, CA, USA",
+      "resolvedName": "San Francisco, CA, USA",
+      "coords": {
+        "lat": 37.7749,
+        "lng": -122.4194
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "microsoft/qlib",
+      "originalString": "Redmond, WA, USA",
+      "resolvedName": "Redmond, WA, USA",
+      "coords": {
+        "lat": 47.674,
+        "lng": -122.1215
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "paperless-ngx/paperless-ngx",
+      "originalString": "Seattle, WA, USA",
+      "resolvedName": "Seattle, WA, USA",
+      "coords": {
+        "lat": 47.6062,
+        "lng": -122.3321
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "LAION-AI/Open-Assistant",
+      "originalString": "Germany",
+      "resolvedName": "Germany",
+      "coords": {
+        "lat": 51.1657,
+        "lng": 10.4515
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "roboflow/supervision",
+      "originalString": "USA",
+      "resolvedName": "USA",
+      "coords": {
+        "lat": 37.0902,
+        "lng": -95.7129
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "fengdu78/Coursera-ML-AndrewNg-Notes",
+      "originalString": "China",
+      "resolvedName": "China",
+      "coords": {
+        "lat": 35.8617,
+        "lng": 104.1954
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "BVLC/caffe",
+      "originalString": "Vancouver, Canada",
+      "resolvedName": "Vancouver, Canada",
+      "coords": {
+        "lat": 49.2827,
+        "lng": -123.1207
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "google-ai-edge/mediapipe",
+      "originalString": "San Francisco, CA, USA",
+      "resolvedName": "San Francisco, CA, USA",
+      "coords": {
+        "lat": 37.7749,
+        "lng": -122.4194
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "TheAlgorithms/C-Plus-Plus",
+      "originalString": "India",
+      "resolvedName": "India",
+      "coords": {
+        "lat": 20.5937,
+        "lng": 78.9629
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "CMU-Perceptual-Computing-Lab/openpose",
+      "originalString": "Pittsburgh, PA, USA",
+      "resolvedName": "Pittsburgh, PA, USA",
+      "coords": {
+        "lat": 40.4406,
+        "lng": -79.9959
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "ItzCrazyKns/Vane",
+      "originalString": "China",
+      "resolvedName": "China",
+      "coords": {
+        "lat": 35.8617,
+        "lng": 104.1954
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "explosion/spaCy",
+      "originalString": "Germany",
+      "resolvedName": "Germany",
+      "coords": {
+        "lat": 51.1657,
+        "lng": 10.4515
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "openai/CLIP",
+      "originalString": "San Francisco, CA, USA",
+      "resolvedName": "San Francisco, CA, USA",
+      "coords": {
+        "lat": 37.7749,
+        "lng": -122.4194
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "patchy631/ai-engineering-hub",
+      "originalString": "India",
+      "resolvedName": "India",
+      "coords": {
+        "lat": 20.5937,
+        "lng": 78.9629
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code",
+      "originalString": "Ahmedabad, India",
+      "resolvedName": "Ahmedabad, India",
+      "coords": {
+        "lat": 23.0225,
+        "lng": 72.5714
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "eriklindernoren/ML-From-Scratch",
+      "originalString": "Stockholm, Sweden",
+      "resolvedName": "Stockholm, Sweden",
+      "coords": {
+        "lat": 59.3293,
+        "lng": 18.0686
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "Lightning-AI/pytorch-lightning",
+      "originalString": "USA",
+      "resolvedName": "USA",
+      "coords": {
+        "lat": 37.0902,
+        "lng": -95.7129
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "AMAI-GmbH/AI-Expert-Roadmap",
+      "originalString": "Germany",
+      "resolvedName": "Germany",
+      "coords": {
+        "lat": 51.1657,
+        "lng": 10.4515
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "iperov/DeepFaceLive",
+      "originalString": "Hangzhou, China",
+      "resolvedName": "Hangzhou, China",
+      "coords": {
+        "lat": 30.2741,
+        "lng": 120.1551
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "JaidedAI/EasyOCR",
+      "originalString": "Thailand",
+      "resolvedName": "Thailand",
+      "coords": {
+        "lat": 15.87,
+        "lng": 100.9925
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "donnemartin/data-science-ipython-notebooks",
+      "originalString": "Washington DC, USA",
+      "resolvedName": "Washington DC, USA",
+      "coords": {
+        "lat": 38.9072,
+        "lng": -77.0369
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "eugeneyan/applied-ml",
+      "originalString": "Seattle, WA, USA",
+      "resolvedName": "Seattle, WA, USA",
+      "coords": {
+        "lat": 47.6062,
+        "lng": -122.3321
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "ZuzooVn/machine-learning-for-software-engineers",
+      "originalString": "Vietnam",
+      "resolvedName": "Vietnam",
+      "coords": {
+        "lat": 14.0583,
+        "lng": 108.2772
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "academic/awesome-datascience",
+      "originalString": "Turkey",
+      "resolvedName": "Turkey",
+      "coords": {
+        "lat": 38.9637,
+        "lng": 35.2433
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "d2l-ai/d2l-en",
+      "originalString": "Menlo Park, CA, USA",
+      "resolvedName": "Menlo Park, CA, USA",
+      "coords": {
+        "lat": 37.453,
+        "lng": -122.1817
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "dmlc/xgboost",
+      "originalString": "Los Angeles, CA, USA",
+      "resolvedName": "Los Angeles, CA, USA",
+      "coords": {
+        "lat": 34.0522,
+        "lng": -118.2437
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "fastai/fastai",
+      "originalString": "Australia",
+      "resolvedName": "Australia",
+      "coords": {
+        "lat": -25.2744,
+        "lng": 133.7751
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "ChristosChristofidis/awesome-deep-learning",
+      "originalString": "London, UK",
+      "resolvedName": "London, UK",
+      "coords": {
+        "lat": 51.5074,
+        "lng": -0.1278
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "mozilla/DeepSpeech",
+      "originalString": "Mountain View, CA, USA",
+      "resolvedName": "Mountain View, CA, USA",
+      "coords": {
+        "lat": 37.3861,
+        "lng": -122.0839
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "srbhr/Resume-Matcher",
+      "originalString": "New Delhi, India",
+      "resolvedName": "New Delhi, India",
+      "coords": {
+        "lat": 28.6139,
+        "lng": 77.209
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "terryum/awesome-deep-learning-papers",
+      "originalString": "South Korea",
+      "resolvedName": "South Korea",
+      "coords": {
+        "lat": 35.9078,
+        "lng": 127.7669
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "ageron/handson-ml",
+      "originalString": "Auckland, New Zealand",
+      "resolvedName": "Auckland, New Zealand",
+      "coords": {
+        "lat": -36.8485,
+        "lng": 174.7633
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "modular/modular",
+      "originalString": "USA",
+      "resolvedName": "USA",
+      "coords": {
+        "lat": 37.0902,
+        "lng": -95.7129
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "datawhalechina/pumpkin-book",
+      "originalString": "Beijing, China",
+      "resolvedName": "Beijing, China",
+      "coords": {
+        "lat": 39.9042,
+        "lng": 116.4074
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "shap/shap",
+      "originalString": "Seattle, WA, USA",
+      "resolvedName": "Seattle, WA, USA",
+      "coords": {
+        "lat": 47.6062,
+        "lng": -122.3321
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "mlflow/mlflow",
+      "originalString": "USA",
+      "resolvedName": "USA",
+      "coords": {
+        "lat": 37.0902,
+        "lng": -95.7129
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "mxgmn/WaveFunctionCollapse",
+      "originalString": "Helsinki, Finland",
+      "resolvedName": "Helsinki, Finland",
+      "coords": {
+        "lat": 60.1699,
+        "lng": 24.9384
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "fastai/fastbook",
+      "originalString": "Australia",
+      "resolvedName": "Australia",
+      "coords": {
+        "lat": -25.2744,
+        "lng": 133.7751
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "deepset-ai/haystack",
+      "originalString": "Germany",
+      "resolvedName": "Germany",
+      "coords": {
+        "lat": 51.1657,
+        "lng": 10.4515
+      },
+      "confidence": "EXACT",
+      "source": "local_cache"
+    },
+    {
+      "id": "trekhleb/homemade-machine-learning",
+      "originalString": "San Francisco, CA, USA",
+      "resolvedName": "San Francisco, CA, USA",
+      "coords": {
+        "lat": 37.7749,
+        "lng": -122.4194
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    },
+    {
+      "id": "PaddlePaddle/Paddle",
+      "originalString": "Beijing, China",
+      "resolvedName": "Beijing, China",
+      "coords": {
+        "lat": 39.9042,
+        "lng": 116.4074
+      },
+      "confidence": "HIGH",
+      "source": "offline_rules"
+    }
+  ],
+  "summary": {
+    "total": 623,
+    "resolved": 623,
+    "unknown": 0,
+    "local_cache": 147,
+    "offline_rules": 476,
+    "external_api": 0,
+    "fallback": 0,
+    "external_cache_hits": 0,
+    "external_requests": 0,
+    "external_failures": 0
+  }
+}

@@ -1,0 +1,92 @@
+[
+  {
+    "repo_id": "vercel/next.js",
+    "files": [
+      {
+        "path": "package.json",
+        "content": "{\n  \"dependencies\": {\n    \"react\": \"^19.0.0\",\n    \"react-dom\": \"^19.0.0\",\n    \"styled-jsx\": \"^5.1.6\"\n  },\n  \"devDependencies\": {\n    \"eslint\": \"^9.0.0\",\n    \"jest\": \"^29.0.0\",\n    \"typescript\": \"^5.0.0\"\n  }\n}"
+      }
+    ]
+  },
+  {
+    "repo_id": "facebook/react",
+    "files": [
+      {
+        "path": "package.json",
+        "content": "{\n  \"dependencies\": {\n    \"loose-envify\": \"^1.4.0\"\n  },\n  \"devDependencies\": {\n    \"eslint\": \"^9.0.0\",\n    \"jest\": \"^29.0.0\",\n    \"typescript\": \"^5.0.0\"\n  }\n}"
+      }
+    ]
+  },
+  {
+    "repo_id": "microsoft/vscode",
+    "files": [
+      {
+        "path": "package.json",
+        "content": "{\n  \"dependencies\": {\n    \"xterm\": \"^5.5.0\",\n    \"xterm-addon-canvas\": \"^0.8.0\"\n  },\n  \"devDependencies\": {\n    \"eslint\": \"^9.0.0\",\n    \"typescript\": \"^5.0.0\",\n    \"jest\": \"^29.0.0\"\n  }\n}"
+      }
+    ]
+  },
+  {
+    "repo_id": "vitejs/vite",
+    "files": [
+      {
+        "path": "package.json",
+        "content": "{\n  \"dependencies\": {\n    \"esbuild\": \"^0.25.0\",\n    \"postcss\": \"^8.5.0\"\n  },\n  \"devDependencies\": {\n    \"rollup\": \"^4.0.0\",\n    \"typescript\": \"^5.0.0\",\n    \"eslint\": \"^9.0.0\"\n  }\n}"
+      }
+    ]
+  },
+  {
+    "repo_id": "huggingface/transformers",
+    "files": [
+      {
+        "path": "requirements.txt",
+        "content": "numpy>=1.17\npyyaml>=5.1\nrequests\nregex\nsafetensors\n"
+      }
+    ]
+  },
+  {
+    "repo_id": "home-assistant/core",
+    "files": [
+      {
+        "path": "requirements.txt",
+        "content": "aiohttp>=3.9\njinja2>=3.1\npyyaml>=6.0\nrequests>=2.31\nvoluptuous>=0.13\n"
+      }
+    ]
+  },
+  {
+    "repo_id": "django/django",
+    "files": [
+      {
+        "path": "requirements.txt",
+        "content": "asgiref>=3.8\nsqlparse>=0.5\ntzdata>=2024.1\njinja2>=3.1\n"
+      }
+    ]
+  },
+  {
+    "repo_id": "pallets/flask",
+    "files": [
+      {
+        "path": "requirements.txt",
+        "content": "werkzeug>=3.0\njinja2>=3.1\nclick>=8.1\nitsdangerous>=2.2\nblinker>=1.9\n"
+      }
+    ]
+  },
+  {
+    "repo_id": "astral-sh/uv",
+    "files": [
+      {
+        "path": "Cargo.toml",
+        "content": "[dependencies]\nanyhow = \"1\"\nclap = \"4\"\nreqwest = { version = \"0.12\" }\nserde = { version = \"1\" }\ntokio = { version = \"1\" }\n\n[dev-dependencies]\ninsta = \"1\"\n"
+      }
+    ]
+  },
+  {
+    "repo_id": "tauri-apps/tauri",
+    "files": [
+      {
+        "path": "Cargo.toml",
+        "content": "[dependencies]\nserde = { version = \"1\" }\nthiserror = \"2\"\ntokio = { version = \"1\" }\nreqwest = { version = \"0.12\" }\n\n[dev-dependencies]\ninsta = \"1\"\n"
+      }
+    ]
+  }
+]

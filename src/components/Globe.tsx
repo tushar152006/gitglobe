@@ -5,6 +5,7 @@ import { useEffect, useRef } from 'react'
 import * as THREE from 'three'
 import type { Society } from './societies'
 import { PulseManager } from './PulseLayer'
+import type { ForkArc, OrgConstellation } from '../types/relationships'
 
 // ── Types ──────────────────────────────────────────────────────────────────
 export interface Repo {
@@ -15,8 +16,10 @@ export interface Repo {
 
 interface GlobeProps {
   repos: Repo[]
+  unknownOriginCount: number
   onSelect: (repo: Repo | null) => void
   onHover: (repo: Repo | null, x: number, y: number) => void
+  onUnknownClusterClick: () => void
   flyTarget: { lat: number; lng: number } | null
   trendingNames: Set<string>
   // ── Phase 3 additions ──
@@ -24,6 +27,10 @@ interface GlobeProps {
   activeSociety: Society | null
   onSocietyClick: (s: Society) => void
   pulseEnabled: boolean
+  forkArcs: ForkArc[]
+  orgConstellations: OrgConstellation[]
+  showForkArcs: boolean
+  showConstellations: boolean
 }
 
 // ── Language colours ───────────────────────────────────────────────────────
@@ -46,6 +53,35 @@ export function fmt(n: number) {
 }
 
 const GLOBE_R = 1
+const MAX_GLOBE_ARCS = 24
+const MAX_CONSTELLATIONS = 5
+const MAX_CONSTELLATION_LINKS = 4
+const CAMERA_LAYOUT = {
+  desktop: { z: 2.38, lookAtX: 0.18, lookAtY: 0.04, minZ: 1.45, maxZ: 5.2 },
+  mobile: { z: 2.95, lookAtX: 0, lookAtY: 0.02, minZ: 1.7, maxZ: 5.8 },
+}
+
+function getCameraLayout(width: number) {
+  return width < 900 ? CAMERA_LAYOUT.mobile : CAMERA_LAYOUT.desktop
+}
+
+function applyCameraFrame(
+  camera: THREE.PerspectiveCamera,
+  width: number,
+  height: number,
+  preserveZoom = true,
+) {
+  const layout = getCameraLayout(width)
+  camera.aspect = width / height
+  if (!preserveZoom) {
+    camera.position.z = layout.z
+  } else {
+    camera.position.z = Math.max(layout.minZ, Math.min(layout.maxZ, camera.position.z))
+  }
+  camera.lookAt(layout.lookAtX, layout.lookAtY, 0)
+  camera.updateProjectionMatrix()
+  return layout
+}
 
 function latLngToVec3(lat: number, lng: number, r: number) {
   const phi   = (90 - lat)  * (Math.PI / 180)
@@ -176,8 +212,9 @@ function buildSocietyRings(
 
 // ── Component ──────────────────────────────────────────────────────────────
 export default function Globe({
-  repos, onSelect, onHover, flyTarget, trendingNames,
+  repos, unknownOriginCount, onSelect, onHover, onUnknownClusterClick, flyTarget, trendingNames,
   societies, activeSociety, onSocietyClick, pulseEnabled,
+  forkArcs, orgConstellations, showForkArcs, showConstellations,
 }: GlobeProps) {
   const mountRef = useRef<HTMLDivElement>(null)
   const stateRef = useRef<{
@@ -199,12 +236,20 @@ export default function Globe({
   const societiesRef  = useRef(societies)
   const activeSocRef  = useRef(activeSociety)
   const pulseRef      = useRef(pulseEnabled)
+  const arcRef        = useRef(forkArcs)
+  const constellationRef = useRef(orgConstellations)
+  const showArcsRef   = useRef(showForkArcs)
+  const showConstRef  = useRef(showConstellations)
 
   reposRef.current     = repos
   trendRef.current     = trendingNames
   societiesRef.current = societies
   activeSocRef.current = activeSociety
   pulseRef.current     = pulseEnabled
+  arcRef.current       = forkArcs
+  constellationRef.current = orgConstellations
+  showArcsRef.current  = showForkArcs
+  showConstRef.current = showConstellations
 
   // ── Main three.js setup ──────────────────────────────────────────────────
   useEffect(() => {
@@ -218,20 +263,20 @@ export default function Globe({
     renderer.domElement.style.display = 'block'
     el.appendChild(renderer.domElement)
 
+    const scene  = new THREE.Scene()
+    const camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 0.1, 1000)
+    applyCameraFrame(camera, window.innerWidth, window.innerHeight, false)
+
     const syncSize = () => {
-      const w = window.innerWidth, h = window.innerHeight
+      const w = window.innerWidth
+      const h = window.innerHeight
       if (renderer.domElement.width !== w || renderer.domElement.height !== h) {
-        camera.aspect = w / h
-        camera.updateProjectionMatrix()
+        applyCameraFrame(camera, w, h)
         renderer.setSize(w, h)
       }
     }
     setTimeout(syncSize, 0)
     setTimeout(syncSize, 200)
-
-    const scene  = new THREE.Scene()
-    const camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 0.1, 1000)
-    camera.position.z = 2.8
 
     // Globe
     const globe = new THREE.Mesh(
@@ -291,10 +336,56 @@ export default function Globe({
 
     // ── Society rings storage ─────────────────────────────────────────────
     const societyRings: THREE.Object3D[] = []
+    const unknownCluster: THREE.Object3D[] = []
+    const arcLines: Array<{ line: THREE.Line; arc: ForkArc }> = []
+    const constellationLines: Array<{ line: THREE.Line; constellation: OrgConstellation; source: [number, number]; target: [number, number] }> = []
 
     // ── Pulse manager ──────────────────────────────────────────────────────
     const pulse = new PulseManager(scene, globe)
     let pulseTimer = 0
+
+    function buildUnknownCluster() {
+      unknownCluster.forEach((item) => scene.remove(item))
+      unknownCluster.length = 0
+      if (unknownOriginCount <= 0) return
+
+      const anchor = new THREE.Vector3(-1.28, -0.92, 0)
+      const halo = new THREE.Mesh(
+        new THREE.TorusGeometry(0.22, 0.006, 10, 64),
+        new THREE.MeshBasicMaterial({ color: 0x94a3b8, transparent: true, opacity: 0.22 }),
+      )
+      halo.position.copy(anchor)
+      halo.rotation.x = Math.PI / 2.3
+      halo.userData = { isUnknownCluster: true }
+      scene.add(halo)
+      unknownCluster.push(halo)
+
+      const core = new THREE.Mesh(
+        new THREE.SphereGeometry(0.034, 14, 14),
+        new THREE.MeshBasicMaterial({ color: 0xd1d5db, transparent: true, opacity: 0.92 }),
+      )
+      core.position.copy(anchor)
+      core.userData = { isUnknownCluster: true }
+      scene.add(core)
+      unknownCluster.push(core)
+
+      const dotCount = Math.min(10, Math.max(4, Math.ceil(unknownOriginCount / 2)))
+      for (let i = 0; i < dotCount; i++) {
+        const angle = (i / dotCount) * Math.PI * 2
+        const dot = new THREE.Mesh(
+          new THREE.SphereGeometry(0.012, 8, 8),
+          new THREE.MeshBasicMaterial({ color: 0x60a5fa, transparent: true, opacity: 0.72 }),
+        )
+        dot.position.set(
+          anchor.x + Math.cos(angle) * 0.18,
+          anchor.y + Math.sin(angle) * 0.08,
+          anchor.z + Math.sin(angle * 1.5) * 0.05,
+        )
+        dot.userData = { isUnknownCluster: true, orbitPhase: angle }
+        scene.add(dot)
+        unknownCluster.push(dot)
+      }
+    }
 
     function buildNodes(gridSize: number) {
       sceneNodes.forEach(o => scene.remove(o))
@@ -334,6 +425,8 @@ export default function Globe({
 
       // Rebuild society rings when nodes rebuild
       buildSocietyRings(scene, societiesRef.current, activeSocRef.current, globe, societyRings)
+      buildNetworkLayers()
+      buildUnknownCluster()
     }
 
     buildNodes(currentGridSize)
@@ -352,6 +445,101 @@ export default function Globe({
         base.applyMatrix4(rotMat)
         node.position.copy(base)
         rings[i].position.copy(base)
+      })
+      updateNetworkLayerPositions()
+    }
+
+    function buildArcPoints(startCoords: [number, number], endCoords: [number, number], lift: number) {
+      const start = latLngToVec3(startCoords[1], startCoords[0], GLOBE_R + 0.017)
+      const end = latLngToVec3(endCoords[1], endCoords[0], GLOBE_R + 0.017)
+      const mid = start.clone().add(end).multiplyScalar(0.5).normalize().multiplyScalar(GLOBE_R + 0.05 + lift)
+      const curve = new THREE.QuadraticBezierCurve3(start, mid, end)
+      return curve.getPoints(24)
+    }
+
+    function sameCoords(a: [number, number], b: [number, number]) {
+      return Math.abs(a[0] - b[0]) < 0.001 && Math.abs(a[1] - b[1]) < 0.001
+    }
+
+    function arcDistanceScore(a: [number, number], b: [number, number]) {
+      const lng = Math.abs(a[0] - b[0])
+      const lat = Math.abs(a[1] - b[1])
+      return lng + lat * 1.25
+    }
+
+    function buildNetworkLayers() {
+      arcLines.forEach(x => scene.remove(x.line))
+      constellationLines.forEach(x => scene.remove(x.line))
+      arcLines.length = 0
+      constellationLines.length = 0
+
+      const visibleArcs = arcRef.current
+        .filter((arc) => !sameCoords(arc.parentCoords, arc.forkCoords))
+        .sort((a, b) => {
+          const aScore = a.stars * 0.7 + arcDistanceScore(a.parentCoords, a.forkCoords)
+          const bScore = b.stars * 0.7 + arcDistanceScore(b.parentCoords, b.forkCoords)
+          return bScore - aScore
+        })
+        .slice(0, MAX_GLOBE_ARCS)
+
+      visibleArcs.forEach(arc => {
+        const lift = Math.min(0.22, 0.05 + Math.log10(Math.max(arc.stars, 10)) * 0.028)
+        const points = buildArcPoints(arc.parentCoords, arc.forkCoords, lift)
+        const line = new THREE.Line(
+          new THREE.BufferGeometry().setFromPoints(points),
+          new THREE.LineBasicMaterial({
+            color: 0x52d2ff,
+            transparent: true,
+            opacity: showArcsRef.current ? Math.min(0.72, 0.24 + Math.log10(Math.max(arc.stars, 10)) * 0.08) : 0,
+            depthWrite: false,
+          }),
+        )
+        scene.add(line)
+        arcLines.push({ line, arc })
+      })
+
+      constellationRef.current.slice(0, MAX_CONSTELLATIONS).forEach(c => {
+        const hub = c.hub
+        if (!hub) return
+        const spokes = c.repos
+          .filter((repo) => !sameCoords(hub, repo.coords))
+          .slice(0, MAX_CONSTELLATION_LINKS)
+
+        for (const repo of spokes) {
+          const points = buildArcPoints(hub, repo.coords, 0.07)
+          const line = new THREE.Line(
+            new THREE.BufferGeometry().setFromPoints(points),
+            new THREE.LineBasicMaterial({
+              color: 0xffd166,
+              transparent: true,
+              opacity: showConstRef.current ? 0.22 : 0,
+              depthWrite: false,
+            }),
+          )
+          scene.add(line)
+          constellationLines.push({ line, constellation: c, source: hub, target: repo.coords })
+        }
+      })
+
+      updateNetworkLayerPositions()
+    }
+
+    function updateNetworkLayerPositions() {
+      const rotMat = new THREE.Matrix4().makeRotationFromEuler(globe.rotation)
+
+      arcLines.forEach(({ line, arc }) => {
+        const lift = Math.min(0.22, 0.05 + Math.log10(Math.max(arc.stars, 10)) * 0.028)
+        const pts = buildArcPoints(arc.parentCoords, arc.forkCoords, lift).map(p => p.applyMatrix4(rotMat))
+        line.geometry.dispose()
+        line.geometry = new THREE.BufferGeometry().setFromPoints(pts)
+        ;(line.material as THREE.LineBasicMaterial).opacity = showArcsRef.current ? Math.min(0.72, 0.24 + Math.log10(Math.max(arc.stars, 10)) * 0.08) : 0
+      })
+
+      constellationLines.forEach(({ line, source, target }) => {
+        const pts = buildArcPoints(source, target, 0.07).map(p => p.applyMatrix4(rotMat))
+        line.geometry.dispose()
+        line.geometry = new THREE.BufferGeometry().setFromPoints(pts)
+        ;(line.material as THREE.LineBasicMaterial).opacity = showConstRef.current ? 0.22 : 0
       })
     }
 
@@ -411,6 +599,12 @@ export default function Globe({
         if (soc) { onSocietyClick(soc); return }
       }
 
+      const unknownHits = raycaster.intersectObjects(unknownCluster)
+      if (unknownHits.length > 0) {
+        onUnknownClusterClick()
+        return
+      }
+
       const hits = raycaster.intersectObjects(visibleNodes())
       if (hits.length > 0) {
         const node = hits[0].object as THREE.Mesh
@@ -437,12 +631,16 @@ export default function Globe({
       state.prevMouse={x:e.clientX,y:e.clientY}
     }
     function onMouseUp() { state.isDragging=false }
-    function onWheel(e: WheelEvent) { camera.position.z=Math.max(1.4,Math.min(6,camera.position.z+e.deltaY*0.002)) }
+    function onWheel(e: WheelEvent) {
+      const layout = getCameraLayout(window.innerWidth)
+      camera.position.z = Math.max(layout.minZ, Math.min(layout.maxZ, camera.position.z + e.deltaY * 0.002))
+      camera.lookAt(layout.lookAtX, layout.lookAtY, 0)
+    }
     function onResize() {
-      const w=window.innerWidth, h=window.innerHeight
-      camera.aspect=w/h
-      camera.updateProjectionMatrix()
-      renderer.setSize(w,h)
+      const w = window.innerWidth
+      const h = window.innerHeight
+      applyCameraFrame(camera, w, h)
+      renderer.setSize(w, h)
     }
 
     el.addEventListener('mousemove', onMouseMove)
@@ -462,6 +660,7 @@ export default function Globe({
       const z = camera.position.z
       const newGrid = z>3.5?20:z>2.4?10:z>1.9?4:0
       if (newGrid !== state.currentGridSize) buildNodes(newGrid)
+      if (state.tick % 20 === 0) buildNetworkLayers()
 
       // Inertia
       if (!state.isDragging && (Math.abs(state.rotVel.x)>0.0001||Math.abs(state.rotVel.y)>0.0001)) {
@@ -512,6 +711,14 @@ export default function Globe({
         }
       })
 
+      unknownCluster.forEach((item) => {
+        if (!('orbitPhase' in item.userData)) return
+        const phase = item.userData.orbitPhase + state.tick * 0.02
+        item.position.x = -1.28 + Math.cos(phase) * 0.18
+        item.position.y = -0.92 + Math.sin(phase) * 0.08
+        item.position.z = Math.sin(phase * 1.5) * 0.05
+      })
+
       renderer.render(scene, camera)
     }
     animate()
@@ -537,7 +744,7 @@ export default function Globe({
       renderer.dispose()
       if (el.contains(renderer.domElement)) el.removeChild(renderer.domElement)
     }
-  }, [repos, trendingNames, societies, activeSociety])
+  }, [repos, trendingNames, societies, activeSociety, unknownOriginCount, onUnknownClusterClick])
 
   // Fly-to
   useEffect(() => {
@@ -547,7 +754,9 @@ export default function Globe({
       y: (-flyTarget.lng*Math.PI/180)-Math.PI,
       progress: 0,
     }
-    stateRef.current.camera.position.z = Math.min(stateRef.current.camera.position.z, 2.0)
+    const layout = getCameraLayout(window.innerWidth)
+    stateRef.current.camera.position.z = Math.min(stateRef.current.camera.position.z, layout.z - 0.18)
+    stateRef.current.camera.lookAt(layout.lookAtX, layout.lookAtY, 0)
   }, [flyTarget])
 
   return <div ref={mountRef} style={{ position:'fixed', inset:0, cursor:'grab', background:'#04070f', overflow:'hidden' }} />

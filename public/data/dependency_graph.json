@@ -1,0 +1,1682 @@
+[
+  {
+    "source_repo": "deepseek-ai/DeepSeek-V3",
+    "target_repo": "openai/whisper",
+    "source_coords": [
+      120.1551,
+      30.2741
+    ],
+    "target_coords": [
+      -122.4194,
+      37.7749
+    ],
+    "weight": 0.98,
+    "rationale": "Shared ecosystem: python"
+  },
+  {
+    "source_repo": "jesseduffield/lazydocker",
+    "target_repo": "astaxie/build-web-application-with-golang",
+    "source_coords": [
+      144.9631,
+      -37.8136
+    ],
+    "target_coords": [
+      121.4737,
+      31.2304
+    ],
+    "weight": 0.975,
+    "rationale": "Shared ecosystem: go"
+  },
+  {
+    "source_repo": "ytdl-org/youtube-dl",
+    "target_repo": "deepseek-ai/DeepSeek-V3",
+    "source_coords": [
+      10.4515,
+      51.1657
+    ],
+    "target_coords": [
+      120.1551,
+      30.2741
+    ],
+    "weight": 0.946,
+    "rationale": "Shared ecosystem: python"
+  },
+  {
+    "source_repo": "ytdl-org/youtube-dl",
+    "target_repo": "openai/whisper",
+    "source_coords": [
+      10.4515,
+      51.1657
+    ],
+    "target_coords": [
+      -122.4194,
+      37.7749
+    ],
+    "weight": 0.938,
+    "rationale": "Shared ecosystem: python"
+  },
+  {
+    "source_repo": "anomalyco/opencode",
+    "target_repo": "realworld-apps/realworld",
+    "source_coords": [
+      -74.006,
+      40.7128
+    ],
+    "target_coords": [
+      -122.4194,
+      37.7749
+    ],
+    "weight": 0.927,
+    "rationale": "Shared ecosystem: typescript"
+  },
+  {
+    "source_repo": "GrowingGit/GitHub-Chinese-Top-Charts",
+    "target_repo": "eugenp/tutorials",
+    "source_coords": [
+      113.2644,
+      23.1291
+    ],
+    "target_coords": [
+      26.1025,
+      44.4268
+    ],
+    "weight": 0.87,
+    "rationale": "Shared ecosystem: java"
+  },
+  {
+    "source_repo": "fastai/fastai",
+    "target_repo": "fastai/fastbook",
+    "source_coords": [
+      133.7751,
+      -25.2744
+    ],
+    "target_coords": [
+      133.7751,
+      -25.2744
+    ],
+    "weight": 0.861,
+    "rationale": "Shared ecosystem: deep-learning, fastai"
+  },
+  {
+    "source_repo": "TheAlgorithms/Java",
+    "target_repo": "kdn251/interviews",
+    "source_coords": [
+      78.9629,
+      20.5937
+    ],
+    "target_coords": [
+      -74.006,
+      40.7128
+    ],
+    "weight": 0.824,
+    "rationale": "Shared ecosystem: algorithm, algorithm-challenges"
+  },
+  {
+    "source_repo": "openai/whisper",
+    "target_repo": "nvbn/thefuck",
+    "source_coords": [
+      -122.4194,
+      37.7749
+    ],
+    "target_coords": [
+      5.2913,
+      52.1326
+    ],
+    "weight": 0.823,
+    "rationale": "Shared ecosystem: python"
+  },
+  {
+    "source_repo": "deepseek-ai/DeepSeek-V3",
+    "target_repo": "nvbn/thefuck",
+    "source_coords": [
+      120.1551,
+      30.2741
+    ],
+    "target_coords": [
+      5.2913,
+      52.1326
+    ],
+    "weight": 0.812,
+    "rationale": "Shared ecosystem: python"
+  },
+  {
+    "source_repo": "puppeteer/puppeteer",
+    "target_repo": "microsoft/playwright",
+    "source_coords": [
+      10.4515,
+      51.1657
+    ],
+    "target_coords": [
+      -122.1215,
+      47.674
+    ],
+    "weight": 0.806,
+    "rationale": "Shared ecosystem: automation, chrome"
+  },
+  {
+    "source_repo": "moby/moby",
+    "target_repo": "traefik/traefik",
+    "source_coords": [
+      5.2913,
+      52.1326
+    ],
+    "target_coords": [
+      2.2137,
+      46.2276
+    ],
+    "weight": 0.799,
+    "rationale": "Shared ecosystem: docker, go"
+  },
+  {
+    "source_repo": "rust-unofficial/awesome-rust",
+    "target_repo": "FuelLabs/fuels-rs",
+    "source_coords": [
+      -0.1278,
+      51.5074
+    ],
+    "target_coords": [
+      -123.1207,
+      49.2827
+    ],
+    "weight": 0.779,
+    "rationale": "Shared ecosystem: rust"
+  },
+  {
+    "source_repo": "spring-projects/spring-boot",
+    "target_repo": "spring-projects/spring-framework",
+    "source_coords": [
+      -95.7129,
+      37.0902
+    ],
+    "target_coords": [
+      -95.7129,
+      37.0902
+    ],
+    "weight": 0.774,
+    "rationale": "Shared ecosystem: framework, spring"
+  },
+  {
+    "source_repo": "google/guava",
+    "target_repo": "eugenp/tutorials",
+    "source_coords": [
+      -95.7129,
+      37.0902
+    ],
+    "target_coords": [
+      26.1025,
+      44.4268
+    ],
+    "weight": 0.77,
+    "rationale": "Shared ecosystem: java"
+  },
+  {
+    "source_repo": "chartjs/Chart.js",
+    "target_repo": "juliangarnier/anime",
+    "source_coords": [
+      -79.3832,
+      43.6532
+    ],
+    "target_coords": [
+      2.3522,
+      48.8566
+    ],
+    "weight": 0.766,
+    "rationale": "Shared ecosystem: canvas, javascript"
+  },
+  {
+    "source_repo": "google-gemini/gemini-cli",
+    "target_repo": "firecrawl/firecrawl",
+    "source_coords": [
+      -95.7129,
+      37.0902
+    ],
+    "target_coords": [
+      -95.7129,
+      37.0902
+    ],
+    "weight": 0.765,
+    "rationale": "Shared ecosystem: ai, ai-agents"
+  },
+  {
+    "source_repo": "moby/moby",
+    "target_repo": "caddyserver/caddy",
+    "source_coords": [
+      5.2913,
+      52.1326
+    ],
+    "target_coords": [
+      -75.6972,
+      45.4215
+    ],
+    "weight": 0.765,
+    "rationale": "Shared ecosystem: go, golang"
+  },
+  {
+    "source_repo": "google-ai-edge/mediapipe",
+    "target_repo": "CMU-Perceptual-Computing-Lab/openpose",
+    "source_coords": [
+      -122.4194,
+      37.7749
+    ],
+    "target_coords": [
+      -79.9959,
+      40.4406
+    ],
+    "weight": 0.764,
+    "rationale": "Shared ecosystem: computer-vision, deep-learning"
+  },
+  {
+    "source_repo": "shap/shap",
+    "target_repo": "fastai/fastbook",
+    "source_coords": [
+      -122.3321,
+      47.6062
+    ],
+    "target_coords": [
+      133.7751,
+      -25.2744
+    ],
+    "weight": 0.764,
+    "rationale": "Shared ecosystem: deep-learning, machine-learning"
+  },
+  {
+    "source_repo": "ytdl-org/youtube-dl",
+    "target_repo": "nvbn/thefuck",
+    "source_coords": [
+      10.4515,
+      51.1657
+    ],
+    "target_coords": [
+      5.2913,
+      52.1326
+    ],
+    "weight": 0.762,
+    "rationale": "Shared ecosystem: python"
+  },
+  {
+    "source_repo": "ageron/handson-ml",
+    "target_repo": "shap/shap",
+    "source_coords": [
+      174.7633,
+      -36.8485
+    ],
+    "target_coords": [
+      -122.3321,
+      47.6062
+    ],
+    "weight": 0.762,
+    "rationale": "Shared ecosystem: deep-learning, machine-learning"
+  },
+  {
+    "source_repo": "ageron/handson-ml",
+    "target_repo": "fastai/fastbook",
+    "source_coords": [
+      174.7633,
+      -36.8485
+    ],
+    "target_coords": [
+      133.7751,
+      -25.2744
+    ],
+    "weight": 0.759,
+    "rationale": "Shared ecosystem: deep-learning, machine-learning"
+  },
+  {
+    "source_repo": "ageron/handson-ml",
+    "target_repo": "trekhleb/homemade-machine-learning",
+    "source_coords": [
+      174.7633,
+      -36.8485
+    ],
+    "target_coords": [
+      -122.4194,
+      37.7749
+    ],
+    "weight": 0.756,
+    "rationale": "Shared ecosystem: jupyter-notebook, machine-learning"
+  },
+  {
+    "source_repo": "BurntSushi/ripgrep",
+    "target_repo": "sharkdp/bat",
+    "source_coords": [
+      80.2707,
+      13.0827
+    ],
+    "target_coords": [
+      9.1829,
+      48.7758
+    ],
+    "weight": 0.755,
+    "rationale": "Shared ecosystem: cli, command-line"
+  },
+  {
+    "source_repo": "microsoft/TypeScript",
+    "target_repo": "angular/angular",
+    "source_coords": [
+      -122.1215,
+      47.674
+    ],
+    "target_coords": [
+      -95.7129,
+      37.0902
+    ],
+    "weight": 0.752,
+    "rationale": "Shared ecosystem: javascript, typescript"
+  },
+  {
+    "source_repo": "fastai/fastai",
+    "target_repo": "ageron/handson-ml",
+    "source_coords": [
+      133.7751,
+      -25.2744
+    ],
+    "target_coords": [
+      174.7633,
+      -36.8485
+    ],
+    "weight": 0.752,
+    "rationale": "Shared ecosystem: deep-learning, machine-learning"
+  },
+  {
+    "source_repo": "skylot/jadx",
+    "target_repo": "PhilJay/MPAndroidChart",
+    "source_coords": [
+      10.4515,
+      51.1657
+    ],
+    "target_coords": [
+      14.5501,
+      47.5162
+    ],
+    "weight": 0.75,
+    "rationale": "Shared ecosystem: android, java"
+  },
+  {
+    "source_repo": "fastai/fastai",
+    "target_repo": "shap/shap",
+    "source_coords": [
+      133.7751,
+      -25.2744
+    ],
+    "target_coords": [
+      -122.3321,
+      47.6062
+    ],
+    "weight": 0.747,
+    "rationale": "Shared ecosystem: deep-learning, machine-learning"
+  },
+  {
+    "source_repo": "angular/angular",
+    "target_repo": "storybookjs/storybook",
+    "source_coords": [
+      -95.7129,
+      37.0902
+    ],
+    "target_coords": [
+      5.2913,
+      52.1326
+    ],
+    "weight": 0.745,
+    "rationale": "Shared ecosystem: angular, javascript"
+  },
+  {
+    "source_repo": "mozilla/DeepSpeech",
+    "target_repo": "PaddlePaddle/Paddle",
+    "source_coords": [
+      -122.0839,
+      37.3861
+    ],
+    "target_coords": [
+      116.4074,
+      39.9042
+    ],
+    "weight": 0.744,
+    "rationale": "Shared ecosystem: deep-learning, machine-learning"
+  },
+  {
+    "source_repo": "kubernetes/kubernetes",
+    "target_repo": "moby/moby",
+    "source_coords": [
+      -95.7129,
+      37.0902
+    ],
+    "target_coords": [
+      5.2913,
+      52.1326
+    ],
+    "weight": 0.743,
+    "rationale": "Shared ecosystem: containers, go"
+  },
+  {
+    "source_repo": "caddyserver/caddy",
+    "target_repo": "traefik/traefik",
+    "source_coords": [
+      -75.6972,
+      45.4215
+    ],
+    "target_coords": [
+      2.2137,
+      46.2276
+    ],
+    "weight": 0.742,
+    "rationale": "Shared ecosystem: go, golang"
+  },
+  {
+    "source_repo": "openai/CLIP",
+    "target_repo": "fastai/fastai",
+    "source_coords": [
+      -122.4194,
+      37.7749
+    ],
+    "target_coords": [
+      133.7751,
+      -25.2744
+    ],
+    "weight": 0.736,
+    "rationale": "Shared ecosystem: deep-learning, machine-learning"
+  },
+  {
+    "source_repo": "rust-lang/rust",
+    "target_repo": "FuelLabs/sway",
+    "source_coords": [
+      -95.7129,
+      37.0902
+    ],
+    "target_coords": [
+      -79.3832,
+      43.6532
+    ],
+    "weight": 0.736,
+    "rationale": "Shared ecosystem: compiler, language"
+  },
+  {
+    "source_repo": "helix-editor/helix",
+    "target_repo": "FuelLabs/fuels-rs",
+    "source_coords": [
+      139.6503,
+      35.6762
+    ],
+    "target_coords": [
+      -123.1207,
+      49.2827
+    ],
+    "weight": 0.736,
+    "rationale": "Shared ecosystem: rust"
+  },
+  {
+    "source_repo": "ReactiveX/RxJava",
+    "target_repo": "skylot/jadx",
+    "source_coords": [
+      -122.0839,
+      37.3861
+    ],
+    "target_coords": [
+      10.4515,
+      51.1657
+    ],
+    "weight": 0.735,
+    "rationale": "Shared ecosystem: java"
+  },
+  {
+    "source_repo": "golang/go",
+    "target_repo": "moby/moby",
+    "source_coords": [
+      -71.1097,
+      42.3736
+    ],
+    "target_coords": [
+      5.2913,
+      52.1326
+    ],
+    "weight": 0.732,
+    "rationale": "Shared ecosystem: go, golang"
+  },
+  {
+    "source_repo": "microsoft/generative-ai-for-beginners",
+    "target_repo": "rasbt/LLMs-from-scratch",
+    "source_coords": [
+      -122.1215,
+      47.674
+    ],
+    "target_coords": [
+      10.4515,
+      51.1657
+    ],
+    "weight": 0.731,
+    "rationale": "Shared ecosystem: ai, chatgpt"
+  },
+  {
+    "source_repo": "krahets/hello-algo",
+    "target_repo": "TheAlgorithms/Java",
+    "source_coords": [
+      121.4737,
+      31.2304
+    ],
+    "target_coords": [
+      78.9629,
+      20.5937
+    ],
+    "weight": 0.73,
+    "rationale": "Shared ecosystem: algorithm, algorithms"
+  },
+  {
+    "source_repo": "rasbt/LLMs-from-scratch",
+    "target_repo": "microsoft/AI-For-Beginners",
+    "source_coords": [
+      10.4515,
+      51.1657
+    ],
+    "target_coords": [
+      -122.1215,
+      47.674
+    ],
+    "weight": 0.729,
+    "rationale": "Shared ecosystem: ai, artificial-intelligence"
+  },
+  {
+    "source_repo": "rust-lang/rust",
+    "target_repo": "denoland/deno",
+    "source_coords": [
+      -95.7129,
+      37.0902
+    ],
+    "target_coords": [
+      21.0122,
+      52.2297
+    ],
+    "weight": 0.728,
+    "rationale": "Shared ecosystem: rust"
+  },
+  {
+    "source_repo": "521xueweihan/HelloGitHub",
+    "target_repo": "ytdl-org/youtube-dl",
+    "source_coords": [
+      116.4074,
+      39.9042
+    ],
+    "target_coords": [
+      10.4515,
+      51.1657
+    ],
+    "weight": 0.727,
+    "rationale": "Shared ecosystem: python"
+  },
+  {
+    "source_repo": "google/guava",
+    "target_repo": "ReactiveX/RxJava",
+    "source_coords": [
+      -95.7129,
+      37.0902
+    ],
+    "target_coords": [
+      -122.0839,
+      37.3861
+    ],
+    "weight": 0.726,
+    "rationale": "Shared ecosystem: java"
+  },
+  {
+    "source_repo": "avelino/awesome-go",
+    "target_repo": "golang/go",
+    "source_coords": [
+      -51.9253,
+      -14.235
+    ],
+    "target_coords": [
+      -71.1097,
+      42.3736
+    ],
+    "weight": 0.725,
+    "rationale": "Shared ecosystem: go, golang"
+  },
+  {
+    "source_repo": "openai/CLIP",
+    "target_repo": "ageron/handson-ml",
+    "source_coords": [
+      -122.4194,
+      37.7749
+    ],
+    "target_coords": [
+      174.7633,
+      -36.8485
+    ],
+    "weight": 0.723,
+    "rationale": "Shared ecosystem: deep-learning, machine-learning"
+  },
+  {
+    "source_repo": "google/guava",
+    "target_repo": "skylot/jadx",
+    "source_coords": [
+      -95.7129,
+      37.0902
+    ],
+    "target_coords": [
+      10.4515,
+      51.1657
+    ],
+    "weight": 0.723,
+    "rationale": "Shared ecosystem: java"
+  },
+  {
+    "source_repo": "FuelLabs/sway",
+    "target_repo": "FuelLabs/fuel-core",
+    "source_coords": [
+      -79.3832,
+      43.6532
+    ],
+    "target_coords": [
+      -122.3321,
+      47.6062
+    ],
+    "weight": 0.723,
+    "rationale": "Shared ecosystem: fuel"
+  },
+  {
+    "source_repo": "BVLC/caffe",
+    "target_repo": "mozilla/DeepSpeech",
+    "source_coords": [
+      -123.1207,
+      49.2827
+    ],
+    "target_coords": [
+      -122.0839,
+      37.3861
+    ],
+    "weight": 0.721,
+    "rationale": "Shared ecosystem: deep-learning, machine-learning"
+  },
+  {
+    "source_repo": "GrowingGit/GitHub-Chinese-Top-Charts",
+    "target_repo": "google/guava",
+    "source_coords": [
+      113.2644,
+      23.1291
+    ],
+    "target_coords": [
+      -95.7129,
+      37.0902
+    ],
+    "weight": 0.721,
+    "rationale": "Shared ecosystem: java"
+  },
+  {
+    "source_repo": "openai/CLIP",
+    "target_repo": "shap/shap",
+    "source_coords": [
+      -122.4194,
+      37.7749
+    ],
+    "target_coords": [
+      -122.3321,
+      47.6062
+    ],
+    "weight": 0.72,
+    "rationale": "Shared ecosystem: deep-learning, machine-learning"
+  },
+  {
+    "source_repo": "golang/go",
+    "target_repo": "kubernetes/kubernetes",
+    "source_coords": [
+      -71.1097,
+      42.3736
+    ],
+    "target_coords": [
+      -95.7129,
+      37.0902
+    ],
+    "weight": 0.72,
+    "rationale": "Shared ecosystem: go"
+  },
+  {
+    "source_repo": "rust-lang/rustlings",
+    "target_repo": "rust-unofficial/awesome-rust",
+    "source_coords": [
+      -95.7129,
+      37.0902
+    ],
+    "target_coords": [
+      -0.1278,
+      51.5074
+    ],
+    "weight": 0.718,
+    "rationale": "Shared ecosystem: rust"
+  },
+  {
+    "source_repo": "awesome-selfhosted/awesome-selfhosted",
+    "target_repo": "trimstray/the-book-of-secret-knowledge",
+    "source_coords": [
+      -0.1278,
+      51.5074
+    ],
+    "target_coords": [
+      19.1451,
+      51.9194
+    ],
+    "weight": 0.717,
+    "rationale": "Shared ecosystem: awesome, awesome-list"
+  },
+  {
+    "source_repo": "Chalarangelo/30-seconds-of-code",
+    "target_repo": "microsoft/Web-Dev-For-Beginners",
+    "source_coords": [
+      23.7275,
+      37.9838
+    ],
+    "target_coords": [
+      -122.1215,
+      47.674
+    ],
+    "weight": 0.717,
+    "rationale": "Shared ecosystem: css, education"
+  },
+  {
+    "source_repo": "aymericdamien/TensorFlow-Examples",
+    "target_repo": "openai/CLIP",
+    "source_coords": [
+      -122.4194,
+      37.7749
+    ],
+    "target_coords": [
+      -122.4194,
+      37.7749
+    ],
+    "weight": 0.717,
+    "rationale": "Shared ecosystem: deep-learning, machine-learning"
+  },
+  {
+    "source_repo": "openai/CLIP",
+    "target_repo": "fastai/fastbook",
+    "source_coords": [
+      -122.4194,
+      37.7749
+    ],
+    "target_coords": [
+      133.7751,
+      -25.2744
+    ],
+    "weight": 0.717,
+    "rationale": "Shared ecosystem: deep-learning, machine-learning"
+  },
+  {
+    "source_repo": "nvbn/thefuck",
+    "target_repo": "3b1b/manim",
+    "source_coords": [
+      5.2913,
+      52.1326
+    ],
+    "target_coords": [
+      120.1551,
+      30.2741
+    ],
+    "weight": 0.716,
+    "rationale": "Shared ecosystem: python"
+  },
+  {
+    "source_repo": "openai/whisper",
+    "target_repo": "3b1b/manim",
+    "source_coords": [
+      -122.4194,
+      37.7749
+    ],
+    "target_coords": [
+      120.1551,
+      30.2741
+    ],
+    "weight": 0.715,
+    "rationale": "Shared ecosystem: python"
+  },
+  {
+    "source_repo": "PhilJay/MPAndroidChart",
+    "target_repo": "eugenp/tutorials",
+    "source_coords": [
+      14.5501,
+      47.5162
+    ],
+    "target_coords": [
+      26.1025,
+      44.4268
+    ],
+    "weight": 0.715,
+    "rationale": "Shared ecosystem: java"
+  },
+  {
+    "source_repo": "syncthing/syncthing",
+    "target_repo": "moby/moby",
+    "source_coords": [
+      18.6435,
+      60.1282
+    ],
+    "target_coords": [
+      5.2913,
+      52.1326
+    ],
+    "weight": 0.714,
+    "rationale": "Shared ecosystem: go"
+  },
+  {
+    "source_repo": "facebook/create-react-app",
+    "target_repo": "mui/material-ui",
+    "source_coords": [
+      -122.1817,
+      37.453
+    ],
+    "target_coords": [
+      2.2137,
+      46.2276
+    ],
+    "weight": 0.709,
+    "rationale": "Shared ecosystem: react"
+  },
+  {
+    "source_repo": "TheAlgorithms/C-Plus-Plus",
+    "target_repo": "CMU-Perceptual-Computing-Lab/openpose",
+    "source_coords": [
+      78.9629,
+      20.5937
+    ],
+    "target_coords": [
+      -79.9959,
+      40.4406
+    ],
+    "weight": 0.708,
+    "rationale": "Shared ecosystem: cpp"
+  },
+  {
+    "source_repo": "eugenp/tutorials",
+    "target_repo": "alibaba/arthas",
+    "source_coords": [
+      26.1025,
+      44.4268
+    ],
+    "target_coords": [
+      120.1551,
+      30.2741
+    ],
+    "weight": 0.708,
+    "rationale": "Shared ecosystem: java"
+  },
+  {
+    "source_repo": "supabase/supabase",
+    "target_repo": "google-gemini/gemini-cli",
+    "source_coords": [
+      -95.7129,
+      37.0902
+    ],
+    "target_coords": [
+      -95.7129,
+      37.0902
+    ],
+    "weight": 0.707,
+    "rationale": "Shared ecosystem: ai"
+  },
+  {
+    "source_repo": "microsoft/Web-Dev-For-Beginners",
+    "target_repo": "juliangarnier/anime",
+    "source_coords": [
+      -122.1215,
+      47.674
+    ],
+    "target_coords": [
+      2.3522,
+      48.8566
+    ],
+    "weight": 0.707,
+    "rationale": "Shared ecosystem: css, javascript"
+  },
+  {
+    "source_repo": "leonardomso/33-js-concepts",
+    "target_repo": "webpack/webpack",
+    "source_coords": [
+      -0.3763,
+      39.4699
+    ],
+    "target_coords": [
+      10.4515,
+      51.1657
+    ],
+    "weight": 0.707,
+    "rationale": "Shared ecosystem: es6"
+  },
+  {
+    "source_repo": "openai/CLIP",
+    "target_repo": "patchy631/ai-engineering-hub",
+    "source_coords": [
+      -122.4194,
+      37.7749
+    ],
+    "target_coords": [
+      78.9629,
+      20.5937
+    ],
+    "weight": 0.707,
+    "rationale": "Shared ecosystem: machine-learning"
+  },
+  {
+    "source_repo": "FuelLabs/sway",
+    "target_repo": "typst/typst",
+    "source_coords": [
+      -79.3832,
+      43.6532
+    ],
+    "target_coords": [
+      13.405,
+      52.52
+    ],
+    "weight": 0.707,
+    "rationale": "Shared ecosystem: compiler"
+  },
+  {
+    "source_repo": "sharkdp/bat",
+    "target_repo": "dani-garcia/vaultwarden",
+    "source_coords": [
+      9.1829,
+      48.7758
+    ],
+    "target_coords": [
+      -3.7492,
+      40.4637
+    ],
+    "weight": 0.707,
+    "rationale": "Shared ecosystem: rust"
+  },
+  {
+    "source_repo": "supabase/supabase",
+    "target_repo": "firecrawl/firecrawl",
+    "source_coords": [
+      -95.7129,
+      37.0902
+    ],
+    "target_coords": [
+      -95.7129,
+      37.0902
+    ],
+    "weight": 0.706,
+    "rationale": "Shared ecosystem: ai"
+  },
+  {
+    "source_repo": "microsoft/Web-Dev-For-Beginners",
+    "target_repo": "ryanmcdermott/clean-code-javascript",
+    "source_coords": [
+      -122.1215,
+      47.674
+    ],
+    "target_coords": [
+      -122.4702,
+      37.6879
+    ],
+    "weight": 0.706,
+    "rationale": "Shared ecosystem: javascript"
+  },
+  {
+    "source_repo": "juliangarnier/anime",
+    "target_repo": "leonardomso/33-js-concepts",
+    "source_coords": [
+      2.3522,
+      48.8566
+    ],
+    "target_coords": [
+      -0.3763,
+      39.4699
+    ],
+    "weight": 0.706,
+    "rationale": "Shared ecosystem: javascript"
+  },
+  {
+    "source_repo": "BVLC/caffe",
+    "target_repo": "google-ai-edge/mediapipe",
+    "source_coords": [
+      -123.1207,
+      49.2827
+    ],
+    "target_coords": [
+      -122.4194,
+      37.7749
+    ],
+    "weight": 0.706,
+    "rationale": "Shared ecosystem: deep-learning"
+  },
+  {
+    "source_repo": "gin-gonic/gin",
+    "target_repo": "gohugoio/hugo",
+    "source_coords": [
+      -3.7492,
+      40.4637
+    ],
+    "target_coords": [
+      8.4689,
+      60.472
+    ],
+    "weight": 0.706,
+    "rationale": "Shared ecosystem: go"
+  },
+  {
+    "source_repo": "alacritty/alacritty",
+    "target_repo": "rust-lang/rustlings",
+    "source_coords": [
+      -122.4194,
+      37.7749
+    ],
+    "target_coords": [
+      -95.7129,
+      37.0902
+    ],
+    "weight": 0.706,
+    "rationale": "Shared ecosystem: rust"
+  },
+  {
+    "source_repo": "langchain-ai/langchain",
+    "target_repo": "open-webui/open-webui",
+    "source_coords": [
+      -95.7129,
+      37.0902
+    ],
+    "target_coords": [
+      14.5501,
+      47.5162
+    ],
+    "weight": 0.705,
+    "rationale": "Shared ecosystem: ai"
+  },
+  {
+    "source_repo": "deepseek-ai/DeepSeek-V3",
+    "target_repo": "3b1b/manim",
+    "source_coords": [
+      120.1551,
+      30.2741
+    ],
+    "target_coords": [
+      120.1551,
+      30.2741
+    ],
+    "weight": 0.705,
+    "rationale": "Shared ecosystem: python"
+  },
+  {
+    "source_repo": "django/django",
+    "target_repo": "3b1b/manim",
+    "source_coords": [
+      -75.1652,
+      39.9526
+    ],
+    "target_coords": [
+      120.1551,
+      30.2741
+    ],
+    "weight": 0.705,
+    "rationale": "Shared ecosystem: python"
+  },
+  {
+    "source_repo": "chartjs/Chart.js",
+    "target_repo": "leonardomso/33-js-concepts",
+    "source_coords": [
+      -79.3832,
+      43.6532
+    ],
+    "target_coords": [
+      -0.3763,
+      39.4699
+    ],
+    "weight": 0.705,
+    "rationale": "Shared ecosystem: javascript"
+  },
+  {
+    "source_repo": "fastai/fastbook",
+    "target_repo": "trekhleb/homemade-machine-learning",
+    "source_coords": [
+      133.7751,
+      -25.2744
+    ],
+    "target_coords": [
+      -122.4194,
+      37.7749
+    ],
+    "weight": 0.705,
+    "rationale": "Shared ecosystem: machine-learning"
+  },
+  {
+    "source_repo": "PhilJay/MPAndroidChart",
+    "target_repo": "TeamNewPipe/NewPipe",
+    "source_coords": [
+      14.5501,
+      47.5162
+    ],
+    "target_coords": [
+      10.4515,
+      51.1657
+    ],
+    "weight": 0.705,
+    "rationale": "Shared ecosystem: android"
+  },
+  {
+    "source_repo": "denoland/deno",
+    "target_repo": "tauri-apps/tauri",
+    "source_coords": [
+      21.0122,
+      52.2297
+    ],
+    "target_coords": [
+      -51.9253,
+      -14.235
+    ],
+    "weight": 0.705,
+    "rationale": "Shared ecosystem: rust"
+  },
+  {
+    "source_repo": "dani-garcia/vaultwarden",
+    "target_repo": "rust-unofficial/awesome-rust",
+    "source_coords": [
+      -3.7492,
+      40.4637
+    ],
+    "target_coords": [
+      -0.1278,
+      51.5074
+    ],
+    "weight": 0.705,
+    "rationale": "Shared ecosystem: rust"
+  },
+  {
+    "source_repo": "anomalyco/opencode",
+    "target_repo": "microsoft/TypeScript",
+    "source_coords": [
+      -74.006,
+      40.7128
+    ],
+    "target_coords": [
+      -122.1215,
+      47.674
+    ],
+    "weight": 0.704,
+    "rationale": "Shared ecosystem: typescript"
+  },
+  {
+    "source_repo": "angular/angular",
+    "target_repo": "ant-design/ant-design",
+    "source_coords": [
+      -95.7129,
+      37.0902
+    ],
+    "target_coords": [
+      120.1551,
+      30.2741
+    ],
+    "weight": 0.704,
+    "rationale": "Shared ecosystem: typescript"
+  },
+  {
+    "source_repo": "mudler/LocalAI",
+    "target_repo": "milvus-io/milvus",
+    "source_coords": [
+      12.5674,
+      41.8719
+    ],
+    "target_coords": [
+      -122.4194,
+      37.7749
+    ],
+    "weight": 0.704,
+    "rationale": "Shared ecosystem: distributed"
+  },
+  {
+    "source_repo": "BVLC/caffe",
+    "target_repo": "CMU-Perceptual-Computing-Lab/openpose",
+    "source_coords": [
+      -123.1207,
+      49.2827
+    ],
+    "target_coords": [
+      -79.9959,
+      40.4406
+    ],
+    "weight": 0.703,
+    "rationale": "Shared ecosystem: deep-learning"
+  },
+  {
+    "source_repo": "BVLC/caffe",
+    "target_repo": "PaddlePaddle/Paddle",
+    "source_coords": [
+      -123.1207,
+      49.2827
+    ],
+    "target_coords": [
+      116.4074,
+      39.9042
+    ],
+    "weight": 0.703,
+    "rationale": "Shared ecosystem: deep-learning, machine-learning"
+  },
+  {
+    "source_repo": "PhilJay/MPAndroidChart",
+    "target_repo": "alibaba/arthas",
+    "source_coords": [
+      14.5501,
+      47.5162
+    ],
+    "target_coords": [
+      120.1551,
+      30.2741
+    ],
+    "weight": 0.703,
+    "rationale": "Shared ecosystem: java"
+  },
+  {
+    "source_repo": "sharkdp/bat",
+    "target_repo": "rust-unofficial/awesome-rust",
+    "source_coords": [
+      9.1829,
+      48.7758
+    ],
+    "target_coords": [
+      -0.1278,
+      51.5074
+    ],
+    "weight": 0.703,
+    "rationale": "Shared ecosystem: rust"
+  },
+  {
+    "source_repo": "ZuzooVn/machine-learning-for-software-engineers",
+    "target_repo": "ChristosChristofidis/awesome-deep-learning",
+    "source_coords": [
+      108.2772,
+      14.0583
+    ],
+    "target_coords": [
+      -0.1278,
+      51.5074
+    ],
+    "weight": 0.702,
+    "rationale": "Shared ecosystem: deep-learning"
+  },
+  {
+    "source_repo": "academic/awesome-datascience",
+    "target_repo": "ChristosChristofidis/awesome-deep-learning",
+    "source_coords": [
+      35.2433,
+      38.9637
+    ],
+    "target_coords": [
+      -0.1278,
+      51.5074
+    ],
+    "weight": 0.702,
+    "rationale": "Shared ecosystem: awesome-list"
+  },
+  {
+    "source_repo": "shap/shap",
+    "target_repo": "trekhleb/homemade-machine-learning",
+    "source_coords": [
+      -122.3321,
+      47.6062
+    ],
+    "target_coords": [
+      -122.4194,
+      37.7749
+    ],
+    "weight": 0.702,
+    "rationale": "Shared ecosystem: machine-learning"
+  },
+  {
+    "source_repo": "traefik/traefik",
+    "target_repo": "minio/minio",
+    "source_coords": [
+      2.2137,
+      46.2276
+    ],
+    "target_coords": [
+      -95.7129,
+      37.0902
+    ],
+    "weight": 0.702,
+    "rationale": "Shared ecosystem: go"
+  },
+  {
+    "source_repo": "termux/termux-app",
+    "target_repo": "skylot/jadx",
+    "source_coords": [
+      18.0686,
+      59.3293
+    ],
+    "target_coords": [
+      10.4515,
+      51.1657
+    ],
+    "weight": 0.702,
+    "rationale": "Shared ecosystem: android"
+  },
+  {
+    "source_repo": "astral-sh/ruff",
+    "target_repo": "bevyengine/bevy",
+    "source_coords": [
+      -95.7129,
+      37.0902
+    ],
+    "target_coords": [
+      2.2137,
+      46.2276
+    ],
+    "weight": 0.702,
+    "rationale": "Shared ecosystem: rust"
+  },
+  {
+    "source_repo": "yt-dlp/yt-dlp",
+    "target_repo": "521xueweihan/HelloGitHub",
+    "source_coords": [
+      10.4515,
+      51.1657
+    ],
+    "target_coords": [
+      116.4074,
+      39.9042
+    ],
+    "weight": 0.701,
+    "rationale": "Shared ecosystem: python"
+  },
+  {
+    "source_repo": "macrozheng/mall",
+    "target_repo": "spring-projects/spring-boot",
+    "source_coords": [
+      104.1954,
+      35.8617
+    ],
+    "target_coords": [
+      -95.7129,
+      37.0902
+    ],
+    "weight": 0.701,
+    "rationale": "Shared ecosystem: java"
+  },
+  {
+    "source_repo": "bevyengine/bevy",
+    "target_repo": "helix-editor/helix",
+    "source_coords": [
+      2.2137,
+      46.2276
+    ],
+    "target_coords": [
+      139.6503,
+      35.6762
+    ],
+    "weight": 0.701,
+    "rationale": "Shared ecosystem: rust"
+  },
+  {
+    "source_repo": "angular/angular",
+    "target_repo": "immich-app/immich",
+    "source_coords": [
+      -95.7129,
+      37.0902
+    ],
+    "target_coords": [
+      -95.7129,
+      37.0902
+    ],
+    "weight": 0.7,
+    "rationale": "Shared ecosystem: javascript"
+  },
+  {
+    "source_repo": "meilisearch/meilisearch",
+    "target_repo": "lencx/ChatGPT",
+    "source_coords": [
+      2.2137,
+      46.2276
+    ],
+    "target_coords": [
+      121.4737,
+      31.2304
+    ],
+    "weight": 0.7,
+    "rationale": "Shared ecosystem: ai"
+  },
+  {
+    "source_repo": "bevyengine/bevy",
+    "target_repo": "FuelLabs/fuels-rs",
+    "source_coords": [
+      2.2137,
+      46.2276
+    ],
+    "target_coords": [
+      -123.1207,
+      49.2827
+    ],
+    "weight": 0.7,
+    "rationale": "Shared ecosystem: rust"
+  },
+  {
+    "source_repo": "ZuzooVn/machine-learning-for-software-engineers",
+    "target_repo": "datawhalechina/pumpkin-book",
+    "source_coords": [
+      108.2772,
+      14.0583
+    ],
+    "target_coords": [
+      116.4074,
+      39.9042
+    ],
+    "weight": 0.699,
+    "rationale": "Shared ecosystem: machine-learning"
+  },
+  {
+    "source_repo": "leonardomso/33-js-concepts",
+    "target_repo": "resume/resume.github.com",
+    "source_coords": [
+      -0.3763,
+      39.4699
+    ],
+    "target_coords": [
+      2.2137,
+      46.2276
+    ],
+    "weight": 0.698,
+    "rationale": "Shared ecosystem: javascript"
+  },
+  {
+    "source_repo": "dmlc/xgboost",
+    "target_repo": "mozilla/DeepSpeech",
+    "source_coords": [
+      -118.2437,
+      34.0522
+    ],
+    "target_coords": [
+      -122.0839,
+      37.3861
+    ],
+    "weight": 0.698,
+    "rationale": "Shared ecosystem: machine-learning"
+  },
+  {
+    "source_repo": "microsoft/AI-For-Beginners",
+    "target_repo": "aymericdamien/TensorFlow-Examples",
+    "source_coords": [
+      -122.1215,
+      47.674
+    ],
+    "target_coords": [
+      -122.4194,
+      37.7749
+    ],
+    "weight": 0.698,
+    "rationale": "Shared ecosystem: deep-learning"
+  },
+  {
+    "source_repo": "macrozheng/mall",
+    "target_repo": "doocs/advanced-java",
+    "source_coords": [
+      104.1954,
+      35.8617
+    ],
+    "target_coords": [
+      104.1954,
+      35.8617
+    ],
+    "weight": 0.698,
+    "rationale": "Shared ecosystem: elasticsearch"
+  },
+  {
+    "source_repo": "moby/moby",
+    "target_repo": "pocketbase/pocketbase",
+    "source_coords": [
+      5.2913,
+      52.1326
+    ],
+    "target_coords": [
+      121.4737,
+      31.2304
+    ],
+    "weight": 0.697,
+    "rationale": "Shared ecosystem: golang"
+  },
+  {
+    "source_repo": "justjavac/free-programming-books-zh_CN",
+    "target_repo": "Hack-with-Github/Awesome-Hacking",
+    "source_coords": [
+      104.1954,
+      35.8617
+    ],
+    "target_coords": [
+      77.5946,
+      12.9716
+    ],
+    "weight": 0.696,
+    "rationale": "Shared ecosystem: android"
+  },
+  {
+    "source_repo": "juliangarnier/anime",
+    "target_repo": "resume/resume.github.com",
+    "source_coords": [
+      2.3522,
+      48.8566
+    ],
+    "target_coords": [
+      2.2137,
+      46.2276
+    ],
+    "weight": 0.696,
+    "rationale": "Shared ecosystem: javascript"
+  },
+  {
+    "source_repo": "rust-lang/rust",
+    "target_repo": "tauri-apps/tauri",
+    "source_coords": [
+      -95.7129,
+      37.0902
+    ],
+    "target_coords": [
+      -51.9253,
+      -14.235
+    ],
+    "weight": 0.696,
+    "rationale": "Shared ecosystem: rust"
+  },
+  {
+    "source_repo": "immich-app/immich",
+    "target_repo": "storybookjs/storybook",
+    "source_coords": [
+      -95.7129,
+      37.0902
+    ],
+    "target_coords": [
+      5.2913,
+      52.1326
+    ],
+    "weight": 0.695,
+    "rationale": "Shared ecosystem: javascript"
+  },
+  {
+    "source_repo": "nodejs/node",
+    "target_repo": "axios/axios",
+    "source_coords": [
+      -122.4194,
+      37.7749
+    ],
+    "target_coords": [
+      22.9375,
+      -30.5595
+    ],
+    "weight": 0.695,
+    "rationale": "Shared ecosystem: javascript"
+  },
+  {
+    "source_repo": "chartjs/Chart.js",
+    "target_repo": "resume/resume.github.com",
+    "source_coords": [
+      -79.3832,
+      43.6532
+    ],
+    "target_coords": [
+      2.2137,
+      46.2276
+    ],
+    "weight": 0.695,
+    "rationale": "Shared ecosystem: javascript"
+  },
+  {
+    "source_repo": "astral-sh/ruff",
+    "target_repo": "helix-editor/helix",
+    "source_coords": [
+      -95.7129,
+      37.0902
+    ],
+    "target_coords": [
+      139.6503,
+      35.6762
+    ],
+    "weight": 0.695,
+    "rationale": "Shared ecosystem: rust"
+  },
+  {
+    "source_repo": "aymericdamien/TensorFlow-Examples",
+    "target_repo": "fastai/fastai",
+    "source_coords": [
+      -122.4194,
+      37.7749
+    ],
+    "target_coords": [
+      133.7751,
+      -25.2744
+    ],
+    "weight": 0.694,
+    "rationale": "Shared ecosystem: deep-learning, machine-learning"
+  },
+  {
+    "source_repo": "gohugoio/hugo",
+    "target_repo": "syncthing/syncthing",
+    "source_coords": [
+      8.4689,
+      60.472
+    ],
+    "target_coords": [
+      18.6435,
+      60.1282
+    ],
+    "weight": 0.694,
+    "rationale": "Shared ecosystem: go"
+  },
+  {
+    "source_repo": "skylot/jadx",
+    "target_repo": "eugenp/tutorials",
+    "source_coords": [
+      10.4515,
+      51.1657
+    ],
+    "target_coords": [
+      26.1025,
+      44.4268
+    ],
+    "weight": 0.694,
+    "rationale": "Shared ecosystem: java"
+  },
+  {
+    "source_repo": "rust-lang/rustlings",
+    "target_repo": "sharkdp/bat",
+    "source_coords": [
+      -95.7129,
+      37.0902
+    ],
+    "target_coords": [
+      9.1829,
+      48.7758
+    ],
+    "weight": 0.694,
+    "rationale": "Shared ecosystem: rust"
+  }
+]

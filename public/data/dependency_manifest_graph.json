@@ -1,0 +1,224 @@
+[
+  {
+    "source_repo": "astral-sh/uv",
+    "target_repo": "tauri-apps/tauri",
+    "source_coords": [
+      -95.7129,
+      37.0902
+    ],
+    "target_coords": [
+      -51.9253,
+      -14.235
+    ],
+    "weight": 0.571,
+    "rationale": "Shared manifest deps: insta, reqwest, serde, tokio",
+    "ecosystem": "cargo",
+    "data_source": "manifest",
+    "shared_packages": [
+      "insta",
+      "reqwest",
+      "serde",
+      "tokio"
+    ]
+  },
+  {
+    "source_repo": "facebook/react",
+    "target_repo": "microsoft/vscode",
+    "source_coords": [
+      -122.1817,
+      37.453
+    ],
+    "target_coords": [
+      -122.1215,
+      47.674
+    ],
+    "weight": 0.5,
+    "rationale": "Shared manifest deps: eslint, jest, typescript",
+    "ecosystem": "npm",
+    "data_source": "manifest",
+    "shared_packages": [
+      "eslint",
+      "jest",
+      "typescript"
+    ]
+  },
+  {
+    "source_repo": "facebook/react",
+    "target_repo": "vercel/next.js",
+    "source_coords": [
+      -122.1817,
+      37.453
+    ],
+    "target_coords": [
+      -95.7129,
+      37.0902
+    ],
+    "weight": 0.429,
+    "rationale": "Shared manifest deps: eslint, jest, typescript",
+    "ecosystem": "npm",
+    "data_source": "manifest",
+    "shared_packages": [
+      "eslint",
+      "jest",
+      "typescript"
+    ]
+  },
+  {
+    "source_repo": "microsoft/vscode",
+    "target_repo": "vercel/next.js",
+    "source_coords": [
+      -122.1215,
+      47.674
+    ],
+    "target_coords": [
+      -95.7129,
+      37.0902
+    ],
+    "weight": 0.375,
+    "rationale": "Shared manifest deps: eslint, jest, typescript",
+    "ecosystem": "npm",
+    "data_source": "manifest",
+    "shared_packages": [
+      "eslint",
+      "jest",
+      "typescript"
+    ]
+  },
+  {
+    "source_repo": "facebook/react",
+    "target_repo": "vitejs/vite",
+    "source_coords": [
+      -122.1817,
+      37.453
+    ],
+    "target_coords": [
+      103.8198,
+      1.3521
+    ],
+    "weight": 0.286,
+    "rationale": "Shared manifest deps: eslint, typescript",
+    "ecosystem": "npm",
+    "data_source": "manifest",
+    "shared_packages": [
+      "eslint",
+      "typescript"
+    ]
+  },
+  {
+    "source_repo": "home-assistant/core",
+    "target_repo": "huggingface/transformers",
+    "source_coords": [
+      -95.3698,
+      29.7604
+    ],
+    "target_coords": [
+      2.3522,
+      48.8566
+    ],
+    "weight": 0.25,
+    "rationale": "Shared manifest deps: pyyaml, requests",
+    "ecosystem": "python",
+    "data_source": "manifest",
+    "shared_packages": [
+      "pyyaml",
+      "requests"
+    ]
+  },
+  {
+    "source_repo": "microsoft/vscode",
+    "target_repo": "vitejs/vite",
+    "source_coords": [
+      -122.1215,
+      47.674
+    ],
+    "target_coords": [
+      103.8198,
+      1.3521
+    ],
+    "weight": 0.25,
+    "rationale": "Shared manifest deps: eslint, typescript",
+    "ecosystem": "npm",
+    "data_source": "manifest",
+    "shared_packages": [
+      "eslint",
+      "typescript"
+    ]
+  },
+  {
+    "source_repo": "vercel/next.js",
+    "target_repo": "vitejs/vite",
+    "source_coords": [
+      -95.7129,
+      37.0902
+    ],
+    "target_coords": [
+      103.8198,
+      1.3521
+    ],
+    "weight": 0.222,
+    "rationale": "Shared manifest deps: eslint, typescript",
+    "ecosystem": "npm",
+    "data_source": "manifest",
+    "shared_packages": [
+      "eslint",
+      "typescript"
+    ]
+  },
+  {
+    "source_repo": "django/django",
+    "target_repo": "home-assistant/core",
+    "source_coords": [
+      -75.1652,
+      39.9526
+    ],
+    "target_coords": [
+      -95.3698,
+      29.7604
+    ],
+    "weight": 0.125,
+    "rationale": "Shared manifest deps: jinja2",
+    "ecosystem": "python",
+    "data_source": "manifest",
+    "shared_packages": [
+      "jinja2"
+    ]
+  },
+  {
+    "source_repo": "django/django",
+    "target_repo": "pallets/flask",
+    "source_coords": [
+      -75.1652,
+      39.9526
+    ],
+    "target_coords": [
+      14.5501,
+      47.5162
+    ],
+    "weight": 0.125,
+    "rationale": "Shared manifest deps: jinja2",
+    "ecosystem": "python",
+    "data_source": "manifest",
+    "shared_packages": [
+      "jinja2"
+    ]
+  },
+  {
+    "source_repo": "home-assistant/core",
+    "target_repo": "pallets/flask",
+    "source_coords": [
+      -95.3698,
+      29.7604
+    ],
+    "target_coords": [
+      14.5501,
+      47.5162
+    ],
+    "weight": 0.111,
+    "rationale": "Shared manifest deps: jinja2",
+    "ecosystem": "python",
+    "data_source": "manifest",
+    "shared_packages": [
+      "jinja2"
+    ]
+  }
+]

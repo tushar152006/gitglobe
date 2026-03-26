@@ -1,0 +1,38 @@
+[
+  {
+    "name": "sample/bengaluru-ai",
+    "desc": "Sample repo for OpenCage verification.",
+    "stars": 1200,
+    "forks": 85,
+    "lang": "TypeScript",
+    "owner": "sample",
+    "lat": null,
+    "lng": null,
+    "loc": "Bengaluru, India",
+    "topics": "ai,agent,geocoding"
+  },
+  {
+    "name": "sample/toronto-data",
+    "desc": "Sample repo for OpenCage verification.",
+    "stars": 980,
+    "forks": 44,
+    "lang": "Python",
+    "owner": "sample",
+    "lat": null,
+    "lng": null,
+    "loc": "Toronto, Canada",
+    "topics": "data,analytics,geocoding"
+  },
+  {
+    "name": "sample/berlin-systems",
+    "desc": "Sample repo for OpenCage verification.",
+    "stars": 1540,
+    "forks": 96,
+    "lang": "Rust",
+    "owner": "sample",
+    "lat": null,
+    "lng": null,
+    "loc": "Berlin, Germany",
+    "topics": "systems,compiler,geocoding"
+  }
+]
